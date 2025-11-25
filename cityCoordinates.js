@@ -1,4 +1,12 @@
 const cityCoordinates = {
+  "Nagoya": {
+    "lat": 35.185105,
+    "lng": 136.899844
+  },
+  "Konan": {
+    "lat": 35.344508,
+    "lng": 136.866742
+  },
   "Decatur": {
     "lat": 34.599188,
     "lng": -86.961176
@@ -14,6 +22,26 @@ const cityCoordinates = {
   "Anchorage": {
     "lat": 61.17539,
     "lng": -149.966924
+  },
+  "Edmonton": {
+    "lat": 53.546205,
+    "lng": -113.491241
+  },
+  "Calgary": {
+    "lat": 51.045606,
+    "lng": -114.057541
+  },
+  "Banff": {
+    "lat": 51.175076,
+    "lng": -115.572077
+  },
+  "Lloydminster": {
+    "lat": 53.279995,
+    "lng": -110.00885
+  },
+  "Stony Plain": {
+    "lat": 53.528986,
+    "lng": -114.004873
   },
   "Phoenix": {
     "lat": 33.665805,
@@ -70,6 +98,106 @@ const cityCoordinates = {
   "Fayetteville": {
     "lat": 35.468427,
     "lng": -94.355335
+  },
+  "Watson": {
+    "lat": -35.234823,
+    "lng": 149.159446
+  },
+  "Canberra": {
+    "lat": -35.297591,
+    "lng": 149.101268
+  },
+  "Bath": {
+    "lat": 51.381386,
+    "lng": -2.359696
+  },
+  "Corston": {
+    "lat": 51.374858,
+    "lng": -2.438715
+  },
+  "Slough": {
+    "lat": 44.009872,
+    "lng": -123.011528
+  },
+  "Windsor": {
+    "lat": 51.480029,
+    "lng": -0.612572
+  },
+  "Runcorn": {
+    "lat": 51.466484,
+    "lng": -0.423695
+  },
+  "Bracknell": {
+    "lat": 51.414351,
+    "lng": -0.744992
+  },
+  "Brighton": {
+    "lat": -37.908196,
+    "lng": 144.995799
+  },
+  "Hove": {
+    "lat": 50.845317,
+    "lng": -0.149747
+  },
+  "Brighton and Hove": {
+    "lat": 50.845317,
+    "lng": -0.149747
+  },
+  "Bristol": {
+    "lat": 51.453802,
+    "lng": -2.597298
+  },
+  "Avon": {
+    "lat": 51.498926,
+    "lng": -2.695544
+  },
+  "Vancouver": {
+    "lat": 45.669329,
+    "lng": -122.553628
+  },
+  "Burnaby": {
+    "lat": 49.24338,
+    "lng": -122.972545
+  },
+  "Victoria": {
+    "lat": -36.59861,
+    "lng": 144.678005
+  },
+  "Kelowna": {
+    "lat": 49.887918,
+    "lng": -119.495902
+  },
+  "British Columbia": {
+    "lat": 55.001251,
+    "lng": -125.002441
+  },
+  "New Westminster": {
+    "lat": 49.206773,
+    "lng": -122.910882
+  },
+  "Coquitlam": {
+    "lat": 49.284296,
+    "lng": -122.793281
+  },
+  "Langley": {
+    "lat": 49.103929,
+    "lng": -122.657047
+  },
+  "Port Moody": {
+    "lat": 49.282198,
+    "lng": -122.829355
+  },
+  "White Rock": {
+    "lat": 49.023536,
+    "lng": -122.797924
+  },
+  "Marlow": {
+    "lat": 51.571871,
+    "lng": -0.776965
+  },
+  "Padbury": {
+    "lat": 51.969886,
+    "lng": -0.950058
   },
   "San Francisco": {
     "lat": 37.809749,
@@ -463,6 +591,46 @@ const cityCoordinates = {
     "lat": 39.803764,
     "lng": -123.8453
   },
+  "Cambridge": {
+    "lat": 43.360054,
+    "lng": -80.312302
+  },
+  "Ely": {
+    "lat": 52.39902,
+    "lng": 0.262039
+  },
+  "Huntingdon": {
+    "lat": 52.330509,
+    "lng": -0.184351
+  },
+  "Milton": {
+    "lat": 52.242296,
+    "lng": 0.160473
+  },
+  "Wilmslow": {
+    "lat": 53.326129,
+    "lng": -2.232751
+  },
+  "Knutsford": {
+    "lat": 53.303349,
+    "lng": -2.370575
+  },
+  "Macclesfield": {
+    "lat": 53.260663,
+    "lng": -2.125516
+  },
+  "Abiko": {
+    "lat": 35.863999,
+    "lng": 140.028065
+  },
+  "Chiba": {
+    "lat": 35.607063,
+    "lng": 140.106265
+  },
+  "Ichikawa": {
+    "lat": 35.721634,
+    "lng": 139.930944
+  },
   "Boulder": {
     "lat": 38.841017,
     "lng": -104.795223
@@ -511,6 +679,26 @@ const cityCoordinates = {
     "lat": 41.281484,
     "lng": -73.498179
   },
+  "Penryn": {
+    "lat": 50.168546,
+    "lng": -5.103406
+  },
+  "Falmouth": {
+    "lat": 50.15522,
+    "lng": -5.068826
+  },
+  "Bude": {
+    "lat": 50.828525,
+    "lng": -4.546936
+  },
+  "Penzance": {
+    "lat": 50.119479,
+    "lng": -5.535246
+  },
+  "St Ives": {
+    "lat": 50.214906,
+    "lng": -5.479508
+  },
   "Delaware": {
     "lat": 40.158483,
     "lng": -83.015393
@@ -522,6 +710,58 @@ const cityCoordinates = {
   "Wilmington": {
     "lat": 39.745947,
     "lng": -75.546589
+  },
+  "Duckmanton": {
+    "lat": 53.223921,
+    "lng": -1.34116
+  },
+  "Derby": {
+    "lat": 52.914223,
+    "lng": -1.471989
+  },
+  "Bournemouth": {
+    "lat": 50.829061,
+    "lng": -2.13316
+  },
+  "Bridport": {
+    "lat": 50.733785,
+    "lng": -2.758901
+  },
+  "Sherborne": {
+    "lat": 50.950265,
+    "lng": -2.517924
+  },
+  "Eastbourne": {
+    "lat": 50.766437,
+    "lng": 0.278155
+  },
+  "Falmer": {
+    "lat": 50.867438,
+    "lng": -0.087726
+  },
+  "Hailsham": {
+    "lat": 50.862823,
+    "lng": 0.273061
+  },
+  "Chelmsford": {
+    "lat": 51.734533,
+    "lng": 0.473053
+  },
+  "Great Notley": {
+    "lat": 51.859901,
+    "lng": 0.523015
+  },
+  "Braintree": {
+    "lat": 51.878064,
+    "lng": 0.553716
+  },
+  "Kirby Cross": {
+    "lat": 51.841507,
+    "lng": 1.213797
+  },
+  "Connah's Quay": {
+    "lat": 53.219904,
+    "lng": -3.066178
   },
   "Orlando": {
     "lat": 28.514346,
@@ -591,6 +831,14 @@ const cityCoordinates = {
     "lat": 27.991896,
     "lng": -82.521809
   },
+  "Fukuoka": {
+    "lat": 33.589899,
+    "lng": 130.401751
+  },
+  "Fukushima": {
+    "lat": 37.760777,
+    "lng": 140.474581
+  },
   "Atlanta": {
     "lat": 33.738743,
     "lng": -84.358989
@@ -615,9 +863,121 @@ const cityCoordinates = {
     "lat": 33.985793,
     "lng": -84.424472
   },
+  "Gifu": {
+    "lat": 35.423095,
+    "lng": 136.762753
+  },
+  "Kakamigahara": {
+    "lat": 35.399583,
+    "lng": 136.848565
+  },
+  "Cirencester": {
+    "lat": 51.717103,
+    "lng": -1.966162
+  },
+  "London": {
+    "lat": 42.983675,
+    "lng": -81.249607
+  },
+  "Croydon": {
+    "lat": 51.371305,
+    "lng": -0.101957
+  },
+  "Brentford": {
+    "lat": 51.486396,
+    "lng": -0.321662
+  },
+  "Bromley": {
+    "lat": 51.366857,
+    "lng": 0.061709
+  },
+  "Road": {
+    "lat": 51.503929,
+    "lng": -0.103622
+  },
+  "Twickenham": {
+    "lat": 51.446744,
+    "lng": -0.328189
+  },
+  "Uxbridge": {
+    "lat": 44.10885,
+    "lng": -79.122677
+  },
+  "Wembley": {
+    "lat": 51.556069,
+    "lng": -0.279603
+  },
+  "Salford": {
+    "lat": 53.487746,
+    "lng": -2.289192
+  },
+  "Stretford": {
+    "lat": 53.447706,
+    "lng": -2.32344
+  },
+  "Manchester": {
+    "lat": 42.953555,
+    "lng": -71.440406
+  },
+  "Aldershot": {
+    "lat": 51.249417,
+    "lng": -0.763015
+  },
+  "Farnborough": {
+    "lat": 51.291869,
+    "lng": -0.753984
+  },
+  "Hook": {
+    "lat": 43.093959,
+    "lng": -71.462516
+  },
+  "Petersfield": {
+    "lat": 51.002494,
+    "lng": -0.939203
+  },
+  "Tadley": {
+    "lat": 51.341447,
+    "lng": -1.144678
+  },
   "Honolulu": {
     "lat": 21.29207,
     "lng": -157.846227
+  },
+  "Letchworth Garden City": {
+    "lat": 51.980354,
+    "lng": -0.228906
+  },
+  "Watford": {
+    "lat": 51.655388,
+    "lng": -0.395742
+  },
+  "Welwyn Garden City": {
+    "lat": 51.803108,
+    "lng": -0.206887
+  },
+  "Hiroshima": {
+    "lat": 34.391724,
+    "lng": 132.451759
+  },
+  "Higashihiroshima": {
+    "lat": 34.42683,
+    "lng": 132.741552
+  },
+  "Kure": {
+    "lat": 34.248449,
+    "lng": 132.56525
+  },
+  "Sapporo": {
+    "lat": 43.061936,
+    "lng": 141.354292
+  },
+  "Amagasaki": {
+    "lat": 34.733978,
+    "lng": 135.406401
+  },
+  "Kobe": {
+    "lat": 34.693238,
+    "lng": 135.194376
   },
   "Boise": {
     "lat": 43.616616,
@@ -747,6 +1107,34 @@ const cityCoordinates = {
     "lat": 42.446953,
     "lng": -90.84338
   },
+  "Kaga": {
+    "lat": 36.302762,
+    "lng": 136.315116
+  },
+  "Kanazawa": {
+    "lat": 36.561627,
+    "lng": 136.656882
+  },
+  "Nonoichi": {
+    "lat": 36.519721,
+    "lng": 136.609811
+  },
+  "Newport": {
+    "lat": 50.700371,
+    "lng": -1.295204
+  },
+  "Yokohama": {
+    "lat": 35.450338,
+    "lng": 139.63438
+  },
+  "Fujisawa": {
+    "lat": 35.338862,
+    "lng": 139.490934
+  },
+  "Kawasaki": {
+    "lat": 35.530664,
+    "lng": 139.703767
+  },
   "Kansas City": {
     "lat": 39.045039,
     "lng": -94.441171
@@ -775,6 +1163,38 @@ const cityCoordinates = {
     "lat": 37.747857,
     "lng": -84.294654
   },
+  "Canterbury": {
+    "lat": 51.280028,
+    "lng": 1.080253
+  },
+  "Kumamoto": {
+    "lat": 32.803391,
+    "lng": 130.708274
+  },
+  "Kyoto": {
+    "lat": 35.011575,
+    "lng": 135.768144
+  },
+  "Chorley": {
+    "lat": 53.653191,
+    "lng": -2.629431
+  },
+  "Twycross": {
+    "lat": 52.648865,
+    "lng": -1.514813
+  },
+  "Leicester": {
+    "lat": 52.6362,
+    "lng": -1.133197
+  },
+  "Lincoln": {
+    "lat": 53.182303,
+    "lng": -0.203121
+  },
+  "North Hykeham": {
+    "lat": 53.187011,
+    "lng": -0.58775
+  },
   "Baton Rouge": {
     "lat": 30.437052,
     "lng": -91.007103
@@ -795,6 +1215,10 @@ const cityCoordinates = {
     "lat": 31.524226,
     "lng": -92.728262
   },
+  "Luton": {
+    "lat": 51.878439,
+    "lng": -0.415284
+  },
   "Portland": {
     "lat": 45.497025,
     "lng": -122.579957
@@ -806,6 +1230,10 @@ const cityCoordinates = {
   "Bangor": {
     "lat": 44.801626,
     "lng": -68.771329
+  },
+  "Winnipeg": {
+    "lat": 49.895537,
+    "lng": -97.138458
   },
   "Baltimore": {
     "lat": 39.309961,
@@ -854,10 +1282,6 @@ const cityCoordinates = {
   "Boston": {
     "lat": 42.355433,
     "lng": -71.060511
-  },
-  "Cambridge": {
-    "lat": 42.389767,
-    "lng": -71.120784
   },
   "Needham": {
     "lat": 42.280265,
@@ -919,6 +1343,14 @@ const cityCoordinates = {
     "lat": 42.286353,
     "lng": -71.595027
   },
+  "Chatham": {
+    "lat": 51.381917,
+    "lng": 0.526559
+  },
+  "Liverpool": {
+    "lat": 43.15021,
+    "lng": -76.228884
+  },
   "Ann Arbor": {
     "lat": 42.291948,
     "lng": -83.676347
@@ -964,8 +1396,8 @@ const cityCoordinates = {
     "lng": -83.506379
   },
   "Plymouth": {
-    "lat": 42.389375,
-    "lng": -83.506379
+    "lat": 50.371412,
+    "lng": -4.142445
   },
   "Royal Oak": {
     "lat": 42.48948,
@@ -974,6 +1406,14 @@ const cityCoordinates = {
   "Saline": {
     "lat": 42.124515,
     "lng": -83.838574
+  },
+  "Middlesbrough": {
+    "lat": 54.576042,
+    "lng": -1.234405
+  },
+  "Milton Keynes": {
+    "lat": 52.04065,
+    "lng": -0.759409
   },
   "Minneapolis": {
     "lat": 44.894183,
@@ -994,10 +1434,6 @@ const cityCoordinates = {
   "Northfield": {
     "lat": 44.458204,
     "lng": -93.161159
-  },
-  "Victoria": {
-    "lat": 44.858574,
-    "lng": -93.661627
   },
   "St. Louis": {
     "lat": 38.701385,
@@ -1023,9 +1459,21 @@ const cityCoordinates = {
     "lat": 39.031323,
     "lng": -94.574191
   },
+  "Sendai": {
+    "lat": 38.267755,
+    "lng": 140.86915
+  },
   "Kalispell": {
     "lat": 48.202158,
     "lng": -114.315321
+  },
+  "Nagano": {
+    "lat": 36.648585,
+    "lng": 138.194766
+  },
+  "Ueda": {
+    "lat": 36.402119,
+    "lng": 138.249051
   },
   "Omaha": {
     "lat": 41.219031,
@@ -1043,6 +1491,10 @@ const cityCoordinates = {
     "lat": 39.529954,
     "lng": -119.809601
   },
+  "Moncton": {
+    "lat": 46.098568,
+    "lng": -64.800427
+  },
   "Dover": {
     "lat": 43.198112,
     "lng": -70.873976
@@ -1051,13 +1503,9 @@ const cityCoordinates = {
     "lat": 39.968604,
     "lng": -74.684299
   },
-  "Manchester": {
-    "lat": 42.953555,
-    "lng": -71.440406
-  },
   "Portsmouth": {
-    "lat": 42.995921,
-    "lng": -70.923012
+    "lat": 50.800031,
+    "lng": -1.090602
   },
   "Rindge": {
     "lat": 42.751196,
@@ -1127,6 +1575,54 @@ const cityCoordinates = {
     "lat": 35.65259,
     "lng": -105.997152
   },
+  "New South Wales": {
+    "lat": -31.875984,
+    "lng": 147.286949
+  },
+  "Sydney": {
+    "lat": -33.869844,
+    "lng": 151.208285
+  },
+  "Erskineville": {
+    "lat": -33.902172,
+    "lng": 151.185988
+  },
+  "Eveleigh": {
+    "lat": -33.895,
+    "lng": 151.191389
+  },
+  "Glebe": {
+    "lat": -33.877778,
+    "lng": 151.186238
+  },
+  "Macquarie Links": {
+    "lat": -33.981667,
+    "lng": 150.873333
+  },
+  "North Ryde": {
+    "lat": -33.797547,
+    "lng": 151.127306
+  },
+  "North Sydney": {
+    "lat": -33.834316,
+    "lng": 151.209197
+  },
+  "Pyrmont": {
+    "lat": -33.869214,
+    "lng": 151.192363
+  },
+  "Surry Hills": {
+    "lat": -33.884512,
+    "lng": 151.21003
+  },
+  "Taylors Beach": {
+    "lat": -32.7385,
+    "lng": 152.058089
+  },
+  "Ultimo": {
+    "lat": -33.879473,
+    "lng": 151.198435
+  },
   "New York": {
     "lat": 43.069226,
     "lng": -76.172489
@@ -1163,10 +1659,6 @@ const cityCoordinates = {
     "lat": 43.021169,
     "lng": -74.890271
   },
-  "Liverpool": {
-    "lat": 43.15021,
-    "lng": -76.228884
-  },
   "Nesconset": {
     "lat": 40.845094,
     "lng": -73.152312
@@ -1180,8 +1672,16 @@ const cityCoordinates = {
     "lng": -73.864569
   },
   "Warwick": {
-    "lat": 41.256483,
-    "lng": -74.359876
+    "lat": 52.321306,
+    "lng": -1.553691
+  },
+  "St. John's": {
+    "lat": 47.564679,
+    "lng": -52.706696
+  },
+  "Norwich": {
+    "lat": 52.628558,
+    "lng": 1.292395
   },
   "Raleigh": {
     "lat": 35.799673,
@@ -1231,6 +1731,46 @@ const cityCoordinates = {
     "lat": 46.910544,
     "lng": -98.708436
   },
+  "Nailsea": {
+    "lat": 51.433418,
+    "lng": -2.75851
+  },
+  "Harrogate": {
+    "lat": 53.992149,
+    "lng": -1.539104
+  },
+  "Northern Territory": {
+    "lat": -19.85161,
+    "lng": 133.230337
+  },
+  "Nottingham": {
+    "lat": 52.953419,
+    "lng": -1.149646
+  },
+  "Halifax": {
+    "lat": 44.648618,
+    "lng": -63.585949
+  },
+  "Nova Scotia": {
+    "lat": 45.19604,
+    "lng": -63.165379
+  },
+  "Bedford": {
+    "lat": 32.844231,
+    "lng": -97.132696
+  },
+  "Lunenburg": {
+    "lat": 44.377495,
+    "lng": -64.315482
+  },
+  "Mahone Bay": {
+    "lat": 44.448893,
+    "lng": -64.387173
+  },
+  "Truro": {
+    "lat": 45.365697,
+    "lng": -63.286497
+  },
   "Cleveland": {
     "lat": 41.541644,
     "lng": -81.599625
@@ -1260,8 +1800,8 @@ const cityCoordinates = {
     "lng": -84.180908
   },
   "Hamilton": {
-    "lat": 39.0998,
-    "lng": -84.511936
+    "lat": 43.25608,
+    "lng": -79.872858
   },
   "Newark": {
     "lat": 40.085654,
@@ -1282,6 +1822,38 @@ const cityCoordinates = {
   "Youngstown": {
     "lat": 41.089191,
     "lng": -80.66027
+  },
+  "Toronto": {
+    "lat": 43.653482,
+    "lng": -79.383935
+  },
+  "Ottawa": {
+    "lat": 45.420878,
+    "lng": -75.690111
+  },
+  "St. Catharines": {
+    "lat": 43.157981,
+    "lng": -79.2441
+  },
+  "Kitchener": {
+    "lat": 43.451291,
+    "lng": -80.492782
+  },
+  "Oakville": {
+    "lat": 43.447436,
+    "lng": -79.666672
+  },
+  "Peterborough": {
+    "lat": 44.304801,
+    "lng": -78.31995
+  },
+  "Mississauga": {
+    "lat": 43.589623,
+    "lng": -79.644388
+  },
+  "Richmond Hill": {
+    "lat": 43.880117,
+    "lng": -79.439292
   },
   "Beaverton": {
     "lat": 45.488157,
@@ -1314,6 +1886,34 @@ const cityCoordinates = {
   "Oregon City": {
     "lat": 45.357343,
     "lng": -122.606758
+  },
+  "Osaka": {
+    "lat": 34.693757,
+    "lng": 135.501454
+  },
+  "Sakai": {
+    "lat": 34.573736,
+    "lng": 135.482887
+  },
+  "Suita": {
+    "lat": 34.759419,
+    "lng": 135.516835
+  },
+  "Oxford": {
+    "lat": 51.833333,
+    "lng": -1.25
+  },
+  "Witney": {
+    "lat": 51.783885,
+    "lng": -1.485286
+  },
+  "Banbury": {
+    "lat": 52.060181,
+    "lng": -1.34028
+  },
+  "Charlbury": {
+    "lat": 51.874697,
+    "lng": -1.480661
   },
   "Philadelphia": {
     "lat": 39.977654,
@@ -1371,13 +1971,189 @@ const cityCoordinates = {
     "lat": 41.22685,
     "lng": -75.931735
   },
+  "Charlottetown": {
+    "lat": 46.235419,
+    "lng": -63.126539
+  },
+  "Prince Edward Island": {
+    "lat": 46.335551,
+    "lng": -63.146668
+  },
+  "Montreal": {
+    "lat": 45.503182,
+    "lng": -73.569806
+  },
+  "Quebec City": {
+    "lat": 46.79297,
+    "lng": -71.384599
+  },
+  "Laval": {
+    "lat": 45.557113,
+    "lng": -73.721178
+  },
+  "Saguenay": {
+    "lat": 48.405959,
+    "lng": -71.069183
+  },
+  "Saint-Hyacinthe": {
+    "lat": 45.627484,
+    "lng": -72.940636
+  },
+  "Saint-Lambert": {
+    "lat": 45.50162,
+    "lng": -73.510298
+  },
+  "Sherbrooke": {
+    "lat": 45.403271,
+    "lng": -71.889038
+  },
+  "Terrebonne": {
+    "lat": 45.695153,
+    "lng": -73.635015
+  },
+  "Varennes": {
+    "lat": 45.683469,
+    "lng": -73.436274
+  },
+  "Fortitude Valley": {
+    "lat": -27.455896,
+    "lng": 153.033938
+  },
+  "Brisbane City": {
+    "lat": -27.468974,
+    "lng": 153.023488
+  },
+  "Bulimba": {
+    "lat": -27.449186,
+    "lng": 153.060487
+  },
+  "Helensvale": {
+    "lat": -27.925425,
+    "lng": 153.33899
+  },
+  "Indooroopilly": {
+    "lat": -27.506561,
+    "lng": 152.982278
+  },
+  "Kelvin Grove": {
+    "lat": -27.450162,
+    "lng": 153.01267
+  },
+  "Queensland": {
+    "lat": -22.164678,
+    "lng": 144.58449
+  },
+  "West End": {
+    "lat": -27.483299,
+    "lng": 153.007502
+  },
   "Providence": {
     "lat": 41.823989,
     "lng": -71.412834
   },
+  "Niiza": {
+    "lat": 35.793119,
+    "lng": 139.565726
+  },
+  "Regina": {
+    "lat": 50.447973,
+    "lng": -104.615876
+  },
+  "Saskatchewan": {
+    "lat": 55.532126,
+    "lng": -106.141224
+  },
+  "Saskatoon": {
+    "lat": 52.131802,
+    "lng": -106.660767
+  },
+  "Izu": {
+    "lat": 34.976455,
+    "lng": 138.946708
+  },
+  "Shrewsbury": {
+    "lat": 52.707755,
+    "lng": -2.754066
+  },
+  "South Petherton": {
+    "lat": 50.94879,
+    "lng": -2.809147
+  },
+  "Adelaide": {
+    "lat": -34.928181,
+    "lng": 138.599931
+  },
+  "Collinswood": {
+    "lat": -34.887287,
+    "lng": 138.612236
+  },
+  "South Australia": {
+    "lat": -30.534367,
+    "lng": 135.630121
+  },
   "South Carolina": {
     "lat": 35.060084,
     "lng": -80.910337
+  },
+  "Sheffield": {
+    "lat": 53.380663,
+    "lng": -1.470228
+  },
+  "Doncaster": {
+    "lat": 53.522768,
+    "lng": -1.133531
+  },
+  "Southampton": {
+    "lat": 50.902535,
+    "lng": -1.404189
+  },
+  "Perton": {
+    "lat": 52.59572,
+    "lng": -2.20338
+  },
+  "Rugeley": {
+    "lat": 52.75894,
+    "lng": -1.936204
+  },
+  "Tamworth": {
+    "lat": 52.634582,
+    "lng": -1.694844
+  },
+  "Ipswich": {
+    "lat": 52.057932,
+    "lng": 1.15281
+  },
+  "Guildford": {
+    "lat": 51.235607,
+    "lng": -0.573206
+  },
+  "Godalming": {
+    "lat": 51.185789,
+    "lng": -0.614907
+  },
+  "Surrey Research Park": {
+    "lat": 51.240855,
+    "lng": -0.61485
+  },
+  "Woking": {
+    "lat": 51.320189,
+    "lng": -0.556473
+  },
+  "Caterham": {
+    "lat": 51.2822,
+    "lng": -0.077248
+  },
+  "Epsom": {
+    "lat": 51.33261,
+    "lng": -0.267821
+  },
+  "Farnham": {
+    "lat": 51.215175,
+    "lng": -0.798485
+  },
+  "Walton-on-Thames": {
+    "lat": 51.385684,
+    "lng": -0.419814
   },
   "Knoxville": {
     "lat": 35.943614,
@@ -1443,10 +2219,6 @@ const cityCoordinates = {
     "lat": 32.70809,
     "lng": -97.116905
   },
-  "Bedford": {
-    "lat": 32.844231,
-    "lng": -97.132696
-  },
   "Bee Cave": {
     "lat": 30.274768,
     "lng": -97.799282
@@ -1503,6 +2275,118 @@ const cityCoordinates = {
     "lat": 30.274768,
     "lng": -97.799282
   },
+  "Ashikaga": {
+    "lat": 36.340036,
+    "lng": 139.44884
+  },
+  "Minato City": {
+    "lat": 35.627763,
+    "lng": 139.773504
+  },
+  "Chiyoda City": {
+    "lat": 35.694163,
+    "lng": 139.753562
+  },
+  "Shinagawa City": {
+    "lat": 35.609211,
+    "lng": 139.730198
+  },
+  "Shibuya City": {
+    "lat": 35.658258,
+    "lng": 139.69864
+  },
+  "Shinjuku City": {
+    "lat": 35.69386,
+    "lng": 139.703447
+  },
+  "Chuo City": {
+    "lat": 35.682013,
+    "lng": 139.787532
+  },
+  "Tokyo": {
+    "lat": 35.67686,
+    "lng": 139.763895
+  },
+  "Taito City": {
+    "lat": 35.712631,
+    "lng": 139.779774
+  },
+  "Suginami City": {
+    "lat": 35.696439,
+    "lng": 139.633636
+  },
+  "Koto City": {
+    "lat": 35.625316,
+    "lng": 139.77588
+  },
+  "Musashino": {
+    "lat": 35.717724,
+    "lng": 139.56598
+  },
+  "Setagaya City": {
+    "lat": 35.595102,
+    "lng": 139.651898
+  },
+  "Meguro City": {
+    "lat": 35.641407,
+    "lng": 139.698274
+  },
+  "Nakano City": {
+    "lat": 35.709242,
+    "lng": 139.663184
+  },
+  "Toshima City": {
+    "lat": 35.724274,
+    "lng": 139.686043
+  },
+  "Katsushika City": {
+    "lat": 35.752891,
+    "lng": 139.843376
+  },
+  "Kita City": {
+    "lat": 35.756294,
+    "lng": 139.728965
+  },
+  "Bunkyo City": {
+    "lat": 35.703322,
+    "lng": 139.754579
+  },
+  "Hachioji": {
+    "lat": 35.666359,
+    "lng": 139.316365
+  },
+  "Hino": {
+    "lat": 35.671339,
+    "lng": 139.39498
+  },
+  "Itabashi City": {
+    "lat": 35.750978,
+    "lng": 139.709296
+  },
+  "Mitaka": {
+    "lat": 35.683393,
+    "lng": 139.559242
+  },
+  "Tachikawa": {
+    "lat": 35.713906,
+    "lng": 139.40777
+  },
+  "Gateshead": {
+    "lat": 54.962579,
+    "lng": -1.601929
+  },
+  "Newcastle upon Tyne": {
+    "lat": 54.973847,
+    "lng": -1.613157
+  },
+  "Abbott's Hill": {
+    "lat": 54.998741,
+    "lng": -1.432185
+  },
+  "Sunderland": {
+    "lat": 54.939466,
+    "lng": -1.409016
+  },
   "Salt Lake City": {
     "lat": 40.733705,
     "lng": -111.895848
@@ -1534,6 +2418,54 @@ const cityCoordinates = {
   "Winooski": {
     "lat": 44.49104,
     "lng": -73.186106
+  },
+  "South Wharf": {
+    "lat": -37.825328,
+    "lng": 144.949343
+  },
+  "Melbourne": {
+    "lat": -37.814245,
+    "lng": 144.963173
+  },
+  "South Melbourne": {
+    "lat": -37.822926,
+    "lng": 144.968656
+  },
+  "Abbotsford": {
+    "lat": -37.804551,
+    "lng": 144.998854
+  },
+  "Ascot Vale": {
+    "lat": -37.775325,
+    "lng": 144.921825
+  },
+  "Bayswater": {
+    "lat": -37.841739,
+    "lng": 145.268121
+  },
+  "Collingwood": {
+    "lat": -37.802104,
+    "lng": 144.988139
+  },
+  "Docklands": {
+    "lat": -37.817542,
+    "lng": 144.939492
+  },
+  "Fitzroy": {
+    "lat": -37.801038,
+    "lng": 144.979261
+  },
+  "Mitcham": {
+    "lat": -37.818093,
+    "lng": 145.1928
+  },
+  "Scoresby": {
+    "lat": -37.902579,
+    "lng": 145.218307
+  },
+  "Southbank": {
+    "lat": -37.825362,
+    "lng": 144.96402
   },
   "Fairfax": {
     "lat": 38.87434,
@@ -1571,6 +2503,26 @@ const cityCoordinates = {
     "lat": 37.25432,
     "lng": -79.956243
   },
+  "Warrington": {
+    "lat": 53.38995,
+    "lng": -2.594318
+  },
+  "Royal Leamington Spa": {
+    "lat": 52.291339,
+    "lng": -1.536404
+  },
+  "Atherstone on Stour": {
+    "lat": 52.15698,
+    "lng": -1.70066
+  },
+  "Barford": {
+    "lat": 52.245425,
+    "lng": -1.606049
+  },
+  "Southam": {
+    "lat": 52.253094,
+    "lng": -1.388412
+  },
   "Seattle": {
     "lat": 47.580138,
     "lng": -122.327304
@@ -1594,10 +2546,6 @@ const cityCoordinates = {
   "Woodinville": {
     "lat": 47.755427,
     "lng": -122.151308
-  },
-  "Vancouver": {
-    "lat": 45.669329,
-    "lng": -122.553628
   },
   "Renton": {
     "lat": 47.488709,
@@ -1675,9 +2623,85 @@ const cityCoordinates = {
     "lat": 47.580138,
     "lng": -122.327304
   },
+  "Theale": {
+    "lat": 51.438064,
+    "lng": -1.076722
+  },
+  "Birmingham": {
+    "lat": 52.479699,
+    "lng": -1.902691
+  },
+  "Marston Green": {
+    "lat": 52.466881,
+    "lng": -1.755095
+  },
+  "Wolverhampton": {
+    "lat": 52.584765,
+    "lng": -2.127567
+  },
+  "The Royal Town of Sutton Coldfield": {
+    "lat": 52.559559,
+    "lng": -1.795207
+  },
+  "Walsall": {
+    "lat": 52.584795,
+    "lng": -1.982269
+  },
+  "Horsham": {
+    "lat": 51.063027,
+    "lng": -0.329503
+  },
+  "Shoreham-by-Sea": {
+    "lat": 50.832231,
+    "lng": -0.274672
+  },
   "Huntington": {
     "lat": 38.420743,
     "lng": -82.44874
+  },
+  "Leeds": {
+    "lat": 53.797418,
+    "lng": -1.543794
+  },
+  "Bradford": {
+    "lat": 53.794423,
+    "lng": -1.751919
+  },
+  "Castleford": {
+    "lat": 53.72623,
+    "lng": -1.351722
+  },
+  "Methley": {
+    "lat": 53.735581,
+    "lng": -1.409851
+  },
+  "Ossett": {
+    "lat": 53.678054,
+    "lng": -1.576595
+  },
+  "Wakefield": {
+    "lat": 53.682954,
+    "lng": -1.496729
+  },
+  "Leederville": {
+    "lat": -31.935301,
+    "lng": 115.843812
+  },
+  "Salisbury": {
+    "lat": 51.069061,
+    "lng": -1.795413
+  },
+  "Trowbridge": {
+    "lat": 51.316157,
+    "lng": -2.202432
+  },
+  "Winsley": {
+    "lat": 51.354316,
+    "lng": -2.289933
+  },
+  "Maidenhead": {
+    "lat": 51.522743,
+    "lng": -0.719737
   },
   "Madison": {
     "lat": 43.080274,
@@ -1699,8 +2723,16 @@ const cityCoordinates = {
     "lat": 44.307136,
     "lng": -88.309362
   },
+  "Bromsgrove": {
+    "lat": 52.339052,
+    "lng": -2.053202
+  },
   "Cheyenne": {
     "lat": 41.139981,
     "lng": -104.820246
+  },
+  "York": {
+    "lat": 40.712728,
+    "lng": -74.006015
   }
 }
