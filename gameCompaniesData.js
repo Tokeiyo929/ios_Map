@@ -1,6 +1,2921 @@
 const gameCompaniesData = {
   "companies": [
     {
+      "name": "Alpha Dog Games",
+      "city": "Bedford",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bluecurse",
+      "city": "British Columbia",
+      "country": "加拿大"
+    },
+    {
+      "name": "Redstone Interactive",
+      "city": "British Columbia",
+      "country": "加拿大"
+    },
+    {
+      "name": "A.C.R.O.N.Y.M. Games",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bitten Toast Games",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "CD Projekt Red",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Capcom",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Digital Scapes",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "EA Vancouver",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Full Circle",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hellbent Games",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Raccoopack Studios",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Skybox Labs",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Vertigo Games",
+      "city": "Burnaby",
+      "country": "加拿大"
+    },
+    {
+      "name": "Calgary Game Developers Association",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "Creative Storm Entertainment",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "Isto Inc.",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "New World Interactive",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "Quantum Integrity Software",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "Shifty Eye Games",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "Zugalu",
+      "city": "Calgary",
+      "country": "加拿大"
+    },
+    {
+      "name": "Blot Interactive",
+      "city": "Cambridge",
+      "country": "加拿大"
+    },
+    {
+      "name": "Iron Fox Games",
+      "city": "Charlottetown",
+      "country": "加拿大"
+    },
+    {
+      "name": "Kabam",
+      "city": "Charlottetown",
+      "country": "加拿大"
+    },
+    {
+      "name": "Other Ocean Interactive",
+      "city": "Charlottetown",
+      "country": "加拿大"
+    },
+    {
+      "name": "Babafish",
+      "city": "Coquitlam",
+      "country": "加拿大"
+    },
+    {
+      "name": "Beamdog",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "BioWare",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Double Blit Games",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Humanoid Origin",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Inflexion Games",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Only By Midnight",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Schadenfreude",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Violet Games",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "XGen Studios",
+      "city": "Edmonton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Red Meat Games",
+      "city": "Halifax",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ubisoft Halifax",
+      "city": "Halifax",
+      "country": "加拿大"
+    },
+    {
+      "name": "Vesuvius Media",
+      "city": "Halifax",
+      "country": "加拿大"
+    },
+    {
+      "name": "BattleGoat Studios",
+      "city": "Hamilton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Clockwork Kraken",
+      "city": "Hamilton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Milkbag Games",
+      "city": "Hamilton",
+      "country": "加拿大"
+    },
+    {
+      "name": "Humanoid Origin",
+      "city": "Kelowna",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hyper Hippo Productions",
+      "city": "Kelowna",
+      "country": "加拿大"
+    },
+    {
+      "name": "Screenzilla Entertainment",
+      "city": "Kelowna",
+      "country": "加拿大"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Kitchener",
+      "country": "加拿大"
+    },
+    {
+      "name": "Fluxscopic",
+      "city": "Kitchener",
+      "country": "加拿大"
+    },
+    {
+      "name": "Big Fat Simulations",
+      "city": "Langley",
+      "country": "加拿大"
+    },
+    {
+      "name": "Raptagon Studios",
+      "city": "Lloydminster",
+      "country": "加拿大"
+    },
+    {
+      "name": "Big Blue Bubble",
+      "city": "London",
+      "country": "加拿大"
+    },
+    {
+      "name": "Digital Extremes",
+      "city": "London",
+      "country": "加拿大"
+    },
+    {
+      "name": "Halfbot",
+      "city": "London",
+      "country": "加拿大"
+    },
+    {
+      "name": "Tactic Studios",
+      "city": "London",
+      "country": "加拿大"
+    },
+    {
+      "name": "Tiny Titan Studios",
+      "city": "London",
+      "country": "加拿大"
+    },
+    {
+      "name": "HB Studios",
+      "city": "Lunenburg",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hutch",
+      "city": "Mahone Bay",
+      "country": "加拿大"
+    },
+    {
+      "name": "Boston Trudeau Studios",
+      "city": "Mississauga",
+      "country": "加拿大"
+    },
+    {
+      "name": "Gogii Games",
+      "city": "Moncton",
+      "country": "加拿大"
+    },
+    {
+      "name": "3Mind Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Artifact 5",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Behaviour Interactive",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bethesda Game Studios",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bkom Studios",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bleeding Tapes",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Borealys Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Breaking Walls",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Cardbord Utopia",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Cloud Chamber",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Compulsion Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "CyberConnect2",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Digital Domain",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Double Stallion",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Eidos Montréal",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Greensky Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Haven Studios",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "KO_OP",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "KWM Agency",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Kabam",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Kitfox Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Lucid Dreams",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ludia",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "M5 Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "MadLife Divertissement",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Meridian4",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Mino Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Minority Media",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Motive Studios",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Player Research",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Playmind",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Playtika",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Product Madness",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "QuickByte Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ratloop Games Canada",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Rogue Factor",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Room 8 Studio",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Rovio Entertainment",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Scavengers Studio",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Sleeping Beast Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Spearhead Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Square Enix Montreal",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Strategy First",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Thunder Lotus",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Tribute Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Tuque Games",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ubisoft Montreal",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "WB Games Montréal",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "i3D.net",
+      "city": "Montreal",
+      "country": "加拿大"
+    },
+    {
+      "name": "Epic Story Interactive",
+      "city": "New Westminster",
+      "country": "加拿大"
+    },
+    {
+      "name": "Offworld Industries",
+      "city": "New Westminster",
+      "country": "加拿大"
+    },
+    {
+      "name": "Monster Bath Games",
+      "city": "Nova Scotia",
+      "country": "加拿大"
+    },
+    {
+      "name": "Sprite Knights",
+      "city": "Nova Scotia",
+      "country": "加拿大"
+    },
+    {
+      "name": "Starcube Games",
+      "city": "Nova Scotia",
+      "country": "加拿大"
+    },
+    {
+      "name": "Rockstar Toronto",
+      "city": "Oakville",
+      "country": "加拿大"
+    },
+    {
+      "name": "StudioMDHR",
+      "city": "Oakville",
+      "country": "加拿大"
+    },
+    {
+      "name": "Animoca Brands",
+      "city": "Ottawa",
+      "country": "加拿大"
+    },
+    {
+      "name": "Breakfall",
+      "city": "Ottawa",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hardline Studios",
+      "city": "Ottawa",
+      "country": "加拿大"
+    },
+    {
+      "name": "Playbrains",
+      "city": "Ottawa",
+      "country": "加拿大"
+    },
+    {
+      "name": "Smoke Labs",
+      "city": "Ottawa",
+      "country": "加拿大"
+    },
+    {
+      "name": "Snowed In Studios",
+      "city": "Ottawa",
+      "country": "加拿大"
+    },
+    {
+      "name": "Canuk Play",
+      "city": "Peterborough",
+      "country": "加拿大"
+    },
+    {
+      "name": "dotBunny",
+      "city": "Peterborough",
+      "country": "加拿大"
+    },
+    {
+      "name": "Stinger Games",
+      "city": "Port Moody",
+      "country": "加拿大"
+    },
+    {
+      "name": "Queen Bee Games",
+      "city": "Prince Edward Island",
+      "country": "加拿大"
+    },
+    {
+      "name": "Beenox",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Berzerk Studio",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bishop Games",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bkom Studios",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Cathar Games",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Chainsawesome Games",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Empty Clip Studios",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Frima",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Gearbox Software",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Gingear Studio",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "KWM Agency",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Nine Dots",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Parabole",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Polymorph Games",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Sabotage Studio",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Sarbakan",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ubisoft Quebec",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "VOLTA",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "Yellow Brick Games",
+      "city": "Quebec City",
+      "country": "加拿大"
+    },
+    {
+      "name": "BitCutter Studios",
+      "city": "Regina",
+      "country": "加拿大"
+    },
+    {
+      "name": "StudioMDHR",
+      "city": "Regina",
+      "country": "加拿大"
+    },
+    {
+      "name": "Digital Leisure",
+      "city": "Richmond Hill",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ubisoft Saguenay",
+      "city": "Saguenay",
+      "country": "加拿大"
+    },
+    {
+      "name": "01 Studio",
+      "city": "Saint Hyacinthe",
+      "country": "加拿大"
+    },
+    {
+      "name": "Riposte Games & Co",
+      "city": "Saint Lambert",
+      "country": "加拿大"
+    },
+    {
+      "name": "Alientrap Games",
+      "city": "Saskatchewan",
+      "country": "加拿大"
+    },
+    {
+      "name": "Noodlecake Studios",
+      "city": "Saskatoon",
+      "country": "加拿大"
+    },
+    {
+      "name": "GolemLabs",
+      "city": "Sherbrooke",
+      "country": "加拿大"
+    },
+    {
+      "name": "Alchemy Interactive",
+      "city": "Stony Plain",
+      "country": "加拿大"
+    },
+    {
+      "name": "Adjective Noun Studios",
+      "city": "St Catharines",
+      "country": "加拿大"
+    },
+    {
+      "name": "Apocalypse Studios",
+      "city": "St Catharines",
+      "country": "加拿大"
+    },
+    {
+      "name": "Creative Bytes Studios",
+      "city": "St Catharines",
+      "country": "加拿大"
+    },
+    {
+      "name": "Phantom Compass",
+      "city": "St Catharines",
+      "country": "加拿大"
+    },
+    {
+      "name": "Clockwork Fox Studios",
+      "city": "St Johns",
+      "country": "加拿大"
+    },
+    {
+      "name": "Other Ocean Interactive",
+      "city": "St Johns",
+      "country": "加拿大"
+    },
+    {
+      "name": "Adrenaline Amusements",
+      "city": "Terrebonne",
+      "country": "加拿大"
+    },
+    {
+      "name": "13AM Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Asteroid Base",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Axon Interactive",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Beans",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Big Viking Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Bloom Digital Media",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Blue Isle Studios",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Capy",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Capybara Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Cellar Door Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Clipwire Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Cococucumber",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Drinkbox Studios",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Entertainment Software Association of Canada",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Finish Line Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Frolic Labs",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Future Immersive",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Galacanine Entertainment Software",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "GalacticThumb",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Game Hive",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Get Set Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Glu Mobile",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "IGDA",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Incubator Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Jam City",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Laundry Bear Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Lightning Rod Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Little Guy Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Longbow Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "M5 Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Magitech",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Metanet Software",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Nuttery Entertainment",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Phantom Compass",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Picnic Game Labs",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "PopReach",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Raincrow Studios",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Rovio Entertainment",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "SOFTGAMES",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Secret Location",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Siege Camp",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Talespinners",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Torn Banner Studios",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ubisoft Toronto",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Uken Games",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Upptack Studios",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Vertex Pop",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Wero Creative",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Wicked Interactive",
+      "city": "Toronto",
+      "country": "加拿大"
+    },
+    {
+      "name": "Early Warning Entertainment",
+      "city": "Truro",
+      "country": "加拿大"
+    },
+    {
+      "name": "The Farm Ventures",
+      "city": "Uxbridge",
+      "country": "加拿大"
+    },
+    {
+      "name": "A Thinking Ape",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Archiact",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Atomhawk Design",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "BR Softech",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Blackbird Interactive",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Brace Yourself Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Code Mystics",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Demonware",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Digital Domain",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "East Side Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Eden Industries",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "EggNut",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Emerald City Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Endnight Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Gasket Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hinterland Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hothead Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hyper Hippo Productions",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hypercane Studios",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "IGG Canada",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "IUGO Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Interdimensional Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ironclad Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Jetpack Interactive",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Kabam",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Kerberos Productions",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Klei Entertainment",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Koolhaus Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "LBC Studios",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Luminawesome",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "NetEase Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Next Level Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Northway Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Phoenix Labs",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Piranha Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "PopCap Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Radial Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Relic Entertainment",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Slick Entertainment",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Smoking Gun Interactive",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Sprung Studios",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "The Coalition",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "This Game Studio",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Threewave Software",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Timbre Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "V2 Games",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Vancouver",
+      "country": "加拿大"
+    },
+    {
+      "name": "Autoexec Games",
+      "city": "Varennes",
+      "country": "加拿大"
+    },
+    {
+      "name": "DoubleJump Games",
+      "city": "Victoria",
+      "country": "加拿大"
+    },
+    {
+      "name": "Hololabs",
+      "city": "Victoria",
+      "country": "加拿大"
+    },
+    {
+      "name": "Inlight Entertainment",
+      "city": "Victoria",
+      "country": "加拿大"
+    },
+    {
+      "name": "KIXEYE",
+      "city": "Victoria",
+      "country": "加拿大"
+    },
+    {
+      "name": "Metalhead Software",
+      "city": "Victoria",
+      "country": "加拿大"
+    },
+    {
+      "name": "Pixelmatic",
+      "city": "Victoria",
+      "country": "加拿大"
+    },
+    {
+      "name": "Corbie Games",
+      "city": "White Rock",
+      "country": "加拿大"
+    },
+    {
+      "name": "Complex Games",
+      "city": "Winnipeg",
+      "country": "加拿大"
+    },
+    {
+      "name": "Ubisoft Winnipeg",
+      "city": "Winnipeg",
+      "country": "加拿大"
+    },
+    {
+      "name": "Zenfri",
+      "city": "Winnipeg",
+      "country": "加拿大"
+    },
+    {
+      "name": "M2",
+      "city": "Abiko",
+      "country": "日本"
+    },
+    {
+      "name": "Intelligent Systems",
+      "city": "Amagasaki",
+      "country": "日本"
+    },
+    {
+      "name": "Omega Force",
+      "city": "Ashikaga",
+      "country": "日本"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Bunkyo City",
+      "country": "日本"
+    },
+    {
+      "name": "1-UP Studio",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "ASCII Corporation",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Acquire",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Art",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Asmik Ace",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Asobism",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Creatures",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "D3 Publisher",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Entergram",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Game Arts",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Game Freak",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Gotcha Gotcha Games",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Grasshopper Manufacture",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "GungHo Online Entertainment",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "H2 Interactive",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "HAL Laboratory",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Irem Software Engineering",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Lakshya Digital",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Nitroplus",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Sora",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Sting",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "THQ Nordic",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Toho",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "Chiyoda City",
+      "country": "日本"
+    },
+    {
+      "name": "Artdink",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "City Connection",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "D4 Enterprise",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Genius Sonority",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Konami",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Konami Digital Entertainment",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "ND Cube",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Prototype",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Starsign",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Wizcorp",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "h.a.n.d. Inc.",
+      "city": "Chuo City",
+      "country": "日本"
+    },
+    {
+      "name": "Shift",
+      "city": "Fujisawa",
+      "country": "日本"
+    },
+    {
+      "name": "Althi",
+      "city": "Fukuoka",
+      "country": "日本"
+    },
+    {
+      "name": "CyberConnect2",
+      "city": "Fukuoka",
+      "country": "日本"
+    },
+    {
+      "name": "FromSoftware",
+      "city": "Fukuoka",
+      "country": "日本"
+    },
+    {
+      "name": "Ganbarion",
+      "city": "Fukuoka",
+      "country": "日本"
+    },
+    {
+      "name": "Level-5",
+      "city": "Fukuoka",
+      "country": "日本"
+    },
+    {
+      "name": "Matrix Software",
+      "city": "Fukuoka",
+      "country": "日本"
+    },
+    {
+      "name": "Polyphony Digital",
+      "city": "Fukuoka",
+      "country": "日本"
+    },
+    {
+      "name": "Zero Div",
+      "city": "Fukushima",
+      "country": "日本"
+    },
+    {
+      "name": "Felistella",
+      "city": "Gifu",
+      "country": "日本"
+    },
+    {
+      "name": "Experience Inc.",
+      "city": "Hachioji",
+      "country": "日本"
+    },
+    {
+      "name": "Kemco",
+      "city": "Higashihiroshima",
+      "country": "日本"
+    },
+    {
+      "name": "Ancient",
+      "city": "Hino",
+      "country": "日本"
+    },
+    {
+      "name": "Robinson Technologies",
+      "city": "Hiroshima",
+      "country": "日本"
+    },
+    {
+      "name": "Sting",
+      "city": "Hiroshima",
+      "country": "日本"
+    },
+    {
+      "name": "Inti Creates",
+      "city": "Ichikawa",
+      "country": "日本"
+    },
+    {
+      "name": "Lightweight",
+      "city": "Itabashi City",
+      "country": "日本"
+    },
+    {
+      "name": "Mikage",
+      "city": "Izu",
+      "country": "日本"
+    },
+    {
+      "name": "Nippon Ichi Software",
+      "city": "Kakamigahara",
+      "country": "日本"
+    },
+    {
+      "name": "Culture Brain Excel",
+      "city": "Katsushika City",
+      "country": "日本"
+    },
+    {
+      "name": "Takara Tomy",
+      "city": "Katsushika City",
+      "country": "日本"
+    },
+    {
+      "name": "Ongakukan",
+      "city": "Kawasaki",
+      "country": "日本"
+    },
+    {
+      "name": "AMI",
+      "city": "Kita City",
+      "country": "日本"
+    },
+    {
+      "name": "Tom Create",
+      "city": "Kita City",
+      "country": "日本"
+    },
+    {
+      "name": "Technical Group Laboratory",
+      "city": "Kobe",
+      "country": "日本"
+    },
+    {
+      "name": "Sunsoft",
+      "city": "Konan",
+      "country": "日本"
+    },
+    {
+      "name": "Bandai Namco Studios",
+      "city": "Koto City",
+      "country": "日本"
+    },
+    {
+      "name": "Digital Frontier Inc.",
+      "city": "Koto City",
+      "country": "日本"
+    },
+    {
+      "name": "Media Vision",
+      "city": "Koto City",
+      "country": "日本"
+    },
+    {
+      "name": "Polyphony Digital",
+      "city": "Koto City",
+      "country": "日本"
+    },
+    {
+      "name": "tri-Crescendo",
+      "city": "Koto City",
+      "country": "日本"
+    },
+    {
+      "name": "Alfa System",
+      "city": "Kumamoto",
+      "country": "日本"
+    },
+    {
+      "name": "Kemco",
+      "city": "Kure",
+      "country": "日本"
+    },
+    {
+      "name": "CharacterBank",
+      "city": "Kyoto",
+      "country": "日本"
+    },
+    {
+      "name": "Jupiter Corporation",
+      "city": "Kyoto",
+      "country": "日本"
+    },
+    {
+      "name": "Monolith Soft",
+      "city": "Kyoto",
+      "country": "日本"
+    },
+    {
+      "name": "Nintendo",
+      "city": "Kyoto",
+      "country": "日本"
+    },
+    {
+      "name": "Q-Games",
+      "city": "Kyoto",
+      "country": "日本"
+    },
+    {
+      "name": "Technical Group Laboratory",
+      "city": "Kyoto",
+      "country": "日本"
+    },
+    {
+      "name": "Tose Software",
+      "city": "Kyoto",
+      "country": "日本"
+    },
+    {
+      "name": "CAVE",
+      "city": "Meguro City",
+      "country": "日本"
+    },
+    {
+      "name": "LIONA Interactive",
+      "city": "Meguro City",
+      "country": "日本"
+    },
+    {
+      "name": "Monolith Soft",
+      "city": "Meguro City",
+      "country": "日本"
+    },
+    {
+      "name": "6waves",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Anchor",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Asmik Ace",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "BB Studio",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Bandai Namco Entertainment",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Bandai Namco Holdings",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Bandai Namco Online",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "COLOPL",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "ForwardWorks",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "FunPlus",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Havok",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Heroz Inc.",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Kakao Games",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Kojima Productions",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Level-5",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "MAGES.",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Mistwalker",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Now Production",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Polygon Magic",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Pony Canyon",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Rejet",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Room 8 Studio",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Score Studios",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Sony Interactive Entertainment",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Spike Chunsoft",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Tango Gameworks",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Technical Group Laboratory",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Teyon",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "The Pokémon Company",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Valhalla Game Studios",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "Wright Flyer Studios",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "tri-Ace",
+      "city": "Minato City",
+      "country": "日本"
+    },
+    {
+      "name": "mebius",
+      "city": "Mitaka",
+      "country": "日本"
+    },
+    {
+      "name": "Degica Games",
+      "city": "Musashino",
+      "country": "日本"
+    },
+    {
+      "name": "Gainax",
+      "city": "Musashino",
+      "country": "日本"
+    },
+    {
+      "name": "Production I.G",
+      "city": "Musashino",
+      "country": "日本"
+    },
+    {
+      "name": "syn Sophia",
+      "city": "Musashino",
+      "country": "日本"
+    },
+    {
+      "name": "ASCII Media Works",
+      "city": "Nagano",
+      "country": "日本"
+    },
+    {
+      "name": "Asobism",
+      "city": "Nagano",
+      "country": "日本"
+    },
+    {
+      "name": "Chunsoft",
+      "city": "Nagano",
+      "country": "日本"
+    },
+    {
+      "name": "Gust",
+      "city": "Nagano",
+      "country": "日本"
+    },
+    {
+      "name": "Key",
+      "city": "Nagano",
+      "country": "日本"
+    },
+    {
+      "name": "Acquire",
+      "city": "Nagoya",
+      "country": "日本"
+    },
+    {
+      "name": "Dorasu",
+      "city": "Nagoya",
+      "country": "日本"
+    },
+    {
+      "name": "Hit-Point",
+      "city": "Nagoya",
+      "country": "日本"
+    },
+    {
+      "name": "Inti Creates",
+      "city": "Nagoya",
+      "country": "日本"
+    },
+    {
+      "name": "SAT-BOX",
+      "city": "Nagoya",
+      "country": "日本"
+    },
+    {
+      "name": "Technical Group Laboratory",
+      "city": "Nagoya",
+      "country": "日本"
+    },
+    {
+      "name": "h.a.n.d. Inc.",
+      "city": "Nagoya",
+      "country": "日本"
+    },
+    {
+      "name": "Cattle Call",
+      "city": "Nakano City",
+      "country": "日本"
+    },
+    {
+      "name": "Genki",
+      "city": "Nakano City",
+      "country": "日本"
+    },
+    {
+      "name": "Headlock",
+      "city": "Nakano City",
+      "country": "日本"
+    },
+    {
+      "name": "Studio Saizensen",
+      "city": "Niiza",
+      "country": "日本"
+    },
+    {
+      "name": "Granzella Games",
+      "city": "Nonoichi",
+      "country": "日本"
+    },
+    {
+      "name": "Access Games",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Aquaplus",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Capcom",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Digital Frontier Inc.",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Entergram",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Good-Feel",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Now Production",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "PlatinumGames",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Playism",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Pygmy Studio",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Racjin",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Skipmore",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Technical Group Laboratory",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Ubisoft Osaka",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Vanillaware",
+      "city": "Osaka",
+      "country": "日本"
+    },
+    {
+      "name": "Yuke's",
+      "city": "Sakai",
+      "country": "日本"
+    },
+    {
+      "name": "ND Cube",
+      "city": "Sapporo",
+      "country": "日本"
+    },
+    {
+      "name": "h.a.n.d. Inc.",
+      "city": "Sapporo",
+      "country": "日本"
+    },
+    {
+      "name": "Zero Div",
+      "city": "Sendai",
+      "country": "日本"
+    },
+    {
+      "name": "Atlus",
+      "city": "Setagaya City",
+      "country": "日本"
+    },
+    {
+      "name": "Hamster Corporation",
+      "city": "Setagaya City",
+      "country": "日本"
+    },
+    {
+      "name": "Happymeal Inc.",
+      "city": "Setagaya City",
+      "country": "日本"
+    },
+    {
+      "name": "Puresound Inc.",
+      "city": "Setagaya City",
+      "country": "日本"
+    },
+    {
+      "name": "5pb.",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Aiming Inc.",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Cygames",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "DeNA",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Digital Frontier Inc.",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "GameOn",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Grezzo",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Infinity",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "SIMS Co.",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Shade",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Skip",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Victor Entertainment",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Voltage Inc.",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Ys Net",
+      "city": "Shibuya City",
+      "country": "日本"
+    },
+    {
+      "name": "Arika",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Banpresto",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "CyberConnect2",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Dorasu",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Eighting",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "G-MODE Corporation",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Gamepot Inc.",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Good-Feel",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Kadokawa Games",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Marvelous",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Monolith Soft",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Nobollel Inc.",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Racjin",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "SNK Corporation",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Sammy Corporation",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Sega",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Success Corporation",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Zero Div",
+      "city": "Shinagawa City",
+      "country": "日本"
+    },
+    {
+      "name": "Camelot Software Planning",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "DIGITAL Hearts",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "FromSoftware",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Gaea",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "IGG",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Imagineer",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Kairosoft",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Matrix Software",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "NetEase Games",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Nude Maker",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "P Studio",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Square Enix",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "TOYBOX",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Taito Corporation",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "Team Ninja",
+      "city": "Shinjuku City",
+      "country": "日本"
+    },
+    {
+      "name": "CyberStep",
+      "city": "Suginami City",
+      "country": "日本"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Suginami City",
+      "country": "日本"
+    },
+    {
+      "name": "Sandlot",
+      "city": "Suginami City",
+      "country": "日本"
+    },
+    {
+      "name": "Satelight Inc.",
+      "city": "Suginami City",
+      "country": "日本"
+    },
+    {
+      "name": "Waste Creative",
+      "city": "Suginami City",
+      "country": "日本"
+    },
+    {
+      "name": "indieszero",
+      "city": "Suginami City",
+      "country": "日本"
+    },
+    {
+      "name": "SNK Corporation",
+      "city": "Suita",
+      "country": "日本"
+    },
+    {
+      "name": "Nihon Falcom Corp.",
+      "city": "Tachikawa",
+      "country": "日本"
+    },
+    {
+      "name": "ArtePiazza",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "Collavier Corporation",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "French-Bread",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "Frontwing",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "Mediascape",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "Red Entertainment",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "Tamsoft",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "Type-Moon",
+      "city": "Taito City",
+      "country": "日本"
+    },
+    {
+      "name": "Flyhigh Works",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Neowiz Games",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Niantic",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Playtika",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Rainy Frog",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Rayark",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Ryū Ga Gotoku Studios",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Sandstorm",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Scopely",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Starcaster Games",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Team Shanghai Alice",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "eastasiasoft",
+      "city": "Tokyo",
+      "country": "日本"
+    },
+    {
+      "name": "Black Tower Studios",
+      "city": "Toshima City",
+      "country": "日本"
+    },
+    {
+      "name": "Compile Heart",
+      "city": "Toshima City",
+      "country": "日本"
+    },
+    {
+      "name": "Millennium Kitchen",
+      "city": "Toshima City",
+      "country": "日本"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "Toshima City",
+      "country": "日本"
+    },
+    {
+      "name": "ZOO Corporation",
+      "city": "Ueda",
+      "country": "日本"
+    },
+    {
+      "name": "Arc System Works",
+      "city": "Yokohama",
+      "country": "日本"
+    },
+    {
+      "name": "Clap Hanz",
+      "city": "Yokohama",
+      "country": "日本"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Yokohama",
+      "country": "日本"
+    },
+    {
+      "name": "Tantalus Media",
+      "city": "Adelaide",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Torus Games",
+      "city": "Bayswater",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Wix Games",
+      "city": "Brighton",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Brisbane City",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "CloudBNE",
+      "city": "Bulimba",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Blue Manchu",
+      "city": "Canberra",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Kumobius",
+      "city": "Collingwood",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Mini Mammoth Games",
+      "city": "Collinswood",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Firemonkeys Studios",
+      "city": "Docklands",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Epiphany Games",
+      "city": "Erskineville",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Interactive Games & Entertainment Association",
+      "city": "Eveleigh",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Tantalus Media",
+      "city": "Fitzroy",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Krome Studios",
+      "city": "Fortitude Valley",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Right Pedal Studios",
+      "city": "Fortitude Valley",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Tantalus Media",
+      "city": "Fortitude Valley",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Micro Forté",
+      "city": "Glebe",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "N3V Games",
+      "city": "Helensvale",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Greenheart Games",
+      "city": "Indooroopilly",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Halfbrick Studios",
+      "city": "Kelvin Grove",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Black Lab Games",
+      "city": "Leederville",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Ingenious Concepts",
+      "city": "Macquarie Links",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Con Artist Games",
+      "city": "Melbourne",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Melbourne",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Wicked Workshop",
+      "city": "Mitcham",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Big Dumb Fun Games",
+      "city": "New South Wales",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "DPS Games",
+      "city": "New South Wales",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "InvertMouse",
+      "city": "New South Wales",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Playtika",
+      "city": "New South Wales",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Imagination Games",
+      "city": "Northern Territory",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Aristocrat",
+      "city": "North Ryde",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Blowfish Studios",
+      "city": "North Sydney",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Five Star Games",
+      "city": "Pyrmont",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "KIXEYE",
+      "city": "Queensland",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Nintendo Australia",
+      "city": "Scoresby",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Big Ant Studios",
+      "city": "Southbank",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Team Cherry",
+      "city": "South Australia",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "League of Geeks",
+      "city": "South Melbourne",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Tin Man Games",
+      "city": "South Melbourne",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "ustwo",
+      "city": "Surry Hills",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Sydney",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Sydney",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Sydney",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Team Bondi",
+      "city": "Sydney",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "MicroProse",
+      "city": "Taylors Beach",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Ubisoft Australia",
+      "city": "Ultimo",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "100 Stones Interactive",
+      "city": "Victoria",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Fellow Traveller Games",
+      "city": "Victoria",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Insert Disk 22",
+      "city": "Victoria",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "KIXEYE",
+      "city": "Victoria",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Massive Monster",
+      "city": "Victoria",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Samurai Punk",
+      "city": "Victoria",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Sledgehammer Games",
+      "city": "Victoria",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Dreamgate Studios",
+      "city": "Watson",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "Micro Forté",
+      "city": "Watson",
+      "country": "澳大利亚"
+    },
+    {
+      "name": "5 Lives Studios",
+      "city": "West End",
+      "country": "澳大利亚"
+    },
+    {
       "name": "Game Circus",
       "city": "Addison",
       "country": "美国"
@@ -6094,5 +9009,1880 @@ const gameCompaniesData = {
       "name": "Thylacine Studios",
       "city": "Youngstown",
       "country": "美国"
+    },
+    {
+      "name": "Atomhawk Design",
+      "city": "Abbotts Hill",
+      "country": "英国"
+    },
+    {
+      "name": "Sumo Digital",
+      "city": "Abbotts Hill",
+      "country": "英国"
+    },
+    {
+      "name": "Strangely Named",
+      "city": "Aldershot",
+      "country": "英国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Atherstone On Stour",
+      "country": "英国"
+    },
+    {
+      "name": "Rumpus Animation",
+      "city": "Avon",
+      "country": "英国"
+    },
+    {
+      "name": "Excalibur Games",
+      "city": "Banbury",
+      "country": "英国"
+    },
+    {
+      "name": "Monster and Monster",
+      "city": "Barford",
+      "country": "英国"
+    },
+    {
+      "name": "Chequered Ink",
+      "city": "Bath",
+      "country": "英国"
+    },
+    {
+      "name": "Steel Media",
+      "city": "Bath",
+      "country": "英国"
+    },
+    {
+      "name": "Anarchy Enterprises",
+      "city": "Birmingham",
+      "country": "英国"
+    },
+    {
+      "name": "Codemasters",
+      "city": "Birmingham",
+      "country": "英国"
+    },
+    {
+      "name": "FredBear Games",
+      "city": "Birmingham",
+      "country": "英国"
+    },
+    {
+      "name": "VooFoo Studios",
+      "city": "Birmingham",
+      "country": "英国"
+    },
+    {
+      "name": "Amuzo",
+      "city": "Bournemouth",
+      "country": "英国"
+    },
+    {
+      "name": "Kalypso Media",
+      "city": "Bracknell",
+      "country": "英国"
+    },
+    {
+      "name": "Nyu Media",
+      "city": "Bradford",
+      "country": "英国"
+    },
+    {
+      "name": "Laughing Jackal",
+      "city": "Braintree",
+      "country": "英国"
+    },
+    {
+      "name": "Sega",
+      "city": "Brentford",
+      "country": "英国"
+    },
+    {
+      "name": "Sega Europe",
+      "city": "Brentford",
+      "country": "英国"
+    },
+    {
+      "name": "Grey Alien Games",
+      "city": "Bridport",
+      "country": "英国"
+    },
+    {
+      "name": "Dream Harvest",
+      "city": "Brighton And Hove",
+      "country": "英国"
+    },
+    {
+      "name": "Electric Square",
+      "city": "Brighton And Hove",
+      "country": "英国"
+    },
+    {
+      "name": "ICO Partners",
+      "city": "Brighton And Hove",
+      "country": "英国"
+    },
+    {
+      "name": "Altered Gene",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "BISBOG",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Brightrock Games",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Damp Gnat",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Hangar 13",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Hi-Rez Studios",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "MAG Interactive",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Mediatonic",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Mode 7",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "NCSoft",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "NaturalMotion",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Player Research",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Plug-In Media",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Red Beard Games",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Skatanic Studios",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Sprung Studios",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Sumo Digital",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "The Chinese Room",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Toxic Games",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "ZEROLife Games",
+      "city": "Brighton",
+      "country": "英国"
+    },
+    {
+      "name": "Arcfire Games",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Auroch Digital",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Bristol Games Hub",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "CATASTROPHIC_OVERLOAD",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Codebyfire",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Force of Habit",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Friday Sundae",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "GroundShatter",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Infinite State Games",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Large Visible Machine",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Mobile Pie",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Ndemic Creations",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Opposable Games",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Out of Bounds Games",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Twice Circled",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "aPriori Digital",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "pQube",
+      "city": "Bristol",
+      "country": "英国"
+    },
+    {
+      "name": "Splash Damage",
+      "city": "Bromley",
+      "country": "英国"
+    },
+    {
+      "name": "Flix Interactive",
+      "city": "Bromsgrove",
+      "country": "英国"
+    },
+    {
+      "name": "Triangular Pixels",
+      "city": "Bude",
+      "country": "英国"
+    },
+    {
+      "name": "Flox Studios",
+      "city": "Cambridge",
+      "country": "英国"
+    },
+    {
+      "name": "Frontier Developments",
+      "city": "Cambridge",
+      "country": "英国"
+    },
+    {
+      "name": "Ninja Theory",
+      "city": "Cambridge",
+      "country": "英国"
+    },
+    {
+      "name": "Studio Pepwuper",
+      "city": "Cambridge",
+      "country": "英国"
+    },
+    {
+      "name": "Omni Systems",
+      "city": "Canterbury",
+      "country": "英国"
+    },
+    {
+      "name": "Alternative Software",
+      "city": "Castleford",
+      "country": "英国"
+    },
+    {
+      "name": "The Mathematical Games Company",
+      "city": "Caterham",
+      "country": "英国"
+    },
+    {
+      "name": "SpecialEffect",
+      "city": "Charlbury",
+      "country": "英国"
+    },
+    {
+      "name": "Dovetail Games",
+      "city": "Chatham",
+      "country": "英国"
+    },
+    {
+      "name": "Big Boss Battle",
+      "city": "Chelmsford",
+      "country": "英国"
+    },
+    {
+      "name": "Semaeopus",
+      "city": "Chelmsford",
+      "country": "英国"
+    },
+    {
+      "name": "Baggy Cat Entertainment",
+      "city": "Chorley",
+      "country": "英国"
+    },
+    {
+      "name": "Neon Play",
+      "city": "Cirencester",
+      "country": "英国"
+    },
+    {
+      "name": "Round Squares Studios",
+      "city": "Connahs Quay",
+      "country": "英国"
+    },
+    {
+      "name": "Complete Control",
+      "city": "Corston",
+      "country": "英国"
+    },
+    {
+      "name": "Kuju Entertainment",
+      "city": "Croydon",
+      "country": "英国"
+    },
+    {
+      "name": "No Yetis Allowed",
+      "city": "Croydon",
+      "country": "英国"
+    },
+    {
+      "name": "Reef Entertainment",
+      "city": "Croydon",
+      "country": "英国"
+    },
+    {
+      "name": "Bulkhead Interactive",
+      "city": "Derby",
+      "country": "英国"
+    },
+    {
+      "name": "Deco Digital",
+      "city": "Derby",
+      "country": "英国"
+    },
+    {
+      "name": "LightForge Academy",
+      "city": "Doncaster",
+      "country": "英国"
+    },
+    {
+      "name": "Funbox Media",
+      "city": "Duckmanton",
+      "country": "英国"
+    },
+    {
+      "name": "Wreck Tangle Games",
+      "city": "Eastbourne",
+      "country": "英国"
+    },
+    {
+      "name": "Inertia Game Studios",
+      "city": "Ely",
+      "country": "英国"
+    },
+    {
+      "name": "Slitherine Software",
+      "city": "Epsom",
+      "country": "英国"
+    },
+    {
+      "name": "Fat Fish Games",
+      "city": "Falmer",
+      "country": "英国"
+    },
+    {
+      "name": "Waving Bear Studio",
+      "city": "Falmouth",
+      "country": "英国"
+    },
+    {
+      "name": "Wirehead Games",
+      "city": "Falmouth",
+      "country": "英国"
+    },
+    {
+      "name": "nDreams",
+      "city": "Farnborough",
+      "country": "英国"
+    },
+    {
+      "name": "Two Point Studios",
+      "city": "Farnham",
+      "country": "英国"
+    },
+    {
+      "name": "Coconut Lizard",
+      "city": "Gateshead",
+      "country": "英国"
+    },
+    {
+      "name": "Eutechnyx",
+      "city": "Gateshead",
+      "country": "英国"
+    },
+    {
+      "name": "High Tea frog",
+      "city": "Gateshead",
+      "country": "英国"
+    },
+    {
+      "name": "Pocket Money Games",
+      "city": "Gateshead",
+      "country": "英国"
+    },
+    {
+      "name": "Chilled Mouse",
+      "city": "Godalming",
+      "country": "英国"
+    },
+    {
+      "name": "Upstream Arcade",
+      "city": "Godalming",
+      "country": "英国"
+    },
+    {
+      "name": "Ghostlight",
+      "city": "Great Notley",
+      "country": "英国"
+    },
+    {
+      "name": "Midas Interactive Entertainment",
+      "city": "Great Notley",
+      "country": "英国"
+    },
+    {
+      "name": "22Cans",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Absolutely Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Cavalier Game Studios",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Criterion Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "DPS Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Fireblade Software",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Fireproof Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Flaming Fowl Studios",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Fortitude Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Glowmade",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Hello Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Magic Notion",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Media Molecule",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Mediatonic",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Mojiworks",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Perchang",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "PixelCount Studios",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Playsport Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Rodeo Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Stellar Entertainment",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Supergonk",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Supermassive Games",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Turbulenz",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Ubisoft Northern Europe",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Wonderstruck",
+      "city": "Guildford",
+      "country": "英国"
+    },
+    {
+      "name": "Delve Interactive",
+      "city": "Hailsham",
+      "country": "英国"
+    },
+    {
+      "name": "Cascade Games",
+      "city": "Harrogate",
+      "country": "英国"
+    },
+    {
+      "name": "Superscape",
+      "city": "Hook",
+      "country": "英国"
+    },
+    {
+      "name": "The Creative Assembly",
+      "city": "Horsham",
+      "country": "英国"
+    },
+    {
+      "name": "FuturLab",
+      "city": "Hove",
+      "country": "英国"
+    },
+    {
+      "name": "PaperSeven",
+      "city": "Hove",
+      "country": "英国"
+    },
+    {
+      "name": "ShortRound Games",
+      "city": "Hove",
+      "country": "英国"
+    },
+    {
+      "name": "Snap Finger Click",
+      "city": "Hove",
+      "country": "英国"
+    },
+    {
+      "name": "Studio Gobo",
+      "city": "Hove",
+      "country": "英国"
+    },
+    {
+      "name": "TT Games",
+      "city": "Hove",
+      "country": "英国"
+    },
+    {
+      "name": "Just Trains",
+      "city": "Huntingdon",
+      "country": "英国"
+    },
+    {
+      "name": "Palringo",
+      "city": "Ipswich",
+      "country": "英国"
+    },
+    {
+      "name": "Spacefarer Games",
+      "city": "Kirby Cross",
+      "country": "英国"
+    },
+    {
+      "name": "Merge Games",
+      "city": "Knutsford",
+      "country": "英国"
+    },
+    {
+      "name": "TT Games",
+      "city": "Knutsford",
+      "country": "英国"
+    },
+    {
+      "name": "Traveller's Tales",
+      "city": "Knutsford",
+      "country": "英国"
+    },
+    {
+      "name": "GameDigits",
+      "city": "Leeds",
+      "country": "英国"
+    },
+    {
+      "name": "Rockstar Leeds",
+      "city": "Leeds",
+      "country": "英国"
+    },
+    {
+      "name": "Sumo Digital",
+      "city": "Leeds",
+      "country": "英国"
+    },
+    {
+      "name": "XR Games",
+      "city": "Leeds",
+      "country": "英国"
+    },
+    {
+      "name": "Ingenious Concepts",
+      "city": "Leicester",
+      "country": "英国"
+    },
+    {
+      "name": "Kalypso Media",
+      "city": "Leicester",
+      "country": "英国"
+    },
+    {
+      "name": "Kasedo Games",
+      "city": "Leicester",
+      "country": "英国"
+    },
+    {
+      "name": "Starcaster Games",
+      "city": "Leicester",
+      "country": "英国"
+    },
+    {
+      "name": "Koei Tecmo",
+      "city": "Letchworth Garden City",
+      "country": "英国"
+    },
+    {
+      "name": "pQube",
+      "city": "Letchworth Garden City",
+      "country": "英国"
+    },
+    {
+      "name": "Sinister Fish Games",
+      "city": "Lincoln",
+      "country": "英国"
+    },
+    {
+      "name": "Avalanche Studios Group",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Firesprite",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Lucid Games",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Milky Tea Studios",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Onteca",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Playrise Digital",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Ripstone",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Spiral House",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "Wushu Studios",
+      "city": "Liverpool",
+      "country": "英国"
+    },
+    {
+      "name": "8FLOOR",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Amuzo",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "BBC Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Big Farmer",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "BoomBit",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Bossa Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "CCP Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Canterbury Games Studio",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Capcom",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Chucklefish",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Chucklefish Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Claymatic Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "CloudTheWolf Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Cohort Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Curve Digital",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Daedalus Partners",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Digiment",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Dreadlocks",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Eutechnyx",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Experience12",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Feral Interactive",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "FireFly Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Fireshine Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Future Games of London",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "GameAnalytics",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Gameloft",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Games Foundry",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "GamesIndustry.biz",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Genba Digital",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Ghost Town Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Goldborough Studio",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Goodbye Kansas",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Green Man Gaming",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Heavy Spectrum Entertainment Labs",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Hutch",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "ICHI Worldwide",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Improbable",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Infinite State Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Liquid Violet",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Little Orbit",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "London Studio",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Madowl Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Marvelous Europe",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Maverick Media",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Mediatonic",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "NaturalMotion",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "NerdRage Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Niantic",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Nitrome Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Outfit7",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Outright Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "PagadoWest Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Palringo",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Pearl Lemon Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Pesky Digital",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Pixel United",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Playerthree",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Playtika",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Preloaded",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Product Madness",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "RealityJam",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Rockstar Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Rockstar London",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Rocksteady Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Roll7",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Room 8 Studio",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Sabec",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Scopely",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Sega",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Slightly Mad Studios",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Sony Interactive Entertainment",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Space Ape Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Sports Interactive",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Square Enix",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Square Enix Collective",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Square Enix Europe",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "State of Play",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "System 3",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "TIGA",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "The Mathematical Games Company",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Tonic Games Group",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Twitch",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Ukie",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Variable State",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Waste Creative",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Women in Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Zut Games",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "ustwo",
+      "city": "London",
+      "country": "英国"
+    },
+    {
+      "name": "Rising Star Games",
+      "city": "Luton",
+      "country": "英国"
+    },
+    {
+      "name": "Chillingo",
+      "city": "Macclesfield",
+      "country": "英国"
+    },
+    {
+      "name": "TT Games",
+      "city": "Maidenhead",
+      "country": "英国"
+    },
+    {
+      "name": "Cherry Pop Games",
+      "city": "Manchester",
+      "country": "英国"
+    },
+    {
+      "name": "Four Circle Interactive",
+      "city": "Marlow",
+      "country": "英国"
+    },
+    {
+      "name": "Little Stone Software",
+      "city": "Methley",
+      "country": "英国"
+    },
+    {
+      "name": "Cardboard Sword",
+      "city": "Middlesbrough",
+      "country": "英国"
+    },
+    {
+      "name": "Double Eleven",
+      "city": "Middlesbrough",
+      "country": "英国"
+    },
+    {
+      "name": "Fox Byte Games",
+      "city": "Middlesbrough",
+      "country": "英国"
+    },
+    {
+      "name": "Radical Forge",
+      "city": "Middlesbrough",
+      "country": "英国"
+    },
+    {
+      "name": "Jagex",
+      "city": "Milton",
+      "country": "英国"
+    },
+    {
+      "name": "505 Games",
+      "city": "Milton Keynes",
+      "country": "英国"
+    },
+    {
+      "name": "DR Studios",
+      "city": "Milton Keynes",
+      "country": "英国"
+    },
+    {
+      "name": "Virtual Programming",
+      "city": "Milton Keynes",
+      "country": "英国"
+    },
+    {
+      "name": "Raredrop Games",
+      "city": "Nailsea",
+      "country": "英国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Newcastle Upon Tyne",
+      "country": "英国"
+    },
+    {
+      "name": "Nosebleed Interactive",
+      "city": "Newcastle Upon Tyne",
+      "country": "英国"
+    },
+    {
+      "name": "Palringo",
+      "city": "Newcastle Upon Tyne",
+      "country": "英国"
+    },
+    {
+      "name": "Silent Games",
+      "city": "Newcastle Upon Tyne",
+      "country": "英国"
+    },
+    {
+      "name": "Ubisoft Reflections",
+      "city": "Newcastle Upon Tyne",
+      "country": "英国"
+    },
+    {
+      "name": "Stainless Games",
+      "city": "Newport",
+      "country": "英国"
+    },
+    {
+      "name": "Rockstar Lincoln",
+      "city": "North Hykeham",
+      "country": "英国"
+    },
+    {
+      "name": "Dambuster Studios",
+      "city": "Nottingham",
+      "country": "英国"
+    },
+    {
+      "name": "Free Radical Design",
+      "city": "Nottingham",
+      "country": "英国"
+    },
+    {
+      "name": "Games Workshop",
+      "city": "Nottingham",
+      "country": "英国"
+    },
+    {
+      "name": "Sumo Digital",
+      "city": "Nottingham",
+      "country": "英国"
+    },
+    {
+      "name": "Team17",
+      "city": "Nottingham",
+      "country": "英国"
+    },
+    {
+      "name": "Rebellion",
+      "city": "Ossett",
+      "country": "英国"
+    },
+    {
+      "name": "First Touch Games",
+      "city": "Oxford",
+      "country": "英国"
+    },
+    {
+      "name": "Rebellion",
+      "city": "Oxford",
+      "country": "英国"
+    },
+    {
+      "name": "New Star Games",
+      "city": "Padbury",
+      "country": "英国"
+    },
+    {
+      "name": "Antimatter Games",
+      "city": "Penryn",
+      "country": "英国"
+    },
+    {
+      "name": "Burnthouse Games",
+      "city": "Penryn",
+      "country": "英国"
+    },
+    {
+      "name": "Handsome Devil Studios",
+      "city": "Penryn",
+      "country": "英国"
+    },
+    {
+      "name": "Moonshine Studios",
+      "city": "Penryn",
+      "country": "英国"
+    },
+    {
+      "name": "Polargryph",
+      "city": "Penryn",
+      "country": "英国"
+    },
+    {
+      "name": "Toadman Interactive",
+      "city": "Penryn",
+      "country": "英国"
+    },
+    {
+      "name": "Kittens In Timespace",
+      "city": "Penzance",
+      "country": "英国"
+    },
+    {
+      "name": "Lightwood Games",
+      "city": "Perton",
+      "country": "英国"
+    },
+    {
+      "name": "Three Fields Entertainment",
+      "city": "Petersfield",
+      "country": "英国"
+    },
+    {
+      "name": "Mutant Labs",
+      "city": "Plymouth",
+      "country": "英国"
+    },
+    {
+      "name": "Climax Studios",
+      "city": "Portsmouth",
+      "country": "英国"
+    },
+    {
+      "name": "Freejam",
+      "city": "Portsmouth",
+      "country": "英国"
+    },
+    {
+      "name": "Massive Monster",
+      "city": "Road",
+      "country": "英国"
+    },
+    {
+      "name": "Genba Digital",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "KISS Publishing",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Kiz Studios",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Kwalee",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Lab42 Games",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Lively Studio",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Mad Fellows",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Midoki",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Modern Dream",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Pixel Toys",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Playground Games",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Sumo Digital",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Supersonic Software",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Third Kind Games",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Ubisoft Leamington",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Unit 2 Games",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Very Good Friend",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Viewpoint Games",
+      "city": "Royal Leamington Spa",
+      "country": "英国"
+    },
+    {
+      "name": "Focus Multimedia",
+      "city": "Rugeley",
+      "country": "英国"
+    },
+    {
+      "name": "Codemasters",
+      "city": "Runcorn",
+      "country": "英国"
+    },
+    {
+      "name": "Rebellion",
+      "city": "Runcorn",
+      "country": "英国"
+    },
+    {
+      "name": "d3t",
+      "city": "Runcorn",
+      "country": "英国"
+    },
+    {
+      "name": "Team17",
+      "city": "Salford",
+      "country": "英国"
+    },
+    {
+      "name": "Yippee Entertainment",
+      "city": "Salford",
+      "country": "英国"
+    },
+    {
+      "name": "Ionized Studios",
+      "city": "Salisbury",
+      "country": "英国"
+    },
+    {
+      "name": "BGI",
+      "city": "Sheffield",
+      "country": "英国"
+    },
+    {
+      "name": "Secret Mode",
+      "city": "Sheffield",
+      "country": "英国"
+    },
+    {
+      "name": "Sumo Digital",
+      "city": "Sheffield",
+      "country": "英国"
+    },
+    {
+      "name": "Size Five Games",
+      "city": "Sherborne",
+      "country": "英国"
+    },
+    {
+      "name": "Spiderling Studios",
+      "city": "Shoreham By Sea",
+      "country": "英国"
+    },
+    {
+      "name": "Unicube",
+      "city": "Shrewsbury",
+      "country": "英国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Slough",
+      "country": "英国"
+    },
+    {
+      "name": "Aniode",
+      "city": "Southampton",
+      "country": "英国"
+    },
+    {
+      "name": "Bitmap Bureau",
+      "city": "Southampton",
+      "country": "英国"
+    },
+    {
+      "name": "Codemasters",
+      "city": "Southam",
+      "country": "英国"
+    },
+    {
+      "name": "Puppygames",
+      "city": "South Petherton",
+      "country": "英国"
+    },
+    {
+      "name": "Super Icon",
+      "city": "St Ives",
+      "country": "英国"
+    },
+    {
+      "name": "Ace Viral",
+      "city": "Sunderland",
+      "country": "英国"
+    },
+    {
+      "name": "Coatsink",
+      "city": "Sunderland",
+      "country": "英国"
+    },
+    {
+      "name": "Rogue Sun",
+      "city": "Surrey Research Park",
+      "country": "英国"
+    },
+    {
+      "name": "Twistplay",
+      "city": "Surrey Research Park",
+      "country": "英国"
+    },
+    {
+      "name": "Llamasoft",
+      "city": "Tadley",
+      "country": "英国"
+    },
+    {
+      "name": "Nyamyam",
+      "city": "Tamworth",
+      "country": "英国"
+    },
+    {
+      "name": "Plaion",
+      "city": "Theale",
+      "country": "英国"
+    },
+    {
+      "name": "Adventure Soft",
+      "city": "The Royal Town Of Sutton Coldfield",
+      "country": "英国"
+    },
+    {
+      "name": "Rare",
+      "city": "Twycross",
+      "country": "英国"
+    },
+    {
+      "name": "CI Games",
+      "city": "Uxbridge",
+      "country": "英国"
+    },
+    {
+      "name": "Team17",
+      "city": "Wakefield",
+      "country": "英国"
+    },
+    {
+      "name": "Facepunch Studios",
+      "city": "Walsall",
+      "country": "英国"
+    },
+    {
+      "name": "Introversion Software",
+      "city": "Walton On Thames",
+      "country": "英国"
+    },
+    {
+      "name": "Cold Beam Games",
+      "city": "Warrington",
+      "country": "英国"
+    },
+    {
+      "name": "Second Impact Games",
+      "city": "Warrington",
+      "country": "英国"
+    },
+    {
+      "name": "Sumo Digital",
+      "city": "Warrington",
+      "country": "英国"
+    },
+    {
+      "name": "Exient",
+      "city": "Warwick",
+      "country": "英国"
+    },
+    {
+      "name": "Full Fat Games",
+      "city": "Warwick",
+      "country": "英国"
+    },
+    {
+      "name": "Hardlight",
+      "city": "Warwick",
+      "country": "英国"
+    },
+    {
+      "name": "ProjectorGames",
+      "city": "Warwick",
+      "country": "英国"
+    },
+    {
+      "name": "Rebellion",
+      "city": "Warwick",
+      "country": "英国"
+    },
+    {
+      "name": "Sponge Hammer",
+      "city": "Warwick",
+      "country": "英国"
+    },
+    {
+      "name": "Numskull Games",
+      "city": "Welwyn Garden City",
+      "country": "英国"
+    },
+    {
+      "name": "Cloud Imperium Games",
+      "city": "Wilmslow",
+      "country": "英国"
+    },
+    {
+      "name": "Playdemic",
+      "city": "Wilmslow",
+      "country": "英国"
+    },
+    {
+      "name": "TT Fusion",
+      "city": "Wilmslow",
+      "country": "英国"
+    },
+    {
+      "name": "TT Games",
+      "city": "Wilmslow",
+      "country": "英国"
+    },
+    {
+      "name": "2K",
+      "city": "Windsor",
+      "country": "英国"
+    },
+    {
+      "name": "BitBull",
+      "city": "Winsley",
+      "country": "英国"
+    },
+    {
+      "name": "Glitch Games",
+      "city": "Witney",
+      "country": "英国"
+    },
+    {
+      "name": "Two Tails",
+      "city": "Witney",
+      "country": "英国"
+    },
+    {
+      "name": "Atom Republic",
+      "city": "Woking",
+      "country": "英国"
+    },
+    {
+      "name": "XMPT Games",
+      "city": "Woking",
+      "country": "英国"
+    },
+    {
+      "name": "Forward For",
+      "city": "Wolverhampton",
+      "country": "英国"
+    },
+    {
+      "name": "Rebourne Studios",
+      "city": "Wolverhampton",
+      "country": "英国"
+    },
+    {
+      "name": "Revolution Software",
+      "city": "York",
+      "country": "英国"
     }
   ]};
