@@ -22,7 +22,6 @@
             background-color: #1a1a2e;
             color: #e6e6e6;
             height: 100vh;
-            /* 考虑iPhone 11的安全区域 */
             padding-top: var(--safe-area-inset-top);
             padding-bottom: var(--safe-area-inset-bottom);
             overflow: hidden;
@@ -165,6 +164,20 @@
             text-align: center;
         }
         
+        .error {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(239, 68, 68, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            z-index: 1001;
+            color: white;
+            text-align: center;
+            max-width: 80%;
+        }
+        
         /* 移动端特定样式 */
         .mobile-controls {
             position: absolute;
@@ -270,30 +283,90 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <!-- 先加载数据文件 -->
-    <script src="cityCoordinates.js"></script>
-    <script src="gameCompaniesData.js"></script>
-    <!-- 最后加载主逻辑 -->
+    
     <script>
-        // 主应用逻辑
-        document.addEventListener('DOMContentLoaded', function() {
-            // 检查数据是否已加载
-            if (typeof gameCompaniesData === 'undefined' || typeof cityCoordinates === 'undefined') {
-                document.getElementById('loading').innerHTML = '<h3>数据加载失败</h3><p>请检查数据文件是否正确加载</p>';
-                return;
+        // 异步加载数据文件
+        async function loadData() {
+            try {
+                console.log('开始加载数据文件...');
+                
+                // 动态创建script标签加载数据
+                await loadScript('cityCoordinates.js');
+                await loadScript('gameCompaniesData.js');
+                
+                // 验证数据
+                if (typeof gameCompaniesData === 'undefined') {
+                    throw new Error('gameCompaniesData 未定义，请检查 gameCompaniesData.js 文件');
+                }
+                
+                if (typeof cityCoordinates === 'undefined') {
+                    throw new Error('cityCoordinates 未定义，请检查 cityCoordinates.js 文件');
+                }
+                
+                if (!gameCompaniesData.companies || !Array.isArray(gameCompaniesData.companies)) {
+                    throw new Error('companies 数组不存在或格式错误');
+                }
+                
+                console.log('数据文件加载成功');
+                
+                // 初始化应用
+                initApp();
+            } catch (error) {
+                console.error('数据加载失败:', error);
+                showError('数据加载失败: ' + error.message);
             }
+        }
+
+        function loadScript(src) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.onload = () => {
+                    console.log(`成功加载: ${src}`);
+                    resolve();
+                };
+                script.onerror = () => {
+                    console.error(`加载失败: ${src}`);
+                    reject(new Error(`无法加载脚本: ${src}`));
+                };
+                document.head.appendChild(script);
+            });
+        }
+
+        function showError(message) {
+            const loadingEl = document.getElementById('loading');
+            loadingEl.innerHTML = `<h3>错误</h3><p>${message}</p>`;
+            loadingEl.className = 'error';
+        }
+
+        function getMarkerSize(companyCount) {
+            if (companyCount <= 5) return 10;
+            if (companyCount <= 15) return 16;
+            return 22;
+        }
+
+        function getMarkerColor(companyCount) {
+            if (companyCount <= 5) return '#4ade80';
+            if (companyCount <= 15) return '#f59e0b';
+            return '#ef4444';
+        }
+
+        function initApp() {
+            console.log('初始化应用...');
             
             // 隐藏加载提示
             document.getElementById('loading').style.display = 'none';
             
-            // 初始化地图 - 调整初始视图以适应移动设备
-            const map = L.map('map').setView([30, 110], 3);
+            // 调试：检查数据
+            console.log('城市坐标数据示例:', Object.entries(cityCoordinates).slice(0, 3));
+            console.log('公司数据示例:', gameCompaniesData.companies.slice(0, 3));
+            
+            // 初始化地图 - 设置为中国区域
+            const map = L.map('map').setView([35, 105], 4);
             
             // 添加地图图层
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                // 移动设备优化
-                detectRetina: true,
                 maxZoom: 18,
                 minZoom: 1
             }).addTo(map);
@@ -302,27 +375,17 @@
             map.touchZoom.enable();
             map.doubleClickZoom.disable();
             
-            // 根据公司数量计算标记大小
-            function getMarkerSize(companyCount) {
-                if (companyCount <= 5) return 10;
-                if (companyCount <= 15) return 16;
-                return 22;
-            }
-
-            // 根据公司数量计算标记颜色
-            function getMarkerColor(companyCount) {
-                if (companyCount <= 5) return '#4ade80';
-                if (companyCount <= 15) return '#f59e0b';
-                return '#ef4444';
-            }
-
             // 处理城市数据，按城市分组
             const cities = {};
+            let validCompanies = 0;
+            let citiesWithCoords = 0;
+            
             gameCompaniesData.companies.forEach(company => {
                 const cityKey = company.city;
                 if (!cities[cityKey]) {
                     const coords = cityCoordinates[cityKey];
-                    if (coords) {
+                    if (coords && coords.lat && coords.lng) {
+                        citiesWithCoords++;
                         cities[cityKey] = {
                             name: company.city,
                             country: company.country,
@@ -330,18 +393,37 @@
                             lng: coords.lng,
                             companies: []
                         };
+                    } else {
+                        console.warn(`未找到城市 "${cityKey}" 的坐标或坐标格式错误`);
                     }
                 }
                 if (cities[cityKey]) {
                     cities[cityKey].companies.push(company);
+                    validCompanies++;
                 }
             });
-
+            
+            console.log(`有效城市数量: ${citiesWithCoords}`);
+            console.log(`成功加载 ${validCompanies} 家公司数据，分布在 ${Object.keys(cities).length} 个城市`);
+            
+            // 如果没有有效城市，显示错误
+            if (Object.keys(cities).length === 0) {
+                showError('没有找到有效的城市坐标数据。请检查 cityCoordinates.js 文件中的城市名称是否与 gameCompaniesData.js 中的城市名称匹配。');
+                return;
+            }
+            
+            // 计算所有城市的边界，确保地图显示所有标记
+            const bounds = L.latLngBounds();
+            let markersAdded = 0;
+            
             // 为每个城市添加标记
             Object.values(cities).forEach(city => {
                 const companyCount = city.companies.length;
                 const markerSize = getMarkerSize(companyCount);
                 const markerColor = getMarkerColor(companyCount);
+                
+                // 扩展边界
+                bounds.extend([city.lat, city.lng]);
                 
                 // 创建自定义标记
                 const marker = L.circleMarker([city.lat, city.lng], {
@@ -370,15 +452,30 @@
                         </div>
                     </div>
                 `, {
-                    // 移动端优化
                     closeButton: true,
                     autoClose: false,
                     closeOnEscapeKey: true,
-                    className: 'mobile-popup'
+                    className: 'mobile-popup',
+                    maxWidth: 300
                 });
+                
+                markersAdded++;
+                console.log(`添加标记: ${city.name} (${city.lat}, ${city.lng}) - ${companyCount}家公司`);
             });
             
-            // 添加一个定位按钮（可选功能）
+            console.log(`成功添加 ${markersAdded} 个标记`);
+            
+            // 调整地图视图以显示所有标记
+            if (bounds.isValid()) {
+                map.fitBounds(bounds, { padding: [20, 20], maxZoom: 10 });
+                console.log('地图已调整到适合所有标记的视图');
+            } else {
+                // 如果边界无效，使用默认视图但放大一点
+                map.setView([35, 105], 5);
+                console.log('使用默认地图视图');
+            }
+            
+            // 添加定位按钮
             const locateControl = L.control({position: 'topleft'});
             locateControl.onAdd = function(map) {
                 const div = L.DomUtil.create('div', 'mobile-btn');
@@ -401,6 +498,25 @@
                 L.marker(e.latlng).addTo(map)
                     .bindPopup("您的大概位置").openPopup();
             });
+            
+            // 处理定位错误
+            map.on('locationerror', function(e) {
+                console.log('定位失败:', e.message);
+            });
+            
+            console.log('地图初始化完成');
+        }
+
+        // 在DOM加载完成后开始加载数据
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM加载完成，开始加载数据...');
+            loadData();
+        });
+
+        // 全局错误处理
+        window.addEventListener('error', function(e) {
+            console.error('全局错误:', e.error);
+            showError('发生错误: ' + e.message);
         });
     </script>
 </body>
