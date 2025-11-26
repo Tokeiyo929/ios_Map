@@ -1,4 +1,12 @@
 const cityCoordinates = {
+  "Abidjan": {
+    "lat": 6.944149,
+    "lng": -2.785978
+  },
+  "Abu Dhabi": {
+    "lat": 24.453835,
+    "lng": 54.377401
+  },
   "Nagoya": {
     "lat": 35.185105,
     "lng": 136.899844
@@ -42,6 +50,42 @@ const cityCoordinates = {
   "Stony Plain": {
     "lat": 53.528986,
     "lng": -114.004873
+  },
+  "Amman": {
+    "lat": 16.816384,
+    "lng": 44.540852
+  },
+  "malaga": {
+    "lat": 36.721303,
+    "lng": -4.421637
+  },
+  "seville": {
+    "lat": 37.38863,
+    "lng": -5.99534
+  },
+  "mairena-del-aljarafe": {
+    "lat": 37.344491,
+    "lng": -6.060677
+  },
+  "ankara": {
+    "lat": 39.920776,
+    "lng": 32.85405
+  },
+  "gravina-in-puglia": {
+    "lat": 40.82069,
+    "lng": 16.427384
+  },
+  "zaragoza": {
+    "lat": 41.652134,
+    "lng": -0.880943
+  },
+  "Ararat Province": {
+    "lat": 42.068158,
+    "lng": -70.153359
+  },
+  "holywood": {
+    "lat": 54.646842,
+    "lng": -5.793606
   },
   "Phoenix": {
     "lat": 33.665805,
@@ -99,6 +143,18 @@ const cityCoordinates = {
     "lat": 35.468427,
     "lng": -94.355335
   },
+  "gijon": {
+    "lat": 43.544942,
+    "lng": -5.66275
+  },
+  "oviedo": {
+    "lat": 43.361863,
+    "lng": -5.848358
+  },
+  "auckland": {
+    "lat": -36.852095,
+    "lng": 174.76318
+  },
   "Watson": {
     "lat": -35.234823,
     "lng": 149.159446
@@ -106,6 +162,98 @@ const cityCoordinates = {
   "Canberra": {
     "lat": -35.297591,
     "lng": 149.101268
+  },
+  "lyon": {
+    "lat": 45.757814,
+    "lng": 4.832011
+  },
+  "villeurbanne": {
+    "lat": 45.773357,
+    "lng": 4.886845
+  },
+  "annecy": {
+    "lat": 45.899235,
+    "lng": 6.128885
+  },
+  "genissieux": {
+    "lat": 45.0848,
+    "lng": 5.08622
+  },
+  "meylan": {
+    "lat": 45.209737,
+    "lng": 5.778361
+  },
+  "montbonnot-saint-martin": {
+    "lat": 45.22645,
+    "lng": 5.80266
+  },
+  "karlsruhe": {
+    "lat": 49.00687,
+    "lng": 8.40342
+  },
+  "ludwigsburg": {
+    "lat": 48.895394,
+    "lng": 9.189515
+  },
+  "alpirsbach": {
+    "lat": 48.345602,
+    "lng": 8.403308
+  },
+  "eningen": {
+    "lat": 48.486379,
+    "lng": 9.258426
+  },
+  "ettlingen": {
+    "lat": 48.941419,
+    "lng": 8.407635
+  },
+  "heidelberg": {
+    "lat": 49.409358,
+    "lng": 8.694724
+  },
+  "mannheim": {
+    "lat": 49.489291,
+    "lng": 8.46731
+  },
+  "offenburg": {
+    "lat": 48.469598,
+    "lng": 7.942924
+  },
+  "sankt-leon-rot": {
+    "lat": 49.26708,
+    "lng": 8.599923
+  },
+  "stuttgart": {
+    "lat": 48.778449,
+    "lng": 9.180013
+  },
+  "tubingen": {
+    "lat": 48.520326,
+    "lng": 9.053596
+  },
+  "ummendorf": {
+    "lat": 48.062665,
+    "lng": 9.830392
+  },
+  "Mexicali": {
+    "lat": 32.640525,
+    "lng": -115.474899
+  },
+  "Bangkok": {
+    "lat": 13.752494,
+    "lng": 100.493509
+  },
+  "banskobystricky-kraj": {
+    "lat": 48.738389,
+    "lng": 19.15858
+  },
+  "Banten": {
+    "lat": -6.44538,
+    "lng": 106.137559
+  },
+  "donostia-san-sebastian": {
+    "lat": 43.322422,
+    "lng": -1.983889
   },
   "Bath": {
     "lat": 51.381386,
@@ -115,6 +263,62 @@ const cityCoordinates = {
     "lat": 51.374858,
     "lng": -2.438715
   },
+  "munich": {
+    "lat": 48.137108,
+    "lng": 11.575382
+  },
+  "bamberg": {
+    "lat": 49.891604,
+    "lng": 10.886848
+  },
+  "burgthann": {
+    "lat": 49.357036,
+    "lng": 11.31696
+  },
+  "erlangen": {
+    "lat": 49.589157,
+    "lng": 10.981207
+  },
+  "furth": {
+    "lat": 49.488571,
+    "lng": 10.95872
+  },
+  "hohenkirchen-siegertsbrunn": {
+    "lat": 48.019794,
+    "lng": 11.72058
+  },
+  "munnerstadt": {
+    "lat": 50.249044,
+    "lng": 10.194263
+  },
+  "oberhaching": {
+    "lat": 48.026185,
+    "lng": 11.596249
+  },
+  "planegg": {
+    "lat": 48.103742,
+    "lng": 11.422003
+  },
+  "regensburg": {
+    "lat": 49.019533,
+    "lng": 12.097487
+  },
+  "zorneding": {
+    "lat": 48.084881,
+    "lng": 11.827673
+  },
+  "munchen": {
+    "lat": 48.137108,
+    "lng": 11.575382
+  },
+  "Beijing": {
+    "lat": 39.905714,
+    "lng": 116.391297
+  },
+  "belfast": {
+    "lat": 54.596391,
+    "lng": -5.930183
+  },
   "Slough": {
     "lat": 44.009872,
     "lng": -123.011528
@@ -123,13 +327,69 @@ const cityCoordinates = {
     "lat": 51.480029,
     "lng": -0.612572
   },
+  "berlin": {
+    "lat": 52.517389,
+    "lng": 13.395131
+  },
+  "concepcion": {
+    "lat": -36.82707,
+    "lng": -73.050206
+  },
+  "karlshamn": {
+    "lat": 56.170172,
+    "lng": 14.863128
+  },
+  "karlskrona": {
+    "lat": 56.162107,
+    "lng": 15.586642
+  },
+  "ronneby": {
+    "lat": 56.210042,
+    "lng": 15.276036
+  },
+  "Bogota": {
+    "lat": 4.653382,
+    "lng": -74.083633
+  },
   "Runcorn": {
     "lat": 51.466484,
     "lng": -0.423695
   },
+  "malyi": {
+    "lat": 48.01451,
+    "lng": 20.827613
+  },
+  "besancon": {
+    "lat": 47.238022,
+    "lng": 6.024362
+  },
   "Bracknell": {
     "lat": 51.414351,
     "lng": -0.744992
+  },
+  "spreenhagen": {
+    "lat": 52.341236,
+    "lng": 13.880304
+  },
+  "brasov-county": {
+    "lat": 45.642297,
+    "lng": 25.588939
+  },
+  "bratislava": {
+    "lat": 48.151699,
+    "lng": 17.109306
+  },
+  "bratislavsky-kraj": {
+    "lat": 48.155918,
+    "lng": 17.131354
+  },
+  "bremen": {
+    "lat": 53.07582,
+    "lng": 8.807165
+  },
+  "pencoed": {
+    "lat": 51.525612,
+    "lng": -3.506453
   },
   "Brighton": {
     "lat": -37.908196,
@@ -191,6 +451,18 @@ const cityCoordinates = {
     "lat": 49.023536,
     "lng": -122.797924
   },
+  "rennes": {
+    "lat": 48.111339,
+    "lng": -1.68002
+  },
+  "brussels": {
+    "lat": 50.846557,
+    "lng": 4.351697
+  },
+  "bucharest": {
+    "lat": 44.436141,
+    "lng": 26.10272
+  },
   "Marlow": {
     "lat": 51.571871,
     "lng": -0.776965
@@ -198,6 +470,38 @@ const cityCoordinates = {
   "Padbury": {
     "lat": 51.969886,
     "lng": -0.950058
+  },
+  "budapest": {
+    "lat": 47.497879,
+    "lng": 19.040238
+  },
+  "Mar del Plata": {
+    "lat": -37.997617,
+    "lng": -57.548208
+  },
+  "Buenos Aires": {
+    "lat": -34.609558,
+    "lng": -58.38879
+  },
+  "AAS": {
+    "lat": -27.506508,
+    "lng": -58.544252
+  },
+  "BMS": {
+    "lat": -34.609558,
+    "lng": -58.38879
+  },
+  "Busan": {
+    "lat": 35.179953,
+    "lng": 129.075236
+  },
+  "caerphilly": {
+    "lat": 51.672381,
+    "lng": -3.178394
+  },
+  "Calabarzon": {
+    "lat": 14.165831,
+    "lng": 121.353558
   },
   "San Francisco": {
     "lat": 37.809749,
@@ -607,6 +911,106 @@ const cityCoordinates = {
     "lat": 52.242296,
     "lng": 0.160473
   },
+  "los-cristianos": {
+    "lat": 28.05263,
+    "lng": -16.717
+  },
+  "san-cristobal-de-la-laguna": {
+    "lat": 28.485771,
+    "lng": -16.315942
+  },
+  "bern": {
+    "lat": 46.943801,
+    "lng": 7.433448
+  },
+  "copenhagen": {
+    "lat": 55.686724,
+    "lng": 12.570072
+  },
+  "frederiksberg": {
+    "lat": 55.678016,
+    "lng": 12.532619
+  },
+  "cardiff": {
+    "lat": 51.481655,
+    "lng": -3.179193
+  },
+  "castilla-y-leon": {
+    "lat": 41.55005,
+    "lng": -5.13874
+  },
+  "barcelona": {
+    "lat": 41.38258,
+    "lng": 2.177073
+  },
+  "granollers": {
+    "lat": 41.607956,
+    "lng": 2.287601
+  },
+  "lleida": {
+    "lat": 41.614761,
+    "lng": 0.626784
+  },
+  "sant-cugat-del-valles": {
+    "lat": 41.472843,
+    "lng": 2.081781
+  },
+  "hb004318": {
+    "lat": 41.852309,
+    "lng": 1.574504
+  },
+  "mnisek-pod-brdy": {
+    "lat": 49.866414,
+    "lng": 14.260949
+  },
+  "central-denmark-region": {
+    "lat": 56.235648,
+    "lng": 9.234625
+  },
+  "viborg": {
+    "lat": 56.446913,
+    "lng": 9.405935
+  },
+  "aarhus": {
+    "lat": 56.149628,
+    "lng": 10.213405
+  },
+  "grenaa": {
+    "lat": 56.413442,
+    "lng": 10.879314
+  },
+  "jyvaskyla": {
+    "lat": 62.241672,
+    "lng": 25.749581
+  },
+  "sliema": {
+    "lat": 35.912761,
+    "lng": 14.502071
+  },
+  "st-julians": {
+    "lat": 35.919922,
+    "lng": 14.487712
+  },
+  "attard": {
+    "lat": 35.890173,
+    "lng": 14.430339
+  },
+  "gzira": {
+    "lat": 35.90778,
+    "lng": 14.496125
+  },
+  "tours": {
+    "lat": 47.390047,
+    "lng": 0.688927
+  },
+  "aberystwyth": {
+    "lat": 52.414311,
+    "lng": -4.081685
+  },
+  "Pak Kret": {
+    "lat": 13.903552,
+    "lng": 100.528202
+  },
   "Wilmslow": {
     "lat": 53.326129,
     "lng": -2.232751
@@ -630,6 +1034,22 @@ const cityCoordinates = {
   "Ichikawa": {
     "lat": 35.721634,
     "lng": 139.930944
+  },
+  "Chihuahua": {
+    "lat": 28.5,
+    "lng": -106.0
+  },
+  "Chongqing": {
+    "lat": 30.05518,
+    "lng": 107.874871
+  },
+  "Bishkek": {
+    "lat": 42.842325,
+    "lng": 73.977554
+  },
+  "cluj-napoca": {
+    "lat": 46.770853,
+    "lng": 23.59805
   },
   "Boulder": {
     "lat": 38.841017,
@@ -671,6 +1091,30 @@ const cityCoordinates = {
     "lat": 39.861725,
     "lng": -105.080249
   },
+  "madrid": {
+    "lat": 40.416782,
+    "lng": -3.703507
+  },
+  "community-of-madrid": {
+    "lat": 40.416782,
+    "lng": -3.703507
+  },
+  "san-sebastian-de-los-reyes": {
+    "lat": 40.54737,
+    "lng": -3.626059
+  },
+  "alcobendas": {
+    "lat": 40.540008,
+    "lng": -3.635849
+  },
+  "las-rozas-de-madrid": {
+    "lat": 40.49331,
+    "lng": -3.87584
+  },
+  "rivas-vaciamadrid": {
+    "lat": 40.353605,
+    "lng": -3.531088
+  },
   "Hartford": {
     "lat": 41.764582,
     "lng": -72.690855
@@ -699,6 +1143,46 @@ const cityCoordinates = {
     "lat": 50.214906,
     "lng": -5.479508
   },
+  "dublin": {
+    "lat": 53.428292,
+    "lng": -6.247274
+  },
+  "county-dublin": {
+    "lat": 53.428292,
+    "lng": -6.247274
+  },
+  "galway": {
+    "lat": 53.274412,
+    "lng": -9.04906
+  },
+  "oranmore": {
+    "lat": 53.284151,
+    "lng": -9.037836
+  },
+  "Cundinamarca": {
+    "lat": 5.000009,
+    "lng": -74.166676
+  },
+  "Da Nang": {
+    "lat": 16.068,
+    "lng": 108.212
+  },
+  "falun": {
+    "lat": 60.607007,
+    "lng": 15.632306
+  },
+  "borlange": {
+    "lat": 60.485643,
+    "lng": 15.423456
+  },
+  "hedemora": {
+    "lat": 60.2786,
+    "lng": 15.987029
+  },
+  "sater": {
+    "lat": 60.346972,
+    "lng": 15.748689
+  },
   "Delaware": {
     "lat": 40.158483,
     "lng": -83.015393
@@ -711,6 +1195,10 @@ const cityCoordinates = {
     "lat": 39.745947,
     "lng": -75.546589
   },
+  "New Delhi": {
+    "lat": 28.613895,
+    "lng": 77.209006
+  },
   "Duckmanton": {
     "lat": 53.223921,
     "lng": -1.34116
@@ -718,6 +1206,26 @@ const cityCoordinates = {
   "Derby": {
     "lat": 52.914223,
     "lng": -1.471989
+  },
+  "londonderry": {
+    "lat": 54.993112,
+    "lng": -7.323577
+  },
+  "Dhaka": {
+    "lat": 23.764386,
+    "lng": 90.389014
+  },
+  "dnipro": {
+    "lat": 48.662589,
+    "lng": 34.950172
+  },
+  "kamianske": {
+    "lat": 48.516775,
+    "lng": 34.60688
+  },
+  "craiova": {
+    "lat": 44.319016,
+    "lng": 23.796561
   },
   "Bournemouth": {
     "lat": 50.829061,
@@ -731,6 +1239,30 @@ const cityCoordinates = {
     "lat": 50.950265,
     "lng": -2.517924
   },
+  "assen": {
+    "lat": 52.995227,
+    "lng": 6.560498
+  },
+  "Dubai": {
+    "lat": 25.229634,
+    "lng": 55.289585
+  },
+  "wanlockhead": {
+    "lat": 55.397467,
+    "lng": -3.779775
+  },
+  "scotland": {
+    "lat": 55.083333,
+    "lng": -3.833333
+  },
+  "dundee": {
+    "lat": 56.460653,
+    "lng": -2.968658
+  },
+  "musselburgh": {
+    "lat": 55.943202,
+    "lng": -3.051104
+  },
   "Eastbourne": {
     "lat": 50.766437,
     "lng": 0.278155
@@ -742,6 +1274,18 @@ const cityCoordinates = {
   "Hailsham": {
     "lat": 50.862823,
     "lng": 0.273061
+  },
+  "edinburgh": {
+    "lat": 55.953346,
+    "lng": -3.188375
+  },
+  "bologna": {
+    "lat": 44.49382,
+    "lng": 11.342633
+  },
+  "emilia-romagna": {
+    "lat": 44.525696,
+    "lng": 11.039437
   },
   "Chelmsford": {
     "lat": 51.734533,
@@ -759,9 +1303,41 @@ const cityCoordinates = {
     "lat": 51.841507,
     "lng": 1.213797
   },
-  "Connah's Quay": {
-    "lat": 53.219904,
-    "lng": -3.066178
+  "distrito-federal": {
+    "lat": -15.775446,
+    "lng": -47.797089
+  },
+  "Kuala Lumpur": {
+    "lat": 3.151696,
+    "lng": 101.694237
+  },
+  "dunfermline": {
+    "lat": 56.071372,
+    "lng": -3.461618
+  },
+  "kortrijk": {
+    "lat": 50.827643,
+    "lng": 3.265988
+  },
+  "antwerp": {
+    "lat": 51.22111,
+    "lng": 4.399708
+  },
+  "dilbeek": {
+    "lat": 50.844155,
+    "lng": 4.265675
+  },
+  "mechelen": {
+    "lat": 51.028138,
+    "lng": 4.480345
+  },
+  "oudenaarde": {
+    "lat": 50.84337,
+    "lng": 3.604144
+  },
+  "mold": {
+    "lat": 53.166627,
+    "lng": -3.141423
   },
   "Orlando": {
     "lat": 28.514346,
@@ -831,6 +1407,18 @@ const cityCoordinates = {
     "lat": 27.991896,
     "lng": -82.521809
   },
+  "leeuwarden": {
+    "lat": 53.200594,
+    "lng": 5.791855
+  },
+  "Xiamen": {
+    "lat": 24.543873,
+    "lng": 118.076807
+  },
+  "Fuzhou": {
+    "lat": 26.077495,
+    "lng": 119.291821
+  },
   "Fukuoka": {
     "lat": 33.589899,
     "lng": 130.401751
@@ -838,6 +1426,30 @@ const cityCoordinates = {
   "Fukushima": {
     "lat": 37.760777,
     "lng": 140.474581
+  },
+  "Gabes": {
+    "lat": 33.887808,
+    "lng": 10.10044
+  },
+  "Gansu": {
+    "lat": 38.0,
+    "lng": 102.0
+  },
+  "Alberton": {
+    "lat": -26.266989,
+    "lng": 28.122055
+  },
+  "Randburg": {
+    "lat": -26.091585,
+    "lng": 28.002028
+  },
+  "Sandton": {
+    "lat": -26.068241,
+    "lng": 28.047984
+  },
+  "doetinchem": {
+    "lat": 51.965519,
+    "lng": 6.289109
   },
   "Atlanta": {
     "lat": 33.738743,
@@ -871,9 +1483,29 @@ const cityCoordinates = {
     "lat": 35.399583,
     "lng": 136.848565
   },
+  "glasgow": {
+    "lat": 55.861155,
+    "lng": -4.250169
+  },
   "Cirencester": {
     "lat": 51.717103,
     "lng": -1.966162
+  },
+  "visby": {
+    "lat": 57.637936,
+    "lng": 18.297982
+  },
+  "belgrade": {
+    "lat": 44.828885,
+    "lng": 20.458146
+  },
+  "strasbourg": {
+    "lat": 48.584614,
+    "lng": 7.750713
+  },
+  "thionville": {
+    "lat": 49.357927,
+    "lng": 6.167587
   },
   "London": {
     "lat": 42.983675,
@@ -919,6 +1551,46 @@ const cityCoordinates = {
     "lat": 42.953555,
     "lng": -71.440406
   },
+  "poznan": {
+    "lat": 52.408266,
+    "lng": 16.93352
+  },
+  "haren": {
+    "lat": 53.170984,
+    "lng": 6.606141
+  },
+  "Shenzhen": {
+    "lat": 22.544574,
+    "lng": 114.054543
+  },
+  "Guangzhou": {
+    "lat": 23.130196,
+    "lng": 113.259294
+  },
+  "Ahmedabad": {
+    "lat": 23.021537,
+    "lng": 72.580057
+  },
+  "Seongnam-si": {
+    "lat": 37.441003,
+    "lng": 127.147664
+  },
+  "debrecen": {
+    "lat": 47.531399,
+    "lng": 21.625978
+  },
+  "kungsbacka": {
+    "lat": 57.488856,
+    "lng": 12.078753
+  },
+  "onsala": {
+    "lat": 57.398855,
+    "lng": 11.930291
+  },
+  "hamburg": {
+    "lat": 53.550341,
+    "lng": 10.000654
+  },
   "Aldershot": {
     "lat": 51.249417,
     "lng": -0.763015
@@ -939,9 +1611,41 @@ const cityCoordinates = {
     "lat": 51.341447,
     "lng": -1.144678
   },
+  "Hanoi": {
+    "lat": 21.028333,
+    "lng": 105.854041
+  },
+  "Gurugram": {
+    "lat": 28.459343,
+    "lng": 77.072657
+  },
+  "tourcoing": {
+    "lat": 50.723504,
+    "lng": 3.160571
+  },
+  "lesquin": {
+    "lat": 50.5888,
+    "lng": 3.10997
+  },
+  "lille": {
+    "lat": 50.636565,
+    "lng": 3.063528
+  },
+  "valenciennes": {
+    "lat": 50.357932,
+    "lng": 3.523485
+  },
   "Honolulu": {
     "lat": 21.29207,
     "lng": -157.846227
+  },
+  "hawkes-bay": {
+    "lat": -39.941397,
+    "lng": 176.569649
+  },
+  "Luoyang": {
+    "lat": 34.619654,
+    "lng": 112.447705
   },
   "Letchworth Garden City": {
     "lat": 51.980354,
@@ -955,6 +1659,34 @@ const cityCoordinates = {
     "lat": 51.803108,
     "lng": -0.206887
   },
+  "frankfurt": {
+    "lat": 50.110644,
+    "lng": 8.682092
+  },
+  "darmstadt": {
+    "lat": 49.872775,
+    "lng": 8.651177
+  },
+  "eschborn": {
+    "lat": 50.150474,
+    "lng": 8.560777
+  },
+  "bad-nauheim": {
+    "lat": 50.356954,
+    "lng": 8.748878
+  },
+  "langen": {
+    "lat": 49.991514,
+    "lng": 8.666702
+  },
+  "wiesbaden": {
+    "lat": 50.082038,
+    "lng": 8.241656
+  },
+  "inverness": {
+    "lat": 57.473578,
+    "lng": -4.23292
+  },
   "Hiroshima": {
     "lat": 34.391724,
     "lng": 132.451759
@@ -967,9 +1699,17 @@ const cityCoordinates = {
     "lat": 34.248449,
     "lng": 132.56525
   },
+  "Ho Chi Minh City": {
+    "lat": 10.775525,
+    "lng": 106.702105
+  },
   "Sapporo": {
     "lat": 43.061936,
     "lng": 141.354292
+  },
+  "Hong Kong Island": {
+    "lat": 22.312599,
+    "lng": 113.9173
   },
   "Amagasaki": {
     "lat": 34.733978,
@@ -978,6 +1718,10 @@ const cityCoordinates = {
   "Kobe": {
     "lat": 34.693238,
     "lng": 135.194376
+  },
+  "iasi": {
+    "lat": 47.183522,
+    "lng": 27.568607
   },
   "Boise": {
     "lat": 43.616616,
@@ -994,6 +1738,74 @@ const cityCoordinates = {
   "Rexburg": {
     "lat": 43.825756,
     "lng": -111.782183
+  },
+  "paris": {
+    "lat": 48.853495,
+    "lng": 2.348391
+  },
+  "montreuil": {
+    "lat": 48.862336,
+    "lng": 2.441218
+  },
+  "boulogne-billancourt": {
+    "lat": 48.835665,
+    "lng": 2.240206
+  },
+  "cergy": {
+    "lat": 49.052753,
+    "lng": 2.038874
+  },
+  "choisy-le-roi": {
+    "lat": 48.763024,
+    "lng": 2.409366
+  },
+  "croissy-sur-seine": {
+    "lat": 48.87936,
+    "lng": 2.146007
+  },
+  "issy-les-moulineaux": {
+    "lat": 48.825051,
+    "lng": 2.273457
+  },
+  "levallois-perret": {
+    "lat": 48.892956,
+    "lng": 2.288168
+  },
+  "lognes": {
+    "lat": 48.838416,
+    "lng": 2.632722
+  },
+  "nanterre": {
+    "lat": 48.892427,
+    "lng": 2.207127
+  },
+  "saint-germain-en-laye": {
+    "lat": 48.935605,
+    "lng": 2.091774
+  },
+  "saint-mande": {
+    "lat": 48.843243,
+    "lng": 2.415974
+  },
+  "saint-ouen-sur-seine": {
+    "lat": 48.911729,
+    "lng": 2.334267
+  },
+  "torcy": {
+    "lat": 48.8515,
+    "lng": 2.65265
+  },
+  "versailles": {
+    "lat": 48.80354,
+    "lng": 2.126689
+  },
+  "ile-de-france": {
+    "lat": 48.644306,
+    "lng": 2.753786
+  },
+  "pantelimon": {
+    "lat": 44.451879,
+    "lng": 26.203556
   },
   "Chicago": {
     "lat": 41.90305,
@@ -1123,6 +1935,46 @@ const cityCoordinates = {
     "lat": 50.700371,
     "lng": -1.295204
   },
+  "istanbul": {
+    "lat": 41.006381,
+    "lng": 28.975872
+  },
+  "bukovel": {
+    "lat": 48.353783,
+    "lng": 24.41283
+  },
+  "Jakarta": {
+    "lat": -6.175405,
+    "lng": 106.827168
+  },
+  "Guadalajara": {
+    "lat": 20.672037,
+    "lng": -103.338396
+  },
+  "Zapopan": {
+    "lat": 20.72112,
+    "lng": -103.391367
+  },
+  "Jeollabuk-do": {
+    "lat": 35.816827,
+    "lng": 127.147102
+  },
+  "Nanjing": {
+    "lat": 32.043828,
+    "lng": 118.778863
+  },
+  "Suzhou": {
+    "lat": 31.311123,
+    "lng": 120.621288
+  },
+  "jonkoping": {
+    "lat": 57.782563,
+    "lng": 14.165719
+  },
+  "kajaani": {
+    "lat": 64.224686,
+    "lng": 27.733928
+  },
   "Yokohama": {
     "lat": 35.450338,
     "lng": 139.63438
@@ -1151,6 +2003,14 @@ const cityCoordinates = {
     "lat": 39.038537,
     "lng": -95.762425
   },
+  "Bengaluru": {
+    "lat": 12.976794,
+    "lng": 77.590082
+  },
+  "kaunas": {
+    "lat": 54.898214,
+    "lng": 23.904482
+  },
   "Lexington": {
     "lat": 38.097832,
     "lng": -84.519229
@@ -1167,17 +2027,69 @@ const cityCoordinates = {
     "lat": 51.280028,
     "lng": 1.080253
   },
+  "Kakkanad": {
+    "lat": 10.01657,
+    "lng": 76.34275
+  },
+  "kharkiv": {
+    "lat": 49.992318,
+    "lng": 36.231015
+  },
+  "kirovohrad-oblast": {
+    "lat": 48.191677,
+    "lng": 31.690295
+  },
+  "kosicky-kraj": {
+    "lat": 48.676291,
+    "lng": 21.289817
+  },
+  "Kowloon": {
+    "lat": 22.33016,
+    "lng": 114.189937
+  },
+  "vislanda": {
+    "lat": 56.787226,
+    "lng": 14.451583
+  },
+  "aryd": {
+    "lat": 56.827259,
+    "lng": 14.979362
+  },
   "Kumamoto": {
     "lat": 32.803391,
     "lng": 130.708274
+  },
+  "bydgoszcz": {
+    "lat": 53.121965,
+    "lng": 18.000253
+  },
+  "inowroclaw": {
+    "lat": 52.795241,
+    "lng": 18.259562
+  },
+  "kyiv": {
+    "lat": 50.446247,
+    "lng": 30.520873
   },
   "Kyoto": {
     "lat": 35.011575,
     "lng": 135.768144
   },
+  "La Pampa": {
+    "lat": -37.178962,
+    "lng": -65.704912
+  },
   "Chorley": {
     "lat": 53.653191,
     "lng": -2.629431
+  },
+  "rome": {
+    "lat": 41.89332,
+    "lng": 12.482932
+  },
+  "lazio": {
+    "lat": 41.980804,
+    "lng": 12.766231
   },
   "Twycross": {
     "lat": 52.648865,
@@ -1187,6 +2099,26 @@ const cityCoordinates = {
     "lat": 52.6362,
     "lng": -1.133197
   },
+  "krakow": {
+    "lat": 50.061947,
+    "lng": 19.936856
+  },
+  "tymbark": {
+    "lat": 49.729361,
+    "lng": 20.324897
+  },
+  "Limassol": {
+    "lat": 34.68529,
+    "lng": 33.033266
+  },
+  "Germasogeia": {
+    "lat": 34.713084,
+    "lng": 33.087943
+  },
+  "Pissouri": {
+    "lat": 34.668905,
+    "lng": 32.701048
+  },
   "Lincoln": {
     "lat": 53.182303,
     "lng": -0.203121
@@ -1194,6 +2126,26 @@ const cityCoordinates = {
   "North Hykeham": {
     "lat": 53.187011,
     "lng": -0.58775
+  },
+  "lodz": {
+    "lat": 51.472168,
+    "lng": 19.346064
+  },
+  "milan": {
+    "lat": 45.464194,
+    "lng": 9.189635
+  },
+  "rho": {
+    "lat": 45.528878,
+    "lng": 9.04156
+  },
+  "assago": {
+    "lat": 45.405207,
+    "lng": 9.131335
+  },
+  "cinisello-balsamo": {
+    "lat": 45.558645,
+    "lng": 9.214196
   },
   "Baton Rouge": {
     "lat": 30.437052,
@@ -1215,9 +2167,37 @@ const cityCoordinates = {
     "lat": 31.524226,
     "lng": -92.728262
   },
+  "hanover": {
+    "lat": 52.374478,
+    "lng": 9.738553
+  },
+  "wroclaw": {
+    "lat": 51.108978,
+    "lng": 17.032669
+  },
+  "lucerne": {
+    "lat": 47.050545,
+    "lng": 8.305468
+  },
   "Luton": {
     "lat": 51.878439,
     "lng": -0.415284
+  },
+  "lviv": {
+    "lat": 49.841952,
+    "lng": 24.031592
+  },
+  "Mumbai": {
+    "lat": 19.054999,
+    "lng": 72.869203
+  },
+  "Pune": {
+    "lat": 18.521374,
+    "lng": 73.854507
+  },
+  "Maharashtra": {
+    "lat": 18.906836,
+    "lng": 75.674158
   },
   "Portland": {
     "lat": 45.497025,
@@ -1278,6 +2258,18 @@ const cityCoordinates = {
   "Sparks Glencoe": {
     "lat": 39.525703,
     "lng": -76.65489
+  },
+  "warsaw": {
+    "lat": 52.231958,
+    "lng": 21.006725
+  },
+  "grodzisk-mazowiecki": {
+    "lat": 52.106622,
+    "lng": 20.631344
+  },
+  "hornowek": {
+    "lat": 52.288149,
+    "lng": 20.807984
   },
   "Boston": {
     "lat": 42.355433,
@@ -1343,6 +2335,10 @@ const cityCoordinates = {
     "lat": 42.286353,
     "lng": -71.595027
   },
+  "warszawa": {
+    "lat": 52.231958,
+    "lng": 21.006725
+  },
   "Chatham": {
     "lat": 51.381917,
     "lng": 0.526559
@@ -1350,6 +2346,34 @@ const cityCoordinates = {
   "Liverpool": {
     "lat": 43.15021,
     "lng": -76.228884
+  },
+  "Makati": {
+    "lat": 14.556795,
+    "lng": 121.021123
+  },
+  "Pasig": {
+    "lat": 14.560517,
+    "lng": 121.076434
+  },
+  "Manila": {
+    "lat": 14.590449,
+    "lng": 120.980362
+  },
+  "Pasay": {
+    "lat": 14.5437,
+    "lng": 120.99465
+  },
+  "Taguig": {
+    "lat": 14.527054,
+    "lng": 121.074494
+  },
+  "Miraflores": {
+    "lat": -12.12176,
+    "lng": -77.029211
+  },
+  "Mexico City": {
+    "lat": 19.43263,
+    "lng": -99.133178
   },
   "Ann Arbor": {
     "lat": 42.291948,
@@ -1415,6 +2439,10 @@ const cityCoordinates = {
     "lat": 52.04065,
     "lng": -0.759409
   },
+  "minas-gerais": {
+    "lat": -18.526484,
+    "lng": -44.158865
+  },
   "Minneapolis": {
     "lat": 44.894183,
     "lng": -93.214691
@@ -1434,6 +2462,10 @@ const cityCoordinates = {
   "Northfield": {
     "lat": 44.458204,
     "lng": -93.161159
+  },
+  "minsk": {
+    "lat": 53.609904,
+    "lng": 27.591021
   },
   "St. Louis": {
     "lat": 38.701385,
@@ -1466,6 +2498,14 @@ const cityCoordinates = {
   "Kalispell": {
     "lat": 48.202158,
     "lng": -114.315321
+  },
+  "elgin": {
+    "lat": 57.648789,
+    "lng": -3.314846
+  },
+  "San Isidro": {
+    "lat": -12.097736,
+    "lng": -77.027392
   },
   "Nagano": {
     "lat": 36.648585,
@@ -1623,6 +2663,18 @@ const cityCoordinates = {
     "lat": -33.879473,
     "lng": 151.198435
   },
+  "New Taipei City": {
+    "lat": 25.02679,
+    "lng": 121.471078
+  },
+  "New Territories": {
+    "lat": 22.430072,
+    "lng": 114.07242
+  },
+  "New Valley Governorate": {
+    "lat": 23.980276,
+    "lng": 27.726997
+  },
   "New York": {
     "lat": 43.069226,
     "lng": -76.172489
@@ -1679,9 +2731,41 @@ const cityCoordinates = {
     "lat": 47.564679,
     "lng": -52.706696
   },
+  "Nicosia": {
+    "lat": 35.17465,
+    "lng": 33.363878
+  },
+  "Strovolos": {
+    "lat": 35.132899,
+    "lng": 33.345497
+  },
+  "nis": {
+    "lat": 43.381955,
+    "lng": 22.225664
+  },
   "Norwich": {
     "lat": 52.628558,
     "lng": 1.292395
+  },
+  "caen": {
+    "lat": 49.18134,
+    "lng": -0.363561
+  },
+  "boden": {
+    "lat": 65.8275,
+    "lng": 21.69641
+  },
+  "breda": {
+    "lat": 51.588785,
+    "lng": 4.776024
+  },
+  "eindhoven": {
+    "lat": 51.439265,
+    "lng": 5.478633
+  },
+  "valkenswaard": {
+    "lat": 51.320241,
+    "lng": 5.458182
   },
   "Raleigh": {
     "lat": 35.799673,
@@ -1731,6 +2815,102 @@ const cityCoordinates = {
     "lat": 46.910544,
     "lng": -98.708436
   },
+  "aalborg": {
+    "lat": 57.046263,
+    "lng": 9.921526
+  },
+  "Ang Mo Kio": {
+    "lat": 1.376515,
+    "lng": 103.858422
+  },
+  "amsterdam": {
+    "lat": 52.37308,
+    "lng": 4.892453
+  },
+  "hilversum": {
+    "lat": 52.224137,
+    "lng": 5.17194
+  },
+  "alkmaar": {
+    "lat": 52.631259,
+    "lng": 4.75038
+  },
+  "amstelveen": {
+    "lat": 52.286218,
+    "lng": 4.852649
+  },
+  "haarlem": {
+    "lat": 52.388532,
+    "lng": 4.638805
+  },
+  "hoofddorp": {
+    "lat": 52.305554,
+    "lng": 4.692664
+  },
+  "schiphol-rijk": {
+    "lat": 52.280732,
+    "lng": 4.762471
+  },
+  "oulu": {
+    "lat": 65.017766,
+    "lng": 25.475341
+  },
+  "Central Water Catchment": {
+    "lat": 1.370059,
+    "lng": 103.803448
+  },
+  "cologne": {
+    "lat": 50.938361,
+    "lng": 6.959974
+  },
+  "dusseldorf": {
+    "lat": 51.225402,
+    "lng": 6.776314
+  },
+  "bielefeld": {
+    "lat": 52.019101,
+    "lng": 8.531007
+  },
+  "buren": {
+    "lat": 51.549745,
+    "lng": 8.573475
+  },
+  "dortmund": {
+    "lat": 51.514227,
+    "lng": 7.465279
+  },
+  "duren": {
+    "lat": 50.803168,
+    "lng": 6.482081
+  },
+  "essen": {
+    "lat": 51.458224,
+    "lng": 7.015817
+  },
+  "gladbeck": {
+    "lat": 51.571866,
+    "lng": 6.987734
+  },
+  "gutersloh": {
+    "lat": 51.9064,
+    "lng": 8.378208
+  },
+  "krefeld": {
+    "lat": 51.33312,
+    "lng": 6.562334
+  },
+  "schermbeck": {
+    "lat": 51.692615,
+    "lng": 6.870219
+  },
+  "wuppertal": {
+    "lat": 51.264018,
+    "lng": 7.178037
+  },
+  "wurselen": {
+    "lat": 50.817868,
+    "lng": 6.134111
+  },
   "Nailsea": {
     "lat": 51.433418,
     "lng": -2.75851
@@ -1739,6 +2919,10 @@ const cityCoordinates = {
     "lat": 53.992149,
     "lng": -1.539104
   },
+  "suonenjoki": {
+    "lat": 62.624193,
+    "lng": 27.124561
+  },
   "Northern Territory": {
     "lat": -19.85161,
     "lng": 133.230337
@@ -1746,6 +2930,18 @@ const cityCoordinates = {
   "Nottingham": {
     "lat": 52.953419,
     "lng": -1.149646
+  },
+  "bordeaux": {
+    "lat": 44.841225,
+    "lng": -0.580036
+  },
+  "nouvelle-aquitaine": {
+    "lat": 45.403937,
+    "lng": 0.37562
+  },
+  "angouleme": {
+    "lat": 45.648451,
+    "lng": 0.156195
   },
   "Halifax": {
     "lat": 44.648618,
@@ -1770,6 +2966,18 @@ const cityCoordinates = {
   "Truro": {
     "lat": 45.365697,
     "lng": -63.286497
+  },
+  "montpellier": {
+    "lat": 43.611242,
+    "lng": 3.876734
+  },
+  "toulouse": {
+    "lat": 43.604464,
+    "lng": 1.444243
+  },
+  "odesa": {
+    "lat": 46.484302,
+    "lng": 30.732288
   },
   "Cleveland": {
     "lat": 41.541644,
@@ -1855,6 +3063,14 @@ const cityCoordinates = {
     "lat": 43.880117,
     "lng": -79.439292
   },
+  "strzelce-opolskie": {
+    "lat": 50.510903,
+    "lng": 18.300455
+  },
+  "orebro": {
+    "lat": 59.274729,
+    "lng": 15.215118
+  },
   "Beaverton": {
     "lat": 45.488157,
     "lng": -122.807836
@@ -1899,6 +3115,26 @@ const cityCoordinates = {
     "lat": 34.759419,
     "lng": 135.516835
   },
+  "linkoping": {
+    "lat": 58.409813,
+    "lng": 15.624525
+  },
+  "norrkoping": {
+    "lat": 58.590912,
+    "lng": 16.190351
+  },
+  "motala": {
+    "lat": 58.54204,
+    "lng": 15.041261
+  },
+  "atvidaberg": {
+    "lat": 58.200988,
+    "lng": 16.001898
+  },
+  "zwolle": {
+    "lat": 52.508976,
+    "lng": 6.094377
+  },
   "Oxford": {
     "lat": 51.833333,
     "lng": -1.25
@@ -1914,6 +3150,18 @@ const cityCoordinates = {
   "Charlbury": {
     "lat": 51.874697,
     "lng": -1.480661
+  },
+  "Panama City": {
+    "lat": 8.971449,
+    "lng": -79.53418
+  },
+  "Paphos": {
+    "lat": 34.774399,
+    "lng": 32.423159
+  },
+  "lawrenny": {
+    "lat": 51.72595,
+    "lng": -4.872149
   },
   "Philadelphia": {
     "lat": 39.977654,
@@ -1971,6 +3219,46 @@ const cityCoordinates = {
     "lat": 41.22685,
     "lng": -75.931735
   },
+  "collace": {
+    "lat": 56.477404,
+    "lng": -3.295761
+  },
+  "pest-county": {
+    "lat": 39.914753,
+    "lng": -88.273383
+  },
+  "Pa Tong": {
+    "lat": 7.896632,
+    "lng": 98.295429
+  },
+  "torino": {
+    "lat": 45.067755,
+    "lng": 7.682489
+  },
+  "tampere": {
+    "lat": 61.497793,
+    "lng": 23.761637
+  },
+  "rzeszow": {
+    "lat": 50.037453,
+    "lng": 22.004717
+  },
+  "poltava": {
+    "lat": 49.860781,
+    "lng": 33.749879
+  },
+  "gdansk": {
+    "lat": 54.370686,
+    "lng": 18.612983
+  },
+  "gdynia": {
+    "lat": 54.516498,
+    "lng": 18.540274
+  },
+  "prague": {
+    "lat": 50.059629,
+    "lng": 14.446459
+  },
   "Charlottetown": {
     "lat": 46.235419,
     "lng": -63.126539
@@ -1978,6 +3266,26 @@ const cityCoordinates = {
   "Prince Edward Island": {
     "lat": 46.335551,
     "lng": -63.146668
+  },
+  "cannes": {
+    "lat": 43.55152,
+    "lng": 7.013442
+  },
+  "hyeres": {
+    "lat": 43.120257,
+    "lng": 6.130161
+  },
+  "marseille": {
+    "lat": 43.296174,
+    "lng": 5.369953
+  },
+  "nice": {
+    "lat": 43.695392,
+    "lng": 7.265463
+  },
+  "Lahore": {
+    "lat": 31.565682,
+    "lng": 74.314183
   },
   "Montreal": {
     "lat": 45.503182,
@@ -2047,13 +3355,53 @@ const cityCoordinates = {
     "lat": -27.483299,
     "lng": 153.007502
   },
+  "Jaipur": {
+    "lat": 26.915458,
+    "lng": 75.818982
+  },
+  "Jodhpur": {
+    "lat": 26.296772,
+    "lng": 73.035143
+  },
+  "mainz": {
+    "lat": 49.999521,
+    "lng": 8.273625
+  },
+  "worms": {
+    "lat": 49.630262,
+    "lng": 8.36209
+  },
   "Providence": {
     "lat": 41.823989,
     "lng": -71.412834
   },
+  "abercynon": {
+    "lat": 51.647593,
+    "lng": -3.317828
+  },
+  "Pereira": {
+    "lat": 4.814316,
+    "lng": -75.694678
+  },
   "Niiza": {
     "lat": 35.793119,
     "lng": 139.565726
+  },
+  "salzburg": {
+    "lat": 47.798135,
+    "lng": 13.046481
+  },
+  "santa-catarina": {
+    "lat": 19.399559,
+    "lng": -99.496306
+  },
+  "las-condes": {
+    "lat": -33.408455,
+    "lng": -70.567149
+  },
+  "santiago-metropolitan-region": {
+    "lat": -33.573934,
+    "lng": -70.620552
   },
   "Regina": {
     "lat": 50.447973,
@@ -2067,6 +3415,50 @@ const cityCoordinates = {
     "lat": 52.131802,
     "lng": -106.660767
   },
+  "magdeburg": {
+    "lat": 52.131478,
+    "lng": 11.640079
+  },
+  "leipzig": {
+    "lat": 51.340632,
+    "lng": 12.374733
+  },
+  "bautzen": {
+    "lat": 51.180913,
+    "lng": 14.4276
+  },
+  "wilsdruff": {
+    "lat": 51.052413,
+    "lng": 13.536276
+  },
+  "kiel": {
+    "lat": 54.322708,
+    "lng": 10.135555
+  },
+  "Cyberjaya": {
+    "lat": 2.933891,
+    "lng": 101.645559
+  },
+  "Petaling Jaya": {
+    "lat": 3.098879,
+    "lng": 101.64542
+  },
+  "Seoul": {
+    "lat": 37.566679,
+    "lng": 126.978291
+  },
+  "Xi'an": {
+    "lat": 34.261004,
+    "lng": 108.942336
+  },
+  "Shanghai": {
+    "lat": 31.232344,
+    "lng": 121.469102
+  },
+  "Shang Hai Shi": {
+    "lat": 43.652837,
+    "lng": -79.398965
+  },
   "Izu": {
     "lat": 34.976455,
     "lng": 138.946708
@@ -2074,6 +3466,50 @@ const cityCoordinates = {
   "Shrewsbury": {
     "lat": 52.707755,
     "lng": -2.754066
+  },
+  "Chengdu": {
+    "lat": 30.659867,
+    "lng": 104.063315
+  },
+  "messina": {
+    "lat": 38.193757,
+    "lng": 15.554208
+  },
+  "katowice": {
+    "lat": 50.259899,
+    "lng": 19.021585
+  },
+  "gliwice": {
+    "lat": 50.294113,
+    "lng": 18.665731
+  },
+  "bielsko-biala": {
+    "lat": 49.822118,
+    "lng": 19.044894
+  },
+  "zabrze": {
+    "lat": 50.314281,
+    "lng": 18.781576
+  },
+  "malmo": {
+    "lat": 55.605293,
+    "lng": 13.000157
+  },
+  "helsingborg": {
+    "lat": 56.04421,
+    "lng": 12.703706
+  },
+  "lund": {
+    "lat": 55.70293,
+    "lng": 13.192945
+  },
+  "bromolla": {
+    "lat": 56.116667,
+    "lng": 14.55
+  },
+  "nykoping": {
+    "lat": 58.754541,
+    "lng": 17.012066
   },
   "South Petherton": {
     "lat": 50.94879,
@@ -2095,6 +3531,50 @@ const cityCoordinates = {
     "lat": 35.060084,
     "lng": -80.910337
   },
+  "South District": {
+    "lat": 22.219269,
+    "lng": 114.225223
+  },
+  "floriana": {
+    "lat": -25.097441,
+    "lng": -54.246782
+  },
+  "kalkara": {
+    "lat": 35.892507,
+    "lng": 14.458491
+  },
+  "valletta": {
+    "lat": 35.90521,
+    "lng": 14.437737
+  },
+  "rotterdam": {
+    "lat": 51.924442,
+    "lng": 4.47775
+  },
+  "capelle-aan-den-ijssel": {
+    "lat": 51.931255,
+    "lng": 4.58836
+  },
+  "delft": {
+    "lat": 51.999457,
+    "lng": 4.362725
+  },
+  "hoogvliet-rotterdam": {
+    "lat": 51.865285,
+    "lng": 4.364111
+  },
+  "sassenheim": {
+    "lat": 52.224636,
+    "lng": 4.519922
+  },
+  "jihomoravsky-kraj": {
+    "lat": 49.124918,
+    "lng": 16.682772
+  },
+  "brno": {
+    "lat": 49.146887,
+    "lng": 16.576892
+  },
   "Sheffield": {
     "lat": 53.380663,
     "lng": -1.470228
@@ -2107,6 +3587,18 @@ const cityCoordinates = {
     "lat": 50.902535,
     "lng": -1.404189
   },
+  "Daerah Istimewa Yogyakarta": {
+    "lat": -7.977838,
+    "lng": 110.367226
+  },
+  "Yogyakarta": {
+    "lat": -7.801265,
+    "lng": 110.364686
+  },
+  "st-gallen": {
+    "lat": 47.425618,
+    "lng": 9.37624
+  },
   "Perton": {
     "lat": 52.59572,
     "lng": -2.20338
@@ -2118,6 +3610,86 @@ const cityCoordinates = {
   "Tamworth": {
     "lat": 52.634582,
     "lng": -1.694844
+  },
+  "amazonas": {
+    "lat": 19.390636,
+    "lng": -98.940395
+  },
+  "parana": {
+    "lat": 19.283495,
+    "lng": -98.960178
+  },
+  "rio-de-janeiro": {
+    "lat": 19.300108,
+    "lng": -99.506039
+  },
+  "rio-grande-do-sul": {
+    "lat": -29.981424,
+    "lng": -51.112359
+  },
+  "porto-alegre": {
+    "lat": -29.981424,
+    "lng": -51.112359
+  },
+  "sao-paulo": {
+    "lat": -23.534274,
+    "lng": -46.633916
+  },
+  "stirling": {
+    "lat": 56.118124,
+    "lng": -3.936001
+  },
+  "stockholm": {
+    "lat": 59.325117,
+    "lng": 18.071093
+  },
+  "nacka": {
+    "lat": 59.309948,
+    "lng": 18.167705
+  },
+  "danderyd": {
+    "lat": 59.404365,
+    "lng": 18.03585
+  },
+  "huddinge": {
+    "lat": 59.229383,
+    "lng": 17.974881
+  },
+  "lidingo": {
+    "lat": 59.364338,
+    "lng": 18.131726
+  },
+  "norrtalje": {
+    "lat": 59.759174,
+    "lng": 18.703748
+  },
+  "sollentuna": {
+    "lat": 59.429316,
+    "lng": 17.950056
+  },
+  "solna": {
+    "lat": 59.366667,
+    "lng": 18.016667
+  },
+  "tyreso": {
+    "lat": 59.216667,
+    "lng": 18.333333
+  },
+  "taby": {
+    "lat": 59.43674,
+    "lng": 18.05614
+  },
+  "upplands-vasby": {
+    "lat": 59.517164,
+    "lng": 17.916419
+  },
+  "akersberga": {
+    "lat": 59.482352,
+    "lng": 18.294398
+  },
+  "liezen": {
+    "lat": 47.567685,
+    "lng": 14.242051
   },
   "Ipswich": {
     "lat": 52.057932,
@@ -2154,6 +3726,46 @@ const cityCoordinates = {
   "Walton-on-Thames": {
     "lat": 51.385684,
     "lng": -0.419814
+  },
+  "swansea": {
+    "lat": 51.619596,
+    "lng": -3.945925
+  },
+  "Taichung City": {
+    "lat": 24.158624,
+    "lng": 120.644867
+  },
+  "Taipei": {
+    "lat": 25.041208,
+    "lng": 121.566106
+  },
+  "Taipei City": {
+    "lat": 25.041208,
+    "lng": 121.566106
+  },
+  "Herzliya": {
+    "lat": 32.167684,
+    "lng": 34.830828
+  },
+  "Bnei Brak": {
+    "lat": 32.08739,
+    "lng": 34.832438
+  },
+  "Ramat Gan": {
+    "lat": 32.068687,
+    "lng": 34.824681
+  },
+  "Tel Aviv-Yafo": {
+    "lat": 32.081816,
+    "lng": 34.780583
+  },
+  "Hyderabad": {
+    "lat": 17.360589,
+    "lng": 78.474061
+  },
+  "Kothaguda": {
+    "lat": 17.939963,
+    "lng": 80.093532
   },
   "Knoxville": {
     "lat": 35.943614,
@@ -2275,6 +3887,14 @@ const cityCoordinates = {
     "lat": 30.274768,
     "lng": -97.799282
   },
+  "thuringia": {
+    "lat": 50.901472,
+    "lng": 11.037784
+  },
+  "erfurt": {
+    "lat": 50.977797,
+    "lng": 11.028736
+  },
   "Ashikaga": {
     "lat": 36.340036,
     "lng": 139.44884
@@ -2387,6 +4007,26 @@ const cityCoordinates = {
     "lat": 54.939466,
     "lng": -1.409016
   },
+  "hofen": {
+    "lat": 47.472557,
+    "lng": 10.686998
+  },
+  "innsbruck": {
+    "lat": 47.26543,
+    "lng": 11.392769
+  },
+  "Ulsan": {
+    "lat": 35.53917,
+    "lng": 129.311914
+  },
+  "uppsala": {
+    "lat": 59.858613,
+    "lng": 17.638744
+  },
+  "almunge": {
+    "lat": 59.875971,
+    "lng": 18.044494
+  },
   "Salt Lake City": {
     "lat": 40.733705,
     "lng": -111.895848
@@ -2410,6 +4050,110 @@ const cityCoordinates = {
   "South Ogden": {
     "lat": 41.162446,
     "lng": -111.938225
+  },
+  "utrecht": {
+    "lat": 52.090701,
+    "lng": 5.121563
+  },
+  "amersfoort": {
+    "lat": 52.15625,
+    "lng": 5.389694
+  },
+  "Noida": {
+    "lat": 28.570633,
+    "lng": 77.327215
+  },
+  "helsinki": {
+    "lat": 60.16662,
+    "lng": 24.943541
+  },
+  "espoo": {
+    "lat": 60.204965,
+    "lng": 24.655981
+  },
+  "vantaa": {
+    "lat": 60.292997,
+    "lng": 25.043525
+  },
+  "valencia": {
+    "lat": 39.681959,
+    "lng": -0.765441
+  },
+  "alicante": {
+    "lat": 38.343637,
+    "lng": -0.488171
+  },
+  "catarroja": {
+    "lat": 39.403375,
+    "lng": -0.402876
+  },
+  "karlstad": {
+    "lat": 59.380915,
+    "lng": 13.502763
+  },
+  "umea": {
+    "lat": 63.825657,
+    "lng": 20.263074
+  },
+  "skelleftea": {
+    "lat": 64.752019,
+    "lng": 20.959339
+  },
+  "jorn": {
+    "lat": 65.053918,
+    "lng": 20.029946
+  },
+  "sundsvall": {
+    "lat": 62.390755,
+    "lng": 17.307102
+  },
+  "alno": {
+    "lat": 62.416669,
+    "lng": 17.459858
+  },
+  "vasteras": {
+    "lat": 59.611099,
+    "lng": 16.546368
+  },
+  "gothenburg": {
+    "lat": 57.707233,
+    "lng": 11.967017
+  },
+  "skovde": {
+    "lat": 58.389633,
+    "lng": 13.845634
+  },
+  "trollhattan": {
+    "lat": 58.282793,
+    "lng": 12.290861
+  },
+  "lidkoping": {
+    "lat": 58.50372,
+    "lng": 13.157643
+  },
+  "lundsbrunn": {
+    "lat": 58.471591,
+    "lng": 13.445263
+  },
+  "mellerud": {
+    "lat": 58.716667,
+    "lng": 12.466667
+  },
+  "molndal": {
+    "lat": 57.656492,
+    "lng": 12.015308
+  },
+  "uddevalla": {
+    "lat": 58.349055,
+    "lng": 11.938285
+  },
+  "lausanne": {
+    "lat": 46.521827,
+    "lng": 6.632702
+  },
+  "padua": {
+    "lat": 45.407717,
+    "lng": 11.873446
   },
   "Essex": {
     "lat": 44.680852,
@@ -2467,6 +4211,14 @@ const cityCoordinates = {
     "lat": -37.825362,
     "lng": 144.96402
   },
+  "vienna": {
+    "lat": 48.208354,
+    "lng": 16.372504
+  },
+  "vilnius": {
+    "lat": 54.687046,
+    "lng": 25.282911
+  },
   "Fairfax": {
     "lat": 38.87434,
     "lng": -77.153868
@@ -2502,6 +4254,38 @@ const cityCoordinates = {
   "Roanoke": {
     "lat": 37.25432,
     "lng": -79.956243
+  },
+  "novi-sad": {
+    "lat": 45.255134,
+    "lng": 19.845176
+  },
+  "vysocina-region": {
+    "lat": 49.39941,
+    "lng": 15.570468
+  },
+  "waikato": {
+    "lat": -37.779227,
+    "lng": 175.201032
+  },
+  "wallonia": {
+    "lat": 50.154552,
+    "lng": 5.399212
+  },
+  "fleurus": {
+    "lat": 50.482944,
+    "lng": 4.549699
+  },
+  "liege": {
+    "lat": 50.645094,
+    "lng": 5.573611
+  },
+  "mons": {
+    "lat": 50.454957,
+    "lng": 3.951958
+  },
+  "olsztyn": {
+    "lat": 53.58342,
+    "lng": 20.28162
   },
   "Warrington": {
     "lat": 53.38995,
@@ -2623,9 +4407,21 @@ const cityCoordinates = {
     "lat": 47.580138,
     "lng": -122.327304
   },
+  "wellington": {
+    "lat": -41.288795,
+    "lng": 174.777211
+  },
+  "Kolkata": {
+    "lat": 22.572646,
+    "lng": 88.363895
+  },
   "Theale": {
     "lat": 51.438064,
     "lng": -1.076722
+  },
+  "Jawa Barat": {
+    "lat": -6.88919,
+    "lng": 107.640472
   },
   "Birmingham": {
     "lat": 52.479699,
@@ -2646,6 +4442,10 @@ const cityCoordinates = {
   "Walsall": {
     "lat": 52.584795,
     "lng": -1.982269
+  },
+  "szczecin": {
+    "lat": 53.430182,
+    "lng": 14.550962
   },
   "Horsham": {
     "lat": 51.063027,
@@ -2687,6 +4487,14 @@ const cityCoordinates = {
     "lat": -31.935301,
     "lng": 115.843812
   },
+  "Cape Town": {
+    "lat": -33.92883,
+    "lng": 18.41722
+  },
+  "Bacolod": {
+    "lat": 10.876075,
+    "lng": 122.306715
+  },
   "Salisbury": {
     "lat": 51.069061,
     "lng": -1.795413
@@ -2727,12 +4535,40 @@ const cityCoordinates = {
     "lat": 52.339052,
     "lng": -2.053202
   },
+  "wrexham": {
+    "lat": 53.044898,
+    "lng": -2.992159
+  },
   "Cheyenne": {
     "lat": 41.139981,
     "lng": -104.820246
   },
+  "Yerevan": {
+    "lat": 40.177711,
+    "lng": 44.512623
+  },
   "York": {
     "lat": 40.712728,
     "lng": -74.006015
+  },
+  "Hangzhou": {
+    "lat": 30.248963,
+    "lng": 120.205234
+  },
+  "turany": {
+    "lat": 49.116398,
+    "lng": 19.039154
+  },
+  "den-haag": {
+    "lat": 52.079984,
+    "lng": 4.311346
+  },
+  "zurich": {
+    "lat": 47.374449,
+    "lng": 8.541042
+  },
+  "schlieren": {
+    "lat": 47.396515,
+    "lng": 8.444486
   }
 }
