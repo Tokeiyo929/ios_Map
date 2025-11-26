@@ -1,6 +1,751 @@
 const gameCompaniesData = {
   "companies": [
     {
+      "name": "6waves",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Elex Technology",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Gaea",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Kingsoft",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Ledo Interactive",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Magic Tavern",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "NExt Studios",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Rogue Initiative Studios",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Spotlightor Interactive",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "XPEC Entertainment",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Yodo1",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "zplay",
+      "city": "Beijing",
+      "country": "中国"
+    },
+    {
+      "name": "Eutechnyx",
+      "city": "Chengdu",
+      "country": "中国"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Chengdu",
+      "country": "中国"
+    },
+    {
+      "name": "Ubisoft Chengdu",
+      "city": "Chengdu",
+      "country": "中国"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Chengdu",
+      "country": "中国"
+    },
+    {
+      "name": "Pathea Games",
+      "city": "Chongqing",
+      "country": "中国"
+    },
+    {
+      "name": "IGG",
+      "city": "Fuzhou",
+      "country": "中国"
+    },
+    {
+      "name": "NetEase Games",
+      "city": "Guangzhou",
+      "country": "中国"
+    },
+    {
+      "name": "NetEase Games",
+      "city": "Hangzhou",
+      "country": "中国"
+    },
+    {
+      "name": "CrazyLabs",
+      "city": "Luoyang",
+      "country": "中国"
+    },
+    {
+      "name": "3AGames",
+      "city": "Nanjing",
+      "country": "中国"
+    },
+    {
+      "name": "Winking Entertainment",
+      "city": "Nanjing",
+      "country": "中国"
+    },
+    {
+      "name": "CCP Games",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Coconut Island Games",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Demonware",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Directive Games",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Firefly Games",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "NExt Studios",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "NetEase Games",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Pixelmatic",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "PopCap Games",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Red Hot",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Supercell",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Visual Concepts",
+      "city": "Shanghai",
+      "country": "中国"
+    },
+    {
+      "name": "Digital Domain",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "E-Home Entertainment",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "Exigent 3D",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "Ubisoft Shanghai",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "Winking Entertainment",
+      "city": "Shang Hai Shi",
+      "country": "中国"
+    },
+    {
+      "name": "505 Games",
+      "city": "Shenzhen",
+      "country": "中国"
+    },
+    {
+      "name": "Digital Domain",
+      "city": "Shenzhen",
+      "country": "中国"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Shenzhen",
+      "country": "中国"
+    },
+    {
+      "name": "Multiverse",
+      "city": "Shenzhen",
+      "country": "中国"
+    },
+    {
+      "name": "NExt Studios",
+      "city": "Shenzhen",
+      "country": "中国"
+    },
+    {
+      "name": "Tencent Games",
+      "city": "Shenzhen",
+      "country": "中国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Suzhou",
+      "country": "中国"
+    },
+    {
+      "name": "Snail Digital",
+      "city": "Suzhou",
+      "country": "中国"
+    },
+    {
+      "name": "Mechanist Games",
+      "city": "Xiamen",
+      "country": "中国"
+    },
+    {
+      "name": "WhisperGames",
+      "city": "Xiamen",
+      "country": "中国"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Xian",
+      "country": "中国"
+    },
+    {
+      "name": "Formosoft",
+      "city": "New Taipei City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "International Games System",
+      "city": "New Taipei City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "XPEC Entertainment",
+      "city": "New Taipei City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "6waves",
+      "city": "Taichung City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Imperium42",
+      "city": "Taichung City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Rayark Games",
+      "city": "Taipei City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Softstar Entertainment",
+      "city": "Taipei City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Winking Entertainment",
+      "city": "Taipei City",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Taipei",
+      "country": "中国台湾"
+    },
+    {
+      "name": "InterServ International Inc.",
+      "city": "Taipei",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Taipei",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Rayark",
+      "city": "Taipei",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Red Candle Games",
+      "city": "Taipei",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Riot Games",
+      "city": "Taipei",
+      "country": "中国台湾"
+    },
+    {
+      "name": "Digital Domain",
+      "city": "Hong Kong Island",
+      "country": "中国香港"
+    },
+    {
+      "name": "Another Indie",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "BR Softech",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "Blue Tea Games",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "C4Cat Entertainment",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "Capcom",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "Enlight Software",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "Eutechnyx",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "Konami Digital Entertainment Asia",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "eastasiasoft",
+      "city": "Kowloon",
+      "country": "中国香港"
+    },
+    {
+      "name": "Gameloft",
+      "city": "New Territories",
+      "country": "中国香港"
+    },
+    {
+      "name": "3D Realms",
+      "city": "aalborg",
+      "country": "丹麦"
+    },
+    {
+      "name": "Game Hub Denmark",
+      "city": "aalborg",
+      "country": "丹麦"
+    },
+    {
+      "name": "Slipgate Ironworks",
+      "city": "aalborg",
+      "country": "丹麦"
+    },
+    {
+      "name": "Interactive Denmark",
+      "city": "aarhus",
+      "country": "丹麦"
+    },
+    {
+      "name": "Kanda",
+      "city": "aarhus",
+      "country": "丹麦"
+    },
+    {
+      "name": "5th Planet Games",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "B-Evil",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Die Gute Fabrik",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Eddaheim",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Flashbulb Games",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Geometric Interactive",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Ghost Ship Games",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "IO Interactive",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Logic Artists",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Lohika",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Playdead",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Rovio Entertainment",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Serious Games Interactive",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Tactile Games",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Triband",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Ultra Ultra",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "copenhagen",
+      "country": "丹麦"
+    },
+    {
+      "name": "Interactive Denmark",
+      "city": "frederiksberg",
+      "country": "丹麦"
+    },
+    {
+      "name": "Zero Point software",
+      "city": "frederiksberg",
+      "country": "丹麦"
+    },
+    {
+      "name": "Game Hub Denmark",
+      "city": "grenaa",
+      "country": "丹麦"
+    },
+    {
+      "name": "Game Hub Denmark",
+      "city": "viborg",
+      "country": "丹麦"
+    },
+    {
+      "name": "Absolutist",
+      "city": "dnipro",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Black Wing Foundation",
+      "city": "dnipro",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Hamsters Gaming",
+      "city": "dnipro",
+      "country": "乌克兰"
+    },
+    {
+      "name": "FIVE-BN Games",
+      "city": "kamianske",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Blender Games",
+      "city": "kharkiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "G5 Entertainment",
+      "city": "kharkiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Gameloft",
+      "city": "kharkiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Plarium",
+      "city": "kharkiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "4A Games",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Beatshapers",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Boolat Games",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Frogwares",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "GSC Game World",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Plarium",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Playtika",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Restless Corp",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "kyiv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "G5 Entertainment",
+      "city": "lviv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Gameloft",
+      "city": "lviv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Hook Games",
+      "city": "lviv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Plarium",
+      "city": "lviv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Product Madness",
+      "city": "lviv",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Plarium",
+      "city": "odesa",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Boolat Games",
+      "city": "poltava",
+      "country": "乌克兰"
+    },
+    {
+      "name": "Double Coconut",
+      "city": "Yerevan",
+      "country": "亚美尼亚"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Yerevan",
+      "country": "亚美尼亚"
+    },
+    {
+      "name": "Plexonic",
+      "city": "Yerevan",
+      "country": "亚美尼亚"
+    },
+    {
+      "name": "Triada Studio Games",
+      "city": "Yerevan",
+      "country": "亚美尼亚"
+    },
+    {
+      "name": "Side-Kick",
+      "city": "Bnei Brak",
+      "country": "以色列"
+    },
+    {
+      "name": "Supersonic Studios",
+      "city": "Bnei Brak",
+      "country": "以色列"
+    },
+    {
+      "name": "Plarium",
+      "city": "Herzliya",
+      "country": "以色列"
+    },
+    {
+      "name": "Playtika",
+      "city": "Herzliya",
+      "country": "以色列"
+    },
+    {
+      "name": "Product Madness",
+      "city": "Herzliya",
+      "country": "以色列"
+    },
+    {
+      "name": "Funtomic",
+      "city": "Ramat Gan",
+      "country": "以色列"
+    },
+    {
+      "name": "ReaverGames",
+      "city": "South District",
+      "country": "以色列"
+    },
+    {
+      "name": "CrazyLabs",
+      "city": "Tel Aviv Yafo",
+      "country": "以色列"
+    },
+    {
+      "name": "Huuuge Games",
+      "city": "Tel Aviv Yafo",
+      "country": "以色列"
+    },
+    {
       "name": "Alpha Dog Games",
       "city": "Bedford",
       "country": "加拿大"
@@ -1416,6 +2161,1771 @@ const gameCompaniesData = {
       "country": "加拿大"
     },
     {
+      "name": "Build A Rocket Boy",
+      "city": "budapest",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Gameloft",
+      "city": "budapest",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Kite Games",
+      "city": "budapest",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Nemesys Games",
+      "city": "budapest",
+      "country": "匈牙利"
+    },
+    {
+      "name": "NeocoreGames",
+      "city": "budapest",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Visual Concepts",
+      "city": "budapest",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Zen Studios",
+      "city": "budapest",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Invictus Games",
+      "city": "debrecen",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Panoramik Games",
+      "city": "malyi",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Balcony Softworks",
+      "city": "pest-county",
+      "country": "匈牙利"
+    },
+    {
+      "name": "Skobbejak Games",
+      "city": "Alberton",
+      "country": "南非"
+    },
+    {
+      "name": "Make Games South Africa",
+      "city": "Cape Town",
+      "country": "南非"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Sandton",
+      "country": "南非"
+    },
+    {
+      "name": "GameChanger Studio",
+      "city": "Banten",
+      "country": "印尼"
+    },
+    {
+      "name": "Toge Productions",
+      "city": "Banten",
+      "country": "印尼"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Daerah Istimewa Yogyakarta",
+      "country": "印尼"
+    },
+    {
+      "name": "Asosiasi Game Indonesia",
+      "city": "Jakarta",
+      "country": "印尼"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Jakarta",
+      "country": "印尼"
+    },
+    {
+      "name": "Digital Happiness",
+      "city": "Jawa Barat",
+      "country": "印尼"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Yogyakarta",
+      "country": "印尼"
+    },
+    {
+      "name": "GalacticThumb",
+      "city": "Ahmedabad",
+      "country": "印度"
+    },
+    {
+      "name": "GameAnax",
+      "city": "Ahmedabad",
+      "country": "印度"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "Lakshya Digital",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "PopReach",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "Rockstar India",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "Zynga",
+      "city": "Bengaluru",
+      "country": "印度"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Gurugram",
+      "country": "印度"
+    },
+    {
+      "name": "Lakshya Digital",
+      "city": "Gurugram",
+      "country": "印度"
+    },
+    {
+      "name": "Digital Domain",
+      "city": "Hyderabad",
+      "country": "印度"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Hyderabad",
+      "country": "印度"
+    },
+    {
+      "name": "Enaayah Software Development and Services Private Limited",
+      "city": "Hyderabad",
+      "country": "印度"
+    },
+    {
+      "name": "Glu Mobile",
+      "city": "Hyderabad",
+      "country": "印度"
+    },
+    {
+      "name": "PopCap Games",
+      "city": "Hyderabad",
+      "country": "印度"
+    },
+    {
+      "name": "YesGnome",
+      "city": "Hyderabad",
+      "country": "印度"
+    },
+    {
+      "name": "BR Softech",
+      "city": "Jaipur",
+      "country": "印度"
+    },
+    {
+      "name": "Pyrodactyl Games",
+      "city": "Jaipur",
+      "country": "印度"
+    },
+    {
+      "name": "Yash Future Tech Solutions",
+      "city": "Jodhpur",
+      "country": "印度"
+    },
+    {
+      "name": "Yash Future Tech Solutions Pvt Ltd",
+      "city": "Jodhpur",
+      "country": "印度"
+    },
+    {
+      "name": "Tuttifrutti Interactive",
+      "city": "Kakkanad",
+      "country": "印度"
+    },
+    {
+      "name": "GosuMedia",
+      "city": "Kolkata",
+      "country": "印度"
+    },
+    {
+      "name": "Broken Helm Studio",
+      "city": "Mumbai",
+      "country": "印度"
+    },
+    {
+      "name": "Outfit7",
+      "city": "Mumbai",
+      "country": "印度"
+    },
+    {
+      "name": "Gameloft",
+      "city": "New Delhi",
+      "country": "印度"
+    },
+    {
+      "name": "V2 Games",
+      "city": "New Delhi",
+      "country": "印度"
+    },
+    {
+      "name": "Exigent 3D",
+      "city": "Noida",
+      "country": "印度"
+    },
+    {
+      "name": "Codemasters",
+      "city": "Pune",
+      "country": "印度"
+    },
+    {
+      "name": "Lakshya Digital",
+      "city": "Pune",
+      "country": "印度"
+    },
+    {
+      "name": "Ubisoft Pune",
+      "city": "Pune",
+      "country": "印度"
+    },
+    {
+      "name": "Allods Team",
+      "city": "Bishkek",
+      "country": "吉尔吉斯斯坦"
+    },
+    {
+      "name": "Jam City",
+      "city": "Bogota",
+      "country": "哥伦比亚"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Pereira",
+      "country": "哥伦比亚"
+    },
+    {
+      "name": "TaleWorlds Entertainment",
+      "city": "ankara",
+      "country": "土耳其"
+    },
+    {
+      "name": "Good Job Games",
+      "city": "istanbul",
+      "country": "土耳其"
+    },
+    {
+      "name": "Netmarble Games",
+      "city": "istanbul",
+      "country": "土耳其"
+    },
+    {
+      "name": "Vertigo Games Istanbul",
+      "city": "istanbul",
+      "country": "土耳其"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "belgrade",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Mad Head Games",
+      "city": "belgrade",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Serbian Games Association",
+      "city": "belgrade",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Ubisoft Belgrade",
+      "city": "belgrade",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "belgrade",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Sozap",
+      "city": "nis",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Brave Giant",
+      "city": "novi-sad",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Eipix Entertainment",
+      "city": "novi-sad",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Epic Games",
+      "city": "novi-sad",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Mad Head Games",
+      "city": "novi-sad",
+      "country": "塞尔维亚"
+    },
+    {
+      "name": "Nival",
+      "city": "Germasogeia",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Domini Games",
+      "city": "Limassol",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Huuuge Games",
+      "city": "Limassol",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Nekki",
+      "city": "Limassol",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Room 8 Studio",
+      "city": "Limassol",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "GFI",
+      "city": "Nicosia",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "HeroCraft",
+      "city": "Nicosia",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "HypeTrain Digital",
+      "city": "Nicosia",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Melsoft",
+      "city": "Nicosia",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "Nicosia",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Awem",
+      "city": "Paphos",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Shaman Games Studio",
+      "city": "Paphos",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Outfit7",
+      "city": "Pissouri",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "ChillBase",
+      "city": "Strovolos",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Crazysoft Limited",
+      "city": "Strovolos",
+      "country": "塞浦路斯"
+    },
+    {
+      "name": "Lienzo",
+      "city": "Chihuahua",
+      "country": "墨西哥"
+    },
+    {
+      "name": "Present Creative",
+      "city": "Guadalajara",
+      "country": "墨西哥"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Mexicali",
+      "country": "墨西哥"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Mexico City",
+      "country": "墨西哥"
+    },
+    {
+      "name": "Mexican Video Games Association",
+      "city": "Mexico City",
+      "country": "墨西哥"
+    },
+    {
+      "name": "Squad",
+      "city": "Mexico City",
+      "country": "墨西哥"
+    },
+    {
+      "name": "1 Simple Game",
+      "city": "Zapopan",
+      "country": "墨西哥"
+    },
+    {
+      "name": "Deep Silver",
+      "city": "hofen",
+      "country": "奥地利"
+    },
+    {
+      "name": "Plaion",
+      "city": "hofen",
+      "country": "奥地利"
+    },
+    {
+      "name": "stillalive studios",
+      "city": "innsbruck",
+      "country": "奥地利"
+    },
+    {
+      "name": "Libredia",
+      "city": "liezen",
+      "country": "奥地利"
+    },
+    {
+      "name": "Retroguru",
+      "city": "salzburg",
+      "country": "奥地利"
+    },
+    {
+      "name": "All Civilized Planets",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Bongfish",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Bplus",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Greentube",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "IGDA Austria",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Lost in the Garden",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Mi'pu'mi Games",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Purple Lamp Studios",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Rare Earth Games",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "THQ Nordic",
+      "city": "vienna",
+      "country": "奥地利"
+    },
+    {
+      "name": "Deceptive Games",
+      "city": "abercynon",
+      "country": "威尔士"
+    },
+    {
+      "name": "West Coast Software",
+      "city": "aberystwyth",
+      "country": "威尔士"
+    },
+    {
+      "name": "RUNWILD Entertainment",
+      "city": "caerphilly",
+      "country": "威尔士"
+    },
+    {
+      "name": "Dakko Dakko",
+      "city": "cardiff",
+      "country": "威尔士"
+    },
+    {
+      "name": "Talespinners",
+      "city": "cardiff",
+      "country": "威尔士"
+    },
+    {
+      "name": "Thud Media",
+      "city": "cardiff",
+      "country": "威尔士"
+    },
+    {
+      "name": "Goldborough Studio",
+      "city": "lawrenny",
+      "country": "威尔士"
+    },
+    {
+      "name": "Static Shell Studios",
+      "city": "mold",
+      "country": "威尔士"
+    },
+    {
+      "name": "Wales Interactive",
+      "city": "pencoed",
+      "country": "威尔士"
+    },
+    {
+      "name": "Black Dragon Studios",
+      "city": "swansea",
+      "country": "威尔士"
+    },
+    {
+      "name": "Evil Owl Studios",
+      "city": "wrexham",
+      "country": "威尔士"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Dhaka",
+      "country": "孟加拉"
+    },
+    {
+      "name": "Frag Games",
+      "city": "Lahore",
+      "country": "巴基斯坦"
+    },
+    {
+      "name": "Ingenious Concepts",
+      "city": "Lahore",
+      "country": "巴基斯坦"
+    },
+    {
+      "name": "Mindstorm",
+      "city": "Lahore",
+      "country": "巴基斯坦"
+    },
+    {
+      "name": "Enigma Games",
+      "city": "Panama City",
+      "country": "巴拿马"
+    },
+    {
+      "name": "Black River Studios",
+      "city": "amazonas",
+      "country": "巴西"
+    },
+    {
+      "name": "Behold Studios",
+      "city": "distrito-federal",
+      "country": "巴西"
+    },
+    {
+      "name": "Umbu Games",
+      "city": "minas-gerais",
+      "country": "巴西"
+    },
+    {
+      "name": "Oktagon Games",
+      "city": "parana",
+      "country": "巴西"
+    },
+    {
+      "name": "Epic Games",
+      "city": "porto-alegre",
+      "country": "巴西"
+    },
+    {
+      "name": "BitCake Studio",
+      "city": "rio-de-janeiro",
+      "country": "巴西"
+    },
+    {
+      "name": "Double Dash Studios",
+      "city": "rio-de-janeiro",
+      "country": "巴西"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "rio-de-janeiro",
+      "country": "巴西"
+    },
+    {
+      "name": "IMGNATION Studios",
+      "city": "rio-grande-do-sul",
+      "country": "巴西"
+    },
+    {
+      "name": "Invent 4 Entertainment",
+      "city": "rio-grande-do-sul",
+      "country": "巴西"
+    },
+    {
+      "name": "Radioativa Game Sounds",
+      "city": "rio-grande-do-sul",
+      "country": "巴西"
+    },
+    {
+      "name": "VOX Game Studio",
+      "city": "rio-grande-do-sul",
+      "country": "巴西"
+    },
+    {
+      "name": "Cat Nigiri",
+      "city": "santa-catarina",
+      "country": "巴西"
+    },
+    {
+      "name": "Abragames",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Colossus Game Studio",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Fanatee",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Fire Horse Studio",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Flux Games",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Gameloft",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Insolita Studios",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Level Up Brasil",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Mens Sana Interactive",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Radioativa Game Sounds",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Riot Games",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Tapps Games",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Team Liquid",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Tectoy",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Wildlife Studios",
+      "city": "sao-paulo",
+      "country": "巴西"
+    },
+    {
+      "name": "Asylum Square",
+      "city": "alpirsbach",
+      "country": "德国"
+    },
+    {
+      "name": "Lotum",
+      "city": "bad-nauheim",
+      "country": "德国"
+    },
+    {
+      "name": "upjers",
+      "city": "bamberg",
+      "country": "德国"
+    },
+    {
+      "name": "EntwicklerX",
+      "city": "bautzen",
+      "country": "德国"
+    },
+    {
+      "name": "5th Planet Games",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Aeria Games",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Baltic Game Industry",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Bigpoint",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Black Pants Game Studios",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Black Soup",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "BoomBit",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "CrazyLabs",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "DECA Games",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Game - Association of the German Games Industry",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Gameloft",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "It Matters Games",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Jam City",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Maschinen-Mensch",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Playtika",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Riot Games",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "SOFTGAMES",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Sixteen Tons Entertainment",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Sprakelsoft",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Toadman Interactive",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Ubisoft Berlin",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Ubisoft Blue Byte",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "YAGER Development",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "gamigo",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "kunst-stoff",
+      "city": "berlin",
+      "country": "德国"
+    },
+    {
+      "name": "Eggcode",
+      "city": "bielefeld",
+      "country": "德国"
+    },
+    {
+      "name": "Magic Bytes",
+      "city": "bielefeld",
+      "country": "德国"
+    },
+    {
+      "name": "King Art",
+      "city": "bremen",
+      "country": "德国"
+    },
+    {
+      "name": "Masterbrain Bytes",
+      "city": "bremen",
+      "country": "德国"
+    },
+    {
+      "name": "Aerosoft",
+      "city": "buren",
+      "country": "德国"
+    },
+    {
+      "name": "TREVA Entertainment",
+      "city": "burgthann",
+      "country": "德国"
+    },
+    {
+      "name": "DreamHack",
+      "city": "cologne",
+      "country": "德国"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "cologne",
+      "country": "德国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "cologne",
+      "country": "德国"
+    },
+    {
+      "name": "Claymore Game Studios",
+      "city": "darmstadt",
+      "country": "德国"
+    },
+    {
+      "name": "gamigo",
+      "city": "darmstadt",
+      "country": "德国"
+    },
+    {
+      "name": "rokaplay",
+      "city": "darmstadt",
+      "country": "德国"
+    },
+    {
+      "name": "Z-Software",
+      "city": "dortmund",
+      "country": "德国"
+    },
+    {
+      "name": "Headup Games",
+      "city": "duren",
+      "country": "德国"
+    },
+    {
+      "name": "Astragon Entertainment",
+      "city": "dusseldorf",
+      "country": "德国"
+    },
+    {
+      "name": "Daedalic Entertainment",
+      "city": "dusseldorf",
+      "country": "德国"
+    },
+    {
+      "name": "Games Germany",
+      "city": "dusseldorf",
+      "country": "德国"
+    },
+    {
+      "name": "Games Workshop",
+      "city": "dusseldorf",
+      "country": "德国"
+    },
+    {
+      "name": "Ubisoft Blue Byte",
+      "city": "dusseldorf",
+      "country": "德国"
+    },
+    {
+      "name": "Havok",
+      "city": "eningen",
+      "country": "德国"
+    },
+    {
+      "name": "TML-Studios",
+      "city": "erfurt",
+      "country": "德国"
+    },
+    {
+      "name": "Giants Software",
+      "city": "erlangen",
+      "country": "德国"
+    },
+    {
+      "name": "Konami Digital Entertainment Europe",
+      "city": "eschborn",
+      "country": "德国"
+    },
+    {
+      "name": "bitComposer Interactive",
+      "city": "eschborn",
+      "country": "德国"
+    },
+    {
+      "name": "TopWare Interactive",
+      "city": "ettlingen",
+      "country": "德国"
+    },
+    {
+      "name": "Cloud Imperium Games",
+      "city": "frankfurt",
+      "country": "德国"
+    },
+    {
+      "name": "Deck13 Interactive",
+      "city": "frankfurt",
+      "country": "德国"
+    },
+    {
+      "name": "Keen Games",
+      "city": "frankfurt",
+      "country": "德国"
+    },
+    {
+      "name": "Nintendo of Europe",
+      "city": "frankfurt",
+      "country": "德国"
+    },
+    {
+      "name": "id Software",
+      "city": "frankfurt",
+      "country": "德国"
+    },
+    {
+      "name": "Computec Media",
+      "city": "furth",
+      "country": "德国"
+    },
+    {
+      "name": "Piranha Bytes",
+      "city": "gladbeck",
+      "country": "德国"
+    },
+    {
+      "name": "Gaming Minds Studios",
+      "city": "gutersloh",
+      "country": "德国"
+    },
+    {
+      "name": "BR Softech",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Bigpoint",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Capcom",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Daedalic Entertainment",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Fishlabs Entertainment",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Goodbye Kansas",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "InnoGames",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Niantic",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "ROCKFISH Games",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Since Idea Games",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Threaks",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Tivola Games",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "gamigo",
+      "city": "hamburg",
+      "country": "德国"
+    },
+    {
+      "name": "Reakktor Studios",
+      "city": "hanover",
+      "country": "德国"
+    },
+    {
+      "name": "Application Systems Heidelberg Software",
+      "city": "heidelberg",
+      "country": "德国"
+    },
+    {
+      "name": "United Independent Entertainment",
+      "city": "hohenkirchen-siegertsbrunn",
+      "country": "德国"
+    },
+    {
+      "name": "GameForge",
+      "city": "karlsruhe",
+      "country": "德国"
+    },
+    {
+      "name": "TopWare Interactive",
+      "city": "karlsruhe",
+      "country": "德国"
+    },
+    {
+      "name": "Joindots",
+      "city": "krefeld",
+      "country": "德国"
+    },
+    {
+      "name": "Limbic Entertainment",
+      "city": "langen",
+      "country": "德国"
+    },
+    {
+      "name": "Alchemical",
+      "city": "leipzig",
+      "country": "德国"
+    },
+    {
+      "name": "FAKT Software",
+      "city": "leipzig",
+      "country": "德国"
+    },
+    {
+      "name": "Korion Interactive",
+      "city": "ludwigsburg",
+      "country": "德国"
+    },
+    {
+      "name": "Studio Fizbin",
+      "city": "ludwigsburg",
+      "country": "德国"
+    },
+    {
+      "name": "Z-Software",
+      "city": "magdeburg",
+      "country": "德国"
+    },
+    {
+      "name": "Ubisoft Blue Byte",
+      "city": "mainz",
+      "country": "德国"
+    },
+    {
+      "name": "Ubisoft Mainz",
+      "city": "mainz",
+      "country": "德国"
+    },
+    {
+      "name": "HH-Games",
+      "city": "mannheim",
+      "country": "德国"
+    },
+    {
+      "name": "Realmforge Studios",
+      "city": "munchen",
+      "country": "德国"
+    },
+    {
+      "name": "Salmi Games",
+      "city": "munchen",
+      "country": "德国"
+    },
+    {
+      "name": "Shin'en Multimedia",
+      "city": "munchen",
+      "country": "德国"
+    },
+    {
+      "name": "Chimera Entertainment",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "EuroVideo Medien",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "FDG Entertainment",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "Grimlore Games",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "Prime Matter",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "Private Division",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "Ravenscourt",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "munich",
+      "country": "德国"
+    },
+    {
+      "name": "McPeppergames",
+      "city": "munnerstadt",
+      "country": "德国"
+    },
+    {
+      "name": "Toplitz Productions",
+      "city": "oberhaching",
+      "country": "德国"
+    },
+    {
+      "name": "Black Forest Games",
+      "city": "offenburg",
+      "country": "德国"
+    },
+    {
+      "name": "Plaion",
+      "city": "planegg",
+      "country": "德国"
+    },
+    {
+      "name": "CipSoft",
+      "city": "regensburg",
+      "country": "德国"
+    },
+    {
+      "name": "winterworks",
+      "city": "sankt-leon-rot",
+      "country": "德国"
+    },
+    {
+      "name": "Funatics Software",
+      "city": "schermbeck",
+      "country": "德国"
+    },
+    {
+      "name": "Eierkop-Games",
+      "city": "spreenhagen",
+      "country": "德国"
+    },
+    {
+      "name": "Chasing Carrots",
+      "city": "stuttgart",
+      "country": "德国"
+    },
+    {
+      "name": "GrizzlyGames",
+      "city": "thuringia",
+      "country": "德国"
+    },
+    {
+      "name": "Kolibri Games",
+      "city": "thuringia",
+      "country": "德国"
+    },
+    {
+      "name": "Mad about Pandas",
+      "city": "thuringia",
+      "country": "德国"
+    },
+    {
+      "name": "Sixteen Tons Entertainment",
+      "city": "tubingen",
+      "country": "德国"
+    },
+    {
+      "name": "B-Alive",
+      "city": "ummendorf",
+      "country": "德国"
+    },
+    {
+      "name": "Assemble Entertainment",
+      "city": "wiesbaden",
+      "country": "德国"
+    },
+    {
+      "name": "Magnussoft Deutschland",
+      "city": "wilsdruff",
+      "country": "德国"
+    },
+    {
+      "name": "Kalypso Media",
+      "city": "worms",
+      "country": "德国"
+    },
+    {
+      "name": "SilentFuture",
+      "city": "wuppertal",
+      "country": "德国"
+    },
+    {
+      "name": "Egosoft",
+      "city": "wurselen",
+      "country": "德国"
+    },
+    {
+      "name": "Higgs Games",
+      "city": "zorneding",
+      "country": "德国"
+    },
+    {
+      "name": "Ubisoft Milan",
+      "city": "assago",
+      "country": "意大利"
+    },
+    {
+      "name": "IV Productions",
+      "city": "bologna",
+      "country": "意大利"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "cinisello-balsamo",
+      "country": "意大利"
+    },
+    {
+      "name": "DESTINYbit",
+      "city": "emilia-romagna",
+      "country": "意大利"
+    },
+    {
+      "name": "Troglobytes Games",
+      "city": "gravina-in-puglia",
+      "country": "意大利"
+    },
+    {
+      "name": "NAPS team",
+      "city": "messina",
+      "country": "意大利"
+    },
+    {
+      "name": "Avantgarden",
+      "city": "milan",
+      "country": "意大利"
+    },
+    {
+      "name": "Chubby Pixel",
+      "city": "milan",
+      "country": "意大利"
+    },
+    {
+      "name": "Digital Bros. S.p.A.",
+      "city": "milan",
+      "country": "意大利"
+    },
+    {
+      "name": "Gameloft",
+      "city": "milan",
+      "country": "意大利"
+    },
+    {
+      "name": "Italian Interactive Digital Entertainment Association",
+      "city": "milan",
+      "country": "意大利"
+    },
+    {
+      "name": "Milestone",
+      "city": "milan",
+      "country": "意大利"
+    },
+    {
+      "name": "Plaion",
+      "city": "milan",
+      "country": "意大利"
+    },
+    {
+      "name": "Gamera Interactive",
+      "city": "padua",
+      "country": "意大利"
+    },
+    {
+      "name": "Fantastico Studio",
+      "city": "rome",
+      "country": "意大利"
+    },
+    {
+      "name": "IndieGala",
+      "city": "rome",
+      "country": "意大利"
+    },
+    {
+      "name": "Storm in a Teacup",
+      "city": "rome",
+      "country": "意大利"
+    },
+    {
+      "name": "34BigThings",
+      "city": "torino",
+      "country": "意大利"
+    },
+    {
+      "name": "Amanita Design",
+      "city": "brno",
+      "country": "捷克"
+    },
+    {
+      "name": "Giants Software",
+      "city": "jihomoravsky-kraj",
+      "country": "捷克"
+    },
+    {
+      "name": "MADFINGER Games",
+      "city": "jihomoravsky-kraj",
+      "country": "捷克"
+    },
+    {
+      "name": "Bohemia Interactive",
+      "city": "mnisek-pod-brdy",
+      "country": "捷克"
+    },
+    {
+      "name": "1C Entertainment",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "AppAgent",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "BoomBit",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Centauri Production",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Cinemax Games",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Doubleton Game Studio",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Dreadlocks",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "GDA CZ",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Grip Digital",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Hangar 13",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Rake in Grass",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "SCS Software",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Warhorse studios",
+      "city": "prague",
+      "country": "捷克"
+    },
+    {
+      "name": "Inlogic Software",
+      "city": "banskobystricky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Lonely Troops",
+      "city": "banskobystricky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "BoomBit",
+      "city": "bratislava",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Pixel Federation",
+      "city": "bratislava",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Slovak Game Developers Association",
+      "city": "bratislavsky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Top3Line s.r.o.",
+      "city": "bratislavsky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Cypronia",
+      "city": "kosicky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Fishcow Studio",
+      "city": "kosicky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Games Farm",
+      "city": "kosicky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Inlogic Software",
+      "city": "kosicky-kraj",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "Webnetic s. r. o.",
+      "city": "turany",
+      "country": "斯洛伐克"
+    },
+    {
+      "name": "BoomZap Entertainment",
+      "city": "Ang Mo Kio",
+      "country": "新加坡"
+    },
+    {
+      "name": "IGG",
+      "city": "Bukit Merah",
+      "country": "新加坡"
+    },
+    {
+      "name": "Bandai Namco Entertainment Asia",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "Blizzard Entertainment",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "General Arcade",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "Konami Digital Entertainment Asia",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "MBS Studios",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "NetEase Games",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "Vertigo Games",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "Winking Entertainment",
+      "city": "Downtown Core",
+      "country": "新加坡"
+    },
+    {
+      "name": "GosuMedia",
+      "city": "Geylang",
+      "country": "新加坡"
+    },
+    {
+      "name": "Electric Square",
+      "city": "Kallang",
+      "country": "新加坡"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Kallang",
+      "country": "新加坡"
+    },
+    {
+      "name": "Koei Tecmo",
+      "city": "Kallang",
+      "country": "新加坡"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "Kallang",
+      "country": "新加坡"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Newton",
+      "country": "新加坡"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Outram",
+      "country": "新加坡"
+    },
+    {
+      "name": "Bandai Namco Studios",
+      "city": "Queenstown",
+      "country": "新加坡"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Queenstown",
+      "country": "新加坡"
+    },
+    {
+      "name": "Garena",
+      "city": "Queenstown",
+      "country": "新加坡"
+    },
+    {
+      "name": "Springloaded",
+      "city": "Queenstown",
+      "country": "新加坡"
+    },
+    {
+      "name": "Ubisoft Singapore",
+      "city": "Queenstown",
+      "country": "新加坡"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Queenstown",
+      "country": "新加坡"
+    },
+    {
+      "name": "Blind Squirrel Games",
+      "city": "auckland",
+      "country": "新西兰"
+    },
+    {
+      "name": "Grinding Gear Games",
+      "city": "auckland",
+      "country": "新西兰"
+    },
+    {
+      "name": "Ninja Kiwi",
+      "city": "auckland",
+      "country": "新西兰"
+    },
+    {
+      "name": "Majic Jungle",
+      "city": "hawkes-bay",
+      "country": "新西兰"
+    },
+    {
+      "name": "Dinosaur Polo Club",
+      "city": "wellington",
+      "country": "新西兰"
+    },
+    {
+      "name": "New Zealand Game Developers Association",
+      "city": "wellington",
+      "country": "新西兰"
+    },
+    {
+      "name": "PikPok",
+      "city": "wellington",
+      "country": "新西兰"
+    },
+    {
       "name": "M2",
       "city": "Abiko",
       "country": "日本"
@@ -2641,6 +5151,946 @@ const gameCompaniesData = {
       "country": "日本"
     },
     {
+      "name": "Estudios Kremlinois",
+      "city": "concepcion",
+      "country": "智利"
+    },
+    {
+      "name": "Gameloft",
+      "city": "las-condes",
+      "country": "智利"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "las-condes",
+      "country": "智利"
+    },
+    {
+      "name": "ACE Team",
+      "city": "santiago-metropolitan-region",
+      "country": "智利"
+    },
+    {
+      "name": "Video Games Chile",
+      "city": "santiago-metropolitan-region",
+      "country": "智利"
+    },
+    {
+      "name": "Sakari Games",
+      "city": "antwerp",
+      "country": "比利时"
+    },
+    {
+      "name": "Belgian Games",
+      "city": "brussels",
+      "country": "比利时"
+    },
+    {
+      "name": "Belgian Entertainment Association",
+      "city": "dilbeek",
+      "country": "比利时"
+    },
+    {
+      "name": "AMA Studios",
+      "city": "fleurus",
+      "country": "比利时"
+    },
+    {
+      "name": "FLEGA",
+      "city": "kortrijk",
+      "country": "比利时"
+    },
+    {
+      "name": "Abrakam",
+      "city": "liege",
+      "country": "比利时"
+    },
+    {
+      "name": "Wallonia Game Developers Association",
+      "city": "mons",
+      "country": "比利时"
+    },
+    {
+      "name": "Larian Studios",
+      "city": "oudenaarde",
+      "country": "比利时"
+    },
+    {
+      "name": "Black Land Studio",
+      "city": "wallonia",
+      "country": "比利时"
+    },
+    {
+      "name": "Mantis Games",
+      "city": "wallonia",
+      "country": "比利时"
+    },
+    {
+      "name": "Pipette Inc",
+      "city": "wallonia",
+      "country": "比利时"
+    },
+    {
+      "name": "Ubisoft Annecy",
+      "city": "annecy",
+      "country": "法国"
+    },
+    {
+      "name": "Shine Research",
+      "city": "besancon",
+      "country": "法国"
+    },
+    {
+      "name": "Asobo Studio",
+      "city": "bordeaux",
+      "country": "法国"
+    },
+    {
+      "name": "Motion Twin",
+      "city": "bordeaux",
+      "country": "法国"
+    },
+    {
+      "name": "Nova-box",
+      "city": "bordeaux",
+      "country": "法国"
+    },
+    {
+      "name": "Shiro Games",
+      "city": "bordeaux",
+      "country": "法国"
+    },
+    {
+      "name": "Ubisoft Bordeaux",
+      "city": "bordeaux",
+      "country": "法国"
+    },
+    {
+      "name": "Clickteam",
+      "city": "boulogne-billancourt",
+      "country": "法国"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "boulogne-billancourt",
+      "country": "法国"
+    },
+    {
+      "name": "Blackant Master Studio",
+      "city": "caen",
+      "country": "法国"
+    },
+    {
+      "name": "Virtuos",
+      "city": "cergy",
+      "country": "法国"
+    },
+    {
+      "name": "EKO Software",
+      "city": "choisy-le-roi",
+      "country": "法国"
+    },
+    {
+      "name": "Farsky Interactive",
+      "city": "croissy-sur-seine",
+      "country": "法国"
+    },
+    {
+      "name": "Sanuk Games",
+      "city": "genissieux",
+      "country": "法国"
+    },
+    {
+      "name": "Bip Media",
+      "city": "hyeres",
+      "country": "法国"
+    },
+    {
+      "name": "Green Panda Games",
+      "city": "ile-de-france",
+      "country": "法国"
+    },
+    {
+      "name": "Plaion",
+      "city": "issy-les-moulineaux",
+      "country": "法国"
+    },
+    {
+      "name": "Nacon",
+      "city": "lesquin",
+      "country": "法国"
+    },
+    {
+      "name": "Konami Digital Entertainment Europe",
+      "city": "levallois-perret",
+      "country": "法国"
+    },
+    {
+      "name": "Eversim",
+      "city": "lognes",
+      "country": "法国"
+    },
+    {
+      "name": "Arkane Studios",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Atari, Inc.",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Connection Events",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Eden Games",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Krysalide",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Kylotonn Entertainment",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Kylotonn Games",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "TreeNode Studio",
+      "city": "lyon",
+      "country": "法国"
+    },
+    {
+      "name": "Exkee",
+      "city": "marseille",
+      "country": "法国"
+    },
+    {
+      "name": "AGEod",
+      "city": "meylan",
+      "country": "法国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "montbonnot-saint-martin",
+      "country": "法国"
+    },
+    {
+      "name": "Assoria",
+      "city": "montpellier",
+      "country": "法国"
+    },
+    {
+      "name": "Dear Villagers",
+      "city": "montpellier",
+      "country": "法国"
+    },
+    {
+      "name": "The Game Bakers",
+      "city": "montpellier",
+      "country": "法国"
+    },
+    {
+      "name": "Anuman Interactive",
+      "city": "montreuil",
+      "country": "法国"
+    },
+    {
+      "name": "Neko Entertainment",
+      "city": "montreuil",
+      "country": "法国"
+    },
+    {
+      "name": "Ubisoft Paris",
+      "city": "montreuil",
+      "country": "法国"
+    },
+    {
+      "name": "Ubisoft Paris Mobile",
+      "city": "montreuil",
+      "country": "法国"
+    },
+    {
+      "name": "Cyanide Studios",
+      "city": "nanterre",
+      "country": "法国"
+    },
+    {
+      "name": "DiezelPower Studios",
+      "city": "nice",
+      "country": "法国"
+    },
+    {
+      "name": "AMPLITUDE Studios",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Arc System Works Europe",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Asmodee Digital",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Atari, SA",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Black Sheep Studio",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Celsius online",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Days of Wonder",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Dontnod Entertainment",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "DotEmu",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Eugen Systems",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Focus Home Interactive",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "GAMECO Studios",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Gameloft",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Gravity Europe",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Kylotonn Entertainment",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Kylotonn Games",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Microids",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Plug In Digital",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Pretty French Games",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Quantic Dream",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Riot Games",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "SELL",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "SNJV",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Spider Games",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Spiders",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Ubisoft Nadeo",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "paris",
+      "country": "法国"
+    },
+    {
+      "name": "Capcom",
+      "city": "saint-germain-en-laye",
+      "country": "法国"
+    },
+    {
+      "name": "Ubisoft Entertainment",
+      "city": "saint-mande",
+      "country": "法国"
+    },
+    {
+      "name": "Just For Games",
+      "city": "saint-ouen-sur-seine",
+      "country": "法国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "strasbourg",
+      "country": "法国"
+    },
+    {
+      "name": "Goblinz Studio",
+      "city": "thionville",
+      "country": "法国"
+    },
+    {
+      "name": "Magic Pockets",
+      "city": "torcy",
+      "country": "法国"
+    },
+    {
+      "name": "Miju Games",
+      "city": "toulouse",
+      "country": "法国"
+    },
+    {
+      "name": "Accidental Queens",
+      "city": "tourcoing",
+      "country": "法国"
+    },
+    {
+      "name": "Ishtar Games",
+      "city": "tourcoing",
+      "country": "法国"
+    },
+    {
+      "name": "Storybird Games",
+      "city": "tours",
+      "country": "法国"
+    },
+    {
+      "name": "Ishtar Games",
+      "city": "valenciennes",
+      "country": "法国"
+    },
+    {
+      "name": "Blizzard Entertainment",
+      "city": "versailles",
+      "country": "法国"
+    },
+    {
+      "name": "Artefacts Studio",
+      "city": "villeurbanne",
+      "country": "法国"
+    },
+    {
+      "name": "Ubisoft Ivory Tower",
+      "city": "villeurbanne",
+      "country": "法国"
+    },
+    {
+      "name": "IMGN.PRO",
+      "city": "bielsko-biala",
+      "country": "波兰"
+    },
+    {
+      "name": "Huuuge Games",
+      "city": "bydgoszcz",
+      "country": "波兰"
+    },
+    {
+      "name": "Vivid Games",
+      "city": "bydgoszcz",
+      "country": "波兰"
+    },
+    {
+      "name": "Blue Sunset Games",
+      "city": "gdansk",
+      "country": "波兰"
+    },
+    {
+      "name": "BoomBit",
+      "city": "gdansk",
+      "country": "波兰"
+    },
+    {
+      "name": "Product Madness",
+      "city": "gdansk",
+      "country": "波兰"
+    },
+    {
+      "name": "mechanistry",
+      "city": "gdansk",
+      "country": "波兰"
+    },
+    {
+      "name": "Forever Entertainment",
+      "city": "gdynia",
+      "country": "波兰"
+    },
+    {
+      "name": "MegaPixel Studio S.A.",
+      "city": "gdynia",
+      "country": "波兰"
+    },
+    {
+      "name": "DreamStorm Studios",
+      "city": "gliwice",
+      "country": "波兰"
+    },
+    {
+      "name": "Infinite Dreams",
+      "city": "gliwice",
+      "country": "波兰"
+    },
+    {
+      "name": "The Farm 51",
+      "city": "gliwice",
+      "country": "波兰"
+    },
+    {
+      "name": "Digital Melody",
+      "city": "grodzisk-mazowiecki",
+      "country": "波兰"
+    },
+    {
+      "name": "PlayWay",
+      "city": "hornowek",
+      "country": "波兰"
+    },
+    {
+      "name": "Ice Flames",
+      "city": "inowroclaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Jujubee",
+      "city": "katowice",
+      "country": "波兰"
+    },
+    {
+      "name": "7 Levels",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "All in! Games",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Awesome Games Studio",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Baltoro Games",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Bloober Team",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "CD Projekt Red",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Empyrean Games",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Feardemic",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Flying Wild Hog",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Home Net Games",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Nano Games",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "One More Level",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Polyslash",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Sperasoft",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Teyon",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "iFun4all",
+      "city": "krakow",
+      "country": "波兰"
+    },
+    {
+      "name": "Wastelands Interactive",
+      "city": "lodz",
+      "country": "波兰"
+    },
+    {
+      "name": "Red Dev Studio",
+      "city": "olsztyn",
+      "country": "波兰"
+    },
+    {
+      "name": "Atomic Jelly",
+      "city": "poznan",
+      "country": "波兰"
+    },
+    {
+      "name": "CyberPho",
+      "city": "poznan",
+      "country": "波兰"
+    },
+    {
+      "name": "Huckleberry Games",
+      "city": "poznan",
+      "country": "波兰"
+    },
+    {
+      "name": "Monster Couch",
+      "city": "poznan",
+      "country": "波兰"
+    },
+    {
+      "name": "Flying Wild Hog",
+      "city": "rzeszow",
+      "country": "波兰"
+    },
+    {
+      "name": "Fireline Games",
+      "city": "strzelce-opolskie",
+      "country": "波兰"
+    },
+    {
+      "name": "Exor Studios",
+      "city": "szczecin",
+      "country": "波兰"
+    },
+    {
+      "name": "Huuuge Games",
+      "city": "szczecin",
+      "country": "波兰"
+    },
+    {
+      "name": "Red Limb Studio",
+      "city": "tymbark",
+      "country": "波兰"
+    },
+    {
+      "name": "11 bit studios",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "ATGames",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "CD Projekt Red",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Cherrypick Games",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "CreativeForge Games",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Flying Wild Hog",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "IQ Publishing",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Juggler Games",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Mass Creation",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Nitreal Games",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Nordcurrent",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Orchid Games",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "People Can Fly",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "PlayWay",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Polish Games Association",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Reikon Games",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Room 8 Studio",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Star Drifters",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "The House of Fables",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Thing Trunk",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "United Label",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Untold Tales",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Vile Monarch",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "naptime.games",
+      "city": "warsaw",
+      "country": "波兰"
+    },
+    {
+      "name": "CI Games",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "Crunching Koalas",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "Dev4Play",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "Drageus Games",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "Klabater",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "Movie Games",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "QLOC",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "QubicGames",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "RockGame",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "SimFabric",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "Techland",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "Ultimate Games",
+      "city": "warszawa",
+      "country": "波兰"
+    },
+    {
+      "name": "CD Projekt Red",
+      "city": "wroclaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Techland",
+      "city": "wroclaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Ten Square Games",
+      "city": "wroclaw",
+      "country": "波兰"
+    },
+    {
+      "name": "Artifex Mundi",
+      "city": "zabrze",
+      "country": "波兰"
+    },
+    {
+      "name": "Corecell Technology",
+      "city": "Bangkok",
+      "country": "泰国"
+    },
+    {
+      "name": "Game Square Interactive",
+      "city": "Bangkok",
+      "country": "泰国"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Bangkok",
+      "country": "泰国"
+    },
+    {
+      "name": "Sanuk Games",
+      "city": "Pak Kret",
+      "country": "泰国"
+    },
+    {
+      "name": "7 Raven Studios",
+      "city": "Pa Tong",
+      "country": "泰国"
+    },
+    {
       "name": "Tantalus Media",
       "city": "Adelaide",
       "country": "澳大利亚"
@@ -2914,6 +6364,2191 @@ const gameCompaniesData = {
       "name": "5 Lives Studios",
       "city": "West End",
       "country": "澳大利亚"
+    },
+    {
+      "name": "Billy Goat Entertainment",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Blackstaff Games",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Brain and Nerd",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Coffee Box Games",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Level 91 Entertainment",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Outsider Games",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Rocket Flair Studios",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Whitepot Studios",
+      "city": "belfast",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "eRepublik",
+      "city": "county-dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Bluebear",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Boon Studios",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Demonware",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Frogwares",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Havok",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Mavenhut",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "People Can Fly",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Pewter Games Studios",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Riot Games",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Scopely",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "VOID Interactive",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Variable State",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Virtuos",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Webzen",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Wildlife Studios",
+      "city": "dublin",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "9th Impact",
+      "city": "galway",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "DoomCube",
+      "city": "galway",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "galway",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Romero Games",
+      "city": "galway",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Spooky Doorway",
+      "city": "galway",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Italic Pig",
+      "city": "holywood",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Hypixel Studios",
+      "city": "londonderry",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Rocket Flair Studios",
+      "city": "mountfield",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "Tribal City Interactive",
+      "city": "oranmore",
+      "country": "爱尔兰"
+    },
+    {
+      "name": "JAJDO",
+      "city": "akersberga",
+      "country": "瑞典"
+    },
+    {
+      "name": "Teotl Studios",
+      "city": "almunge",
+      "country": "瑞典"
+    },
+    {
+      "name": "Atomic Elbow",
+      "city": "alno",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mabozo",
+      "city": "aryd",
+      "country": "瑞典"
+    },
+    {
+      "name": "Martin Magni",
+      "city": "atvidaberg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Boden Game Camp",
+      "city": "boden",
+      "country": "瑞典"
+    },
+    {
+      "name": "CommuniSport",
+      "city": "borlange",
+      "country": "瑞典"
+    },
+    {
+      "name": "Zoikum Games",
+      "city": "borlange",
+      "country": "瑞典"
+    },
+    {
+      "name": "Royal Hand Studios",
+      "city": "bromolla",
+      "country": "瑞典"
+    },
+    {
+      "name": "That Brain",
+      "city": "danderyd",
+      "country": "瑞典"
+    },
+    {
+      "name": "AE Interactive Studios",
+      "city": "falun",
+      "country": "瑞典"
+    },
+    {
+      "name": "Adit Studios",
+      "city": "falun",
+      "country": "瑞典"
+    },
+    {
+      "name": "Deadghost Interactive",
+      "city": "falun",
+      "country": "瑞典"
+    },
+    {
+      "name": "1337 & Senri",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "1337 Game Design",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "A Creative Endeavor",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "BeardyBird",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Bitwave Games",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Craft Animations",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Creative AI Nordic",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Creative Vault",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "DICE",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Dreamon Studios",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "EA Gothenburg",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "EPOS Game Studios",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Elden Pixels",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Far Out Games",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "GameCompanies.com",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Hello There",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Hiber",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "IGDB",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Image & Form",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Itatake",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "JMJ Interactive",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Lavapotion",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Legendo Entertainment",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mindark",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mobile Storytelling",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Nornware",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pathos Interactive",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pax6 Games",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "River End Games",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Rockheart Studios",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Räven",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Secret Mission",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "SkyGoblin",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "SolidIcon",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Soupmasters",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "SteelRaven7",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Stormteller Games",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Table Flip Entertainment",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "The Working Parts",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Thunderful",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "To The Sky",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Winteractive",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Wishfully",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "YCJY Games",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Zoink!",
+      "city": "gothenburg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Killmonday Games",
+      "city": "hedemora",
+      "country": "瑞典"
+    },
+    {
+      "name": "Frictional Games",
+      "city": "helsingborg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Odd Comet Games",
+      "city": "helsingborg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pixelbite",
+      "city": "helsingborg",
+      "country": "瑞典"
+    },
+    {
+      "name": "Frosty Elk",
+      "city": "huddinge",
+      "country": "瑞典"
+    },
+    {
+      "name": "Honkbark Studios",
+      "city": "jonkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Playish",
+      "city": "jonkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Triolith Games",
+      "city": "jorn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Attractive Interactive",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Coastalbyte Games",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Gatling Goat Studios",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Noumenon Games",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Number Twenty Five Entertainment",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Prasius Entertainment",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Station Interactive",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "The Station",
+      "city": "karlshamn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Fragnet Networks",
+      "city": "karlskrona",
+      "country": "瑞典"
+    },
+    {
+      "name": "Agera Games",
+      "city": "karlstad",
+      "country": "瑞典"
+    },
+    {
+      "name": "Embracer Group",
+      "city": "karlstad",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mirage Game Studios",
+      "city": "karlstad",
+      "country": "瑞典"
+    },
+    {
+      "name": "Nuttery Entertainment",
+      "city": "karlstad",
+      "country": "瑞典"
+    },
+    {
+      "name": "Bergsala",
+      "city": "kungsbacka",
+      "country": "瑞典"
+    },
+    {
+      "name": "Bridgeside Interactive",
+      "city": "lidingo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sector3 Studios",
+      "city": "lidkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Aftnareld",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Catalope Games",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "East Sweden Game",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Graewolv",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "IONEO",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Lurkit",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Overflow Games",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Power Challenge",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pugstorm",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Rampant Pixels",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "TK",
+      "city": "linkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "VaragtP Studios",
+      "city": "lundsbrunn",
+      "country": "瑞典"
+    },
+    {
+      "name": "Illwinter Game Design",
+      "city": "lund",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pastille",
+      "city": "lund",
+      "country": "瑞典"
+    },
+    {
+      "name": "Arcade Lab (Swedish Game Development AB)",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Avalanche Studios Group",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Carry Castle",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Coherence",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Deadtoast Entertainment",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Divine Robot",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "EGDF",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Frogsong Studios",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Grapefrukt (webbfarbror)",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Illusion Labs",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Leripa",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Massive Entertainment",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mediocre",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Midnight Hub",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Newnorth Technology",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Outbreak Studios",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Ozma Speldesign",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Planeto",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Polyregular Studios",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Redikod",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sharkmob",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Simogo",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Star Vault",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Tarsier Studios",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "The Bearded Ladies",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "The Sleeping Machine",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Tuxedo Labs",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Vision Punk",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "ustwo",
+      "city": "malmo",
+      "country": "瑞典"
+    },
+    {
+      "name": "Vovoid Media Technologies AB",
+      "city": "mellerud",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mindforce Game Lab",
+      "city": "molndal",
+      "country": "瑞典"
+    },
+    {
+      "name": "Code Club",
+      "city": "motala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Interactive Productline IP",
+      "city": "nacka",
+      "country": "瑞典"
+    },
+    {
+      "name": "Rigid-Soft Studios",
+      "city": "nacka",
+      "country": "瑞典"
+    },
+    {
+      "name": "AmberWing",
+      "city": "norrkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Dimfrost Studio",
+      "city": "norrkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "GameOn Arcade",
+      "city": "norrkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Millenway Development",
+      "city": "norrkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Proactive Gaming Scandinavia",
+      "city": "norrkoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Roaring Kittens",
+      "city": "norrtalje",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sozap",
+      "city": "nykoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sysiac",
+      "city": "nykoping",
+      "country": "瑞典"
+    },
+    {
+      "name": "Snojken",
+      "city": "onsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Freshly Squeezed",
+      "city": "orebro",
+      "country": "瑞典"
+    },
+    {
+      "name": "Nodbrim Interactive",
+      "city": "ronneby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Twoorb Studios",
+      "city": "sater",
+      "country": "瑞典"
+    },
+    {
+      "name": "Gold Town Games",
+      "city": "skelleftea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Grand Pike",
+      "city": "skelleftea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Lazer Wolf Studios",
+      "city": "skelleftea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Orch Star Studios",
+      "city": "skelleftea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Tarvalley",
+      "city": "skelleftea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Angry Demon Studio",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Babloon Studios",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Brimstone Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Coffee Stain Studios",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Deedly Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Double Zero One Zero",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "DoubleMoose Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Flamebait Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Frame Break",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Guru Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Hörberg Productions",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Lone Hero Studios",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Ludosity",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mostly Harmess Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Palindrome Interactive",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pieces Interactive",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "PocApp Studios",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Redbeet Interactive",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Rocket Hammer",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Stunlock Studios",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sunscale Studios",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sweden Game Arena",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Thundersword Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Wanted Mutant Games",
+      "city": "skovde",
+      "country": "瑞典"
+    },
+    {
+      "name": "Shining Gate Software",
+      "city": "sollentuna",
+      "country": "瑞典"
+    },
+    {
+      "name": "Cosmic Picnic",
+      "city": "solna",
+      "country": "瑞典"
+    },
+    {
+      "name": "10 Chambers",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "A Small Game",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "A Sweet Studio",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Ace Maddox",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Amplifier Game Invest",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Apprope",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Arrowhead Game Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Avalanche Studios Group",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Axolot Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Bläck Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Bublar",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Cabinet Licensing",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Collecting Smiles",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Cortopia Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Crackshell",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "DEVM-Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "DICE",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Dataspelsbranschen",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "DekkoDash",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "DreamHack",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Easy Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Elias Software",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Embark Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Epic Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Expansive Worlds",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Experiment 101",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Fast Travel Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Fatshark",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Filimundus",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Flarie",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Flying Fridge Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Fragbite Group",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Fuffr",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Fula Fisken",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "FunPlus",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "FunRock Development",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "G5 Entertainment",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "GOALS",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Game Chest Group",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Gaming Corps",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Glorious Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Gone North Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Good Night Brave Warrior",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Goodbye Kansas",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Gro Play",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Happy L-Lord",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Hatrabbit Entertainment",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Hazelight Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Helpful Strangers",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Industrifonden",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Isbit Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Just For The Win",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "KJ Interactive",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Kaludoscope",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "King",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Landfall Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Like a Boss Games AB",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Lionbite",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "MAG Interactive",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Massive Entertainment",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Midasplayer Tech",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Might and Delight",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Modesty Creative Agency",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Mojang Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Morgondag",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "NAG Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Neat Corporation",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Nekomata Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Net Entertainment",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Nuday Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Overkill Software",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Oxeye Game Studio",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pan Vision",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Paradox Development Studio",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Paradox Interactive",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Peppy Pals",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pixeldiet Entertainment",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Plaion",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Playcentric Industries & Institute",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Plotagon Production",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Polarbit",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Poppermost Productions",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Qaos Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Quel Solaar",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Quickspin",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Quizye",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Raketspel",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Raw Fury Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Resolution Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Right Nice Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Rovio Entertainment",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Rymdfall",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "SVRVIVE Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sensavis",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Sergeant Tom",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "SimWay",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Snowprint Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Spelkraft Sthlm",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Star Stable Entertainment",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Starbreeze Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Stormhatt Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Stroboskop",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Talawa Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Talecore Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "The Bearded Ladies",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "The GD Studio",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Thunderkick",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Toadman Interactive",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Toca Boca",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Trail Games",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "TwifySoft",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Ubisoft Stockholm",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Villa Gorilla",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Visiontrick Media",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "White Wolf Publishing (Paradox)",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "iGotcha Studios",
+      "city": "stockholm",
+      "country": "瑞典"
+    },
+    {
+      "name": "Binary Motion",
+      "city": "sundsvall",
+      "country": "瑞典"
+    },
+    {
+      "name": "Corncrow Games",
+      "city": "sundsvall",
+      "country": "瑞典"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "sundsvall",
+      "country": "瑞典"
+    },
+    {
+      "name": "Warpzone Studios",
+      "city": "taby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Easy Trigger Games",
+      "city": "trollhattan",
+      "country": "瑞典"
+    },
+    {
+      "name": "Friendbase",
+      "city": "trollhattan",
+      "country": "瑞典"
+    },
+    {
+      "name": "Spelagon",
+      "city": "tyreso",
+      "country": "瑞典"
+    },
+    {
+      "name": "Whirlybird Games",
+      "city": "uddevalla",
+      "country": "瑞典"
+    },
+    {
+      "name": "Coldwood Interactive",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Dohi Enterainment",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Frostspektrum Interactive",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Kreatoriet AB",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Level Eight",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Marklund Games",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Nifflas' Games",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Oryx Simulations",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Turborilla",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Zordix AB",
+      "city": "umea",
+      "country": "瑞典"
+    },
+    {
+      "name": "Clifftop Games",
+      "city": "upplands-vasby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Aegik",
+      "city": "uppsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Doctor Entertainment",
+      "city": "uppsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Game-Hosting GH",
+      "city": "uppsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Holgersson Entertainment",
+      "city": "uppsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "MachineGames",
+      "city": "uppsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Night Node",
+      "city": "uppsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Yemsoft",
+      "city": "uppsala",
+      "country": "瑞典"
+    },
+    {
+      "name": "Art in Heart",
+      "city": "vasteras",
+      "country": "瑞典"
+    },
+    {
+      "name": "Bloodberry Games",
+      "city": "visby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Eat Create Sleep",
+      "city": "visby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Meow Entertainment",
+      "city": "visby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Pixel Ferrets",
+      "city": "visby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Storm Potion",
+      "city": "visby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Three Gates",
+      "city": "visby",
+      "country": "瑞典"
+    },
+    {
+      "name": "Wadonk",
+      "city": "vislanda",
+      "country": "瑞典"
+    },
+    {
+      "name": "BISBOG",
+      "city": "lausanne",
+      "country": "瑞士"
+    },
+    {
+      "name": "Sunnyside Games",
+      "city": "lausanne",
+      "country": "瑞士"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "lucerne",
+      "country": "瑞士"
+    },
+    {
+      "name": "Giants Software",
+      "city": "schlieren",
+      "country": "瑞士"
+    },
+    {
+      "name": "Plaion",
+      "city": "st-gallen",
+      "country": "瑞士"
+    },
+    {
+      "name": "Gbanga, Millform",
+      "city": "zurich",
+      "country": "瑞士"
+    },
+    {
+      "name": "Niantic",
+      "city": "zurich",
+      "country": "瑞士"
+    },
+    {
+      "name": "Swiss Game Developers Association",
+      "city": "zurich",
+      "country": "瑞士"
+    },
+    {
+      "name": "Archibaldi Studio",
+      "city": "minsk",
+      "country": "白俄罗斯"
+    },
+    {
+      "name": "IGG",
+      "city": "minsk",
+      "country": "白俄罗斯"
+    },
+    {
+      "name": "Melsoft",
+      "city": "minsk",
+      "country": "白俄罗斯"
+    },
+    {
+      "name": "Playtika",
+      "city": "minsk",
+      "country": "白俄罗斯"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "minsk",
+      "country": "白俄罗斯"
+    },
+    {
+      "name": "Steel Monkeys",
+      "city": "minsk",
+      "country": "白俄罗斯"
+    },
+    {
+      "name": "Wargaming.net",
+      "city": "minsk",
+      "country": "白俄罗斯"
+    },
+    {
+      "name": "IGDA Peru",
+      "city": "Miraflores",
+      "country": "秘鲁"
+    },
+    {
+      "name": "Bamtang Games",
+      "city": "San Isidro",
+      "country": "秘鲁"
+    },
+    {
+      "name": "SneakyBox",
+      "city": "kaunas",
+      "country": "立陶宛"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "kaunas",
+      "country": "立陶宛"
+    },
+    {
+      "name": "Lithuanian Game Developers Association",
+      "city": "vilnius",
+      "country": "立陶宛"
+    },
+    {
+      "name": "Nordcurrent",
+      "city": "vilnius",
+      "country": "立陶宛"
+    },
+    {
+      "name": "Playdead",
+      "city": "vilnius",
+      "country": "立陶宛"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "vilnius",
+      "country": "立陶宛"
+    },
+    {
+      "name": "16 bit nights",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Alien Pixel",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Amber Studio",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Angry Mob Games",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Critique Gaming",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Deep Byte Studios",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Devious Technologies",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "EA Romania",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Exosyphen Studios",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Firebyte Games",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Green Horse Games",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Greenlink Group",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Idea Studios",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Kappsule Studio",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Killhouse Games",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "King Games Studio Bucharest",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Metagame Studio",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Mind Treat Studios",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Ovilex",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Pyrognomic Software",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Rikodu",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Sand Sailor Studio",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Scorpius Games",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Splinter Games",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Square Heads Games",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Stuck In Attic",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Tractor Set GO!",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Transylgamia",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Ubisoft Romania",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "WitchHut",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "eRepublik",
+      "city": "brasov-county",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "AMC Studio",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Atypical Games",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Bandai Namco Entertainment Romania",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "BigBlue Studios",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "CI Games",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "DPS Games Studio",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Fun Labs",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Gameloft",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Mavenhut",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Midnight Works",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Playtika",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Revo Solutions Games",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Romanian Game Developers Association",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Those Awesome Guys",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Tiny Trinket Games",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Ubisoft Bucharest",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "White Pond Games",
+      "city": "bucharest",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Gameloft",
+      "city": "cluj-napoca",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Phenomenon Games",
+      "city": "cluj-napoca",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Ubisoft Bucharest",
+      "city": "craiova",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Interactive Stone",
+      "city": "iasi",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Midnight Works",
+      "city": "iasi",
+      "country": "罗马尼亚"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "pantelimon",
+      "country": "罗马尼亚"
     },
     {
       "name": "Game Circus",
@@ -9011,6 +14646,581 @@ const gameCompaniesData = {
       "country": "美国"
     },
     {
+      "name": "Almost Human",
+      "city": "espoo",
+      "country": "芬兰"
+    },
+    {
+      "name": "Aniway",
+      "city": "espoo",
+      "country": "芬兰"
+    },
+    {
+      "name": "Fun Academy",
+      "city": "espoo",
+      "country": "芬兰"
+    },
+    {
+      "name": "Remedy Entertainment",
+      "city": "espoo",
+      "country": "芬兰"
+    },
+    {
+      "name": "Rovio Entertainment",
+      "city": "espoo",
+      "country": "芬兰"
+    },
+    {
+      "name": "Virtual Air Guitar Company",
+      "city": "espoo",
+      "country": "芬兰"
+    },
+    {
+      "name": "3rd Eye Studios",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Action Squad Studios",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Animoca Brands",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Bugbear Entertainment",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Cornfox & Bros.",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Critical Force Entertainment",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Draconus Entertainment",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "EGDF",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Epic Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Everywear Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Fingersoft",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Frogmind",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Frozenbyte",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Futureplay",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Grip Studios Interactive",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Hempuli",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Hipfire",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Housemarque",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Huuuge Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "JetDogs Studios",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Kuuasema",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Lightneer",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Ministry of Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Mountain Sheep",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Neogames",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Next Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Nitro Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Nolla Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Oddrok",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Palringo",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Panzerdog",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Playtika",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Reforged Studios",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Resistance Studio",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Secret Exit",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Seriously Digital Entertainment",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Shark Punch",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Shiver Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Small Giant Games",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Sulake Oy",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Supercell",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Tribe Studios",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Ubisoft RedLynx",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Woblyware",
+      "city": "helsinki",
+      "country": "芬兰"
+    },
+    {
+      "name": "Snowhound Games",
+      "city": "jyvaskyla",
+      "country": "芬兰"
+    },
+    {
+      "name": "Stolen Shoes Entertainment",
+      "city": "jyvaskyla",
+      "country": "芬兰"
+    },
+    {
+      "name": "Critical Force Entertainment",
+      "city": "kajaani",
+      "country": "芬兰"
+    },
+    {
+      "name": "Kajak Games",
+      "city": "kajaani",
+      "country": "芬兰"
+    },
+    {
+      "name": "Rusto",
+      "city": "kajaani",
+      "country": "芬兰"
+    },
+    {
+      "name": "Team Jolly Roger",
+      "city": "kajaani",
+      "country": "芬兰"
+    },
+    {
+      "name": "MeKiwi",
+      "city": "oulu",
+      "country": "芬兰"
+    },
+    {
+      "name": "Parta Games",
+      "city": "suonenjoki",
+      "country": "芬兰"
+    },
+    {
+      "name": "10tons",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Bon Games",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Catland",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Colossal Order",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Kopla Games",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Kyy Games",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Panic Art Studios",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Prodigium Game Studios",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Random Potion",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "TeacherGaming",
+      "city": "tampere",
+      "country": "芬兰"
+    },
+    {
+      "name": "Part Time Monkey",
+      "city": "vantaa",
+      "country": "芬兰"
+    },
+    {
+      "name": "Earthbound Games",
+      "city": "collace",
+      "country": "苏格兰"
+    },
+    {
+      "name": "4J Studios",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Cobra Mobile",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Denki",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Hutch",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Hyper Luminal Games",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Junkfish",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Ninja Kiwi",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Orthrus Studios",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Outplay Entertainment",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Pocket Sized Hands",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Puny Astronaut",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Rockstar Dundee",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Ruffian Games",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Serious Parody",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Stand Out Games Studio",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Stormcloud Games",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Tag Games",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "YoYo Games",
+      "city": "dundee",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Cloud Colony Games",
+      "city": "dunfermline",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Ant Workshop",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Build A Rocket Boy",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Cohort Studios",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Epic Games",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Haiku Interactive",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "KeelWorks",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Rockstar North",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Schizotypy Games",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Somewhat Unsettling",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Stone Spark Games",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "VIS Entertainment",
+      "city": "edinburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "HexWar Games",
+      "city": "elgin",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Hunted Cow Studios",
+      "city": "elgin",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Blazing Griffin",
+      "city": "glasgow",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Extra Mile Studios",
+      "city": "glasgow",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Firebrand Games",
+      "city": "glasgow",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Game Doctor",
+      "city": "glasgow",
+      "country": "苏格兰"
+    },
+    {
+      "name": "No Code Studio",
+      "city": "glasgow",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "glasgow",
+      "country": "苏格兰"
+    },
+    {
+      "name": "DeuXality",
+      "city": "inverness",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Game Doctor",
+      "city": "musselburgh",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Bandai Namco Europe",
+      "city": "scotland",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Rivet Games",
+      "city": "stirling",
+      "country": "苏格兰"
+    },
+    {
+      "name": "Imagination Games",
+      "city": "wanlockhead",
+      "country": "苏格兰"
+    },
+    {
       "name": "Atomhawk Design",
       "city": "Abbotts Hill",
       "country": "英国"
@@ -10884,5 +17094,985 @@ const gameCompaniesData = {
       "name": "Revolution Software",
       "city": "York",
       "country": "英国"
+    },
+    {
+      "name": "Blackmill Games",
+      "city": "alkmaar",
+      "country": "荷兰"
+    },
+    {
+      "name": "M2H",
+      "city": "alkmaar",
+      "country": "荷兰"
+    },
+    {
+      "name": "Two Tribes",
+      "city": "amersfoort",
+      "country": "荷兰"
+    },
+    {
+      "name": "Black Cube Games",
+      "city": "amstelveen",
+      "country": "荷兰"
+    },
+    {
+      "name": "Kakao Games",
+      "city": "amstelveen",
+      "country": "荷兰"
+    },
+    {
+      "name": "Bohemia Interactive",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Guerrilla Games",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Huuuge Games",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "IJsfontein Interactive Media",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "My.com",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Plaion",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Polyphony Digital",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Rusty Lake",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Vanguard Games",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "WeirdBeard",
+      "city": "amsterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Team6 game studios",
+      "city": "assen",
+      "country": "荷兰"
+    },
+    {
+      "name": "Sassybot",
+      "city": "breda",
+      "country": "荷兰"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "breda",
+      "country": "荷兰"
+    },
+    {
+      "name": "i3D.net",
+      "city": "capelle-aan-den-ijssel",
+      "country": "荷兰"
+    },
+    {
+      "name": "Triumph Studios",
+      "city": "delft",
+      "country": "荷兰"
+    },
+    {
+      "name": "Good Shepherd Entertainment",
+      "city": "den-haag",
+      "country": "荷兰"
+    },
+    {
+      "name": "Engine Software",
+      "city": "doetinchem",
+      "country": "荷兰"
+    },
+    {
+      "name": "GameHouse",
+      "city": "eindhoven",
+      "country": "荷兰"
+    },
+    {
+      "name": "Gamious",
+      "city": "haarlem",
+      "country": "荷兰"
+    },
+    {
+      "name": "Iceberg Interactive",
+      "city": "haarlem",
+      "country": "荷兰"
+    },
+    {
+      "name": "Buckethead Entertainment",
+      "city": "haren",
+      "country": "荷兰"
+    },
+    {
+      "name": "Illusive Games",
+      "city": "hilversum",
+      "country": "荷兰"
+    },
+    {
+      "name": "Lionade Games",
+      "city": "hilversum",
+      "country": "荷兰"
+    },
+    {
+      "name": "KeokeN Interactive",
+      "city": "hoofddorp",
+      "country": "荷兰"
+    },
+    {
+      "name": "Soedesco",
+      "city": "hoogvliet-rotterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Critical Bit",
+      "city": "leeuwarden",
+      "country": "荷兰"
+    },
+    {
+      "name": "Triangle Studios",
+      "city": "leeuwarden",
+      "country": "荷兰"
+    },
+    {
+      "name": "Codeglue",
+      "city": "rotterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Nkidu Games",
+      "city": "rotterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Total Mayhem Games",
+      "city": "rotterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "VSTEP",
+      "city": "rotterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Vertigo Games Netherlands",
+      "city": "rotterdam",
+      "country": "荷兰"
+    },
+    {
+      "name": "Feel Free Games",
+      "city": "sassenheim",
+      "country": "荷兰"
+    },
+    {
+      "name": "Blizzard Entertainment",
+      "city": "schiphol-rijk",
+      "country": "荷兰"
+    },
+    {
+      "name": "Digital Dreams",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Dutch Game Garden",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Dutch Games Association",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "GameHouse",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Monogon Games",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Nixxes Software",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Ronimo Games",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Team Liquid",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "TurtleBlaze",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Vlambeer",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Wispfire",
+      "city": "utrecht",
+      "country": "荷兰"
+    },
+    {
+      "name": "Abstraction Games",
+      "city": "valkenswaard",
+      "country": "荷兰"
+    },
+    {
+      "name": "Gazingy Interactive",
+      "city": "zwolle",
+      "country": "荷兰"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Bacolod",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Dreamlords Digital",
+      "city": "Calabarzon",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Makati",
+      "country": "菲律宾"
+    },
+    {
+      "name": "KOG Games",
+      "city": "Makati",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Kooapps",
+      "city": "Makati",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Xeleb",
+      "city": "Makati",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Bit Planet Games",
+      "city": "Manila",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Pasig",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Lakshya Digital",
+      "city": "Pasig",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Secret 6",
+      "city": "Pasig",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Tic Toc Games",
+      "city": "Pasig",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Ubisoft Philippines",
+      "city": "Taguig",
+      "country": "菲律宾"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "alcobendas",
+      "country": "西班牙"
+    },
+    {
+      "name": "GameHouse",
+      "city": "alicante",
+      "country": "西班牙"
+    },
+    {
+      "name": "2Awesome Studio",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Abylight Studios",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Beautiful Glitch",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "CI Games",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Digital Legends Entertainment",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "EnjoyUp Games",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "FunPlus",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "GameHouse",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Gameloft",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Outfit7",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Product Madness",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Scopely",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Socialpoint",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "SuperPowerUpGames",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Ubisoft Barcelona",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Ubisoft Barcelona Mobile",
+      "city": "barcelona",
+      "country": "西班牙"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "castilla-y-leon",
+      "country": "西班牙"
+    },
+    {
+      "name": "Byte4Games",
+      "city": "catarroja",
+      "country": "西班牙"
+    },
+    {
+      "name": "eRepublik",
+      "city": "community-of-madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Santa Clara Games",
+      "city": "donostia-san-sebastian",
+      "country": "西班牙"
+    },
+    {
+      "name": "Whoot Games",
+      "city": "gijon",
+      "country": "西班牙"
+    },
+    {
+      "name": "Dolores Entertainment",
+      "city": "granollers",
+      "country": "西班牙"
+    },
+    {
+      "name": "Plaion",
+      "city": "las-rozas-de-madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Game Troopers",
+      "city": "lleida",
+      "country": "西班牙"
+    },
+    {
+      "name": "No Brakes Games",
+      "city": "los-cristianos",
+      "country": "西班牙"
+    },
+    {
+      "name": "Asociación Española de Videojuegos",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "BadLand Publishing",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "DEV Desarrollo Español Videojuegos",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Drakhar Studio",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Gameloft",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Gammera Nest",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Konami Digital Entertainment Europe",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Mediatonic",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Pentadimensional Games",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Secret 6",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Tequila Works",
+      "city": "madrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "AxesInMotion",
+      "city": "mairena-del-aljarafe",
+      "country": "西班牙"
+    },
+    {
+      "name": "Aldora Games",
+      "city": "malaga",
+      "country": "西班牙"
+    },
+    {
+      "name": "Forgotten Empires",
+      "city": "malaga",
+      "country": "西班牙"
+    },
+    {
+      "name": "Milkstone Studios",
+      "city": "oviedo",
+      "country": "西班牙"
+    },
+    {
+      "name": "Outright Games",
+      "city": "rivas-vaciamadrid",
+      "country": "西班牙"
+    },
+    {
+      "name": "Promineo Studios",
+      "city": "san-cristobal-de-la-laguna",
+      "country": "西班牙"
+    },
+    {
+      "name": "Fictiorama Studios",
+      "city": "san-sebastian-de-los-reyes",
+      "country": "西班牙"
+    },
+    {
+      "name": "MercurySteam",
+      "city": "san-sebastian-de-los-reyes",
+      "country": "西班牙"
+    },
+    {
+      "name": "Ivanovich Games",
+      "city": "sant-cugat-del-valles",
+      "country": "西班牙"
+    },
+    {
+      "name": "Genera Games",
+      "city": "seville",
+      "country": "西班牙"
+    },
+    {
+      "name": "ESAT",
+      "city": "valencia",
+      "country": "西班牙"
+    },
+    {
+      "name": "Eclipse Games",
+      "city": "zaragoza",
+      "country": "西班牙"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Da Nang",
+      "country": "越南"
+    },
+    {
+      "name": "Ubisoft Da Nang",
+      "city": "Da Nang",
+      "country": "越南"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Hanoi",
+      "country": "越南"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Ho Chi Minh City",
+      "country": "越南"
+    },
+    {
+      "name": "GosuMedia",
+      "city": "Ho Chi Minh City",
+      "country": "越南"
+    },
+    {
+      "name": "KIXEYE",
+      "city": "Ho Chi Minh City",
+      "country": "越南"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Ho Chi Minh City",
+      "country": "越南"
+    },
+    {
+      "name": "Game Ever Studio",
+      "city": "Aas",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Wildlife Studios",
+      "city": "Bms",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Animoca Brands",
+      "city": "Buenos Aires",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Coffee Powered Machine",
+      "city": "Buenos Aires",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Buenos Aires",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Nimble Giant Entertainment",
+      "city": "Buenos Aires",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Pixowl",
+      "city": "Buenos Aires",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Playtika",
+      "city": "Buenos Aires",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Red Point Labs",
+      "city": "Buenos Aires",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Trick Gaming Studios",
+      "city": "Mar Del Plata",
+      "country": "阿根廷"
+    },
+    {
+      "name": "Ubisoft Abu Dhabi",
+      "city": "Abu Dhabi",
+      "country": "阿联酋"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Dubai",
+      "country": "阿联酋"
+    },
+    {
+      "name": "IGG",
+      "city": "Dubai",
+      "country": "阿联酋"
+    },
+    {
+      "name": "MBS Studios",
+      "city": "Dubai",
+      "country": "阿联酋"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Dubai",
+      "country": "阿联酋"
+    },
+    {
+      "name": "iBLOXX Studios DMCC",
+      "city": "Dubai",
+      "country": "阿联酋"
+    },
+    {
+      "name": "Bluehole",
+      "city": "Seongnam Si",
+      "country": "韩国"
+    },
+    {
+      "name": "KRAFTON",
+      "city": "Seongnam Si",
+      "country": "韩国"
+    },
+    {
+      "name": "Kakao Games",
+      "city": "Seongnam Si",
+      "country": "韩国"
+    },
+    {
+      "name": "NCSoft",
+      "city": "Seongnam Si",
+      "country": "韩国"
+    },
+    {
+      "name": "Neowiz Games",
+      "city": "Seongnam Si",
+      "country": "韩国"
+    },
+    {
+      "name": "Webzen",
+      "city": "Seongnam Si",
+      "country": "韩国"
+    },
+    {
+      "name": "6waves",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Aeria Games",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Blizzard Entertainment",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "CFK",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Capcom",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Cheritz",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Com2Us",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Electronic Arts",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Epic Games",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Gaea",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Gravity",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Intragames",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Korean Game Developer Association",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Nanali Studios",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "NetEase Games",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Netmarble Games",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Nintendo of Korea",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "PUBG Studios",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Riot Games",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Skonec Entertainment",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Softmax",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Supercell",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Unity Technologies",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Vertigo Games",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Virtuos",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Visual Concepts",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Wonder People",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "Zepetto",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "nWay",
+      "city": "Seoul",
+      "country": "韩国"
+    },
+    {
+      "name": "IndigoBlue Game Studio",
+      "city": "Ulsan",
+      "country": "韩国"
+    },
+    {
+      "name": "Malaysia Digital Economy Corporation",
+      "city": "Cyberjaya",
+      "country": "马来西亚"
+    },
+    {
+      "name": "Codemasters",
+      "city": "Kuala Lumpur",
+      "country": "马来西亚"
+    },
+    {
+      "name": "Gameloft",
+      "city": "Kuala Lumpur",
+      "country": "马来西亚"
+    },
+    {
+      "name": "GosuMedia",
+      "city": "Kuala Lumpur",
+      "country": "马来西亚"
+    },
+    {
+      "name": "Pole To Win",
+      "city": "Kuala Lumpur",
+      "country": "马来西亚"
+    },
+    {
+      "name": "Streamline Studios",
+      "city": "Kuala Lumpur",
+      "country": "马来西亚"
+    },
+    {
+      "name": "Bandai Namco Studios",
+      "city": "Petaling Jaya",
+      "country": "马来西亚"
+    },
+    {
+      "name": "Exient",
+      "city": "floriana",
+      "country": "马耳他"
+    },
+    {
+      "name": "Bigpoint",
+      "city": "gzira",
+      "country": "马耳他"
+    },
+    {
+      "name": "Gaming Malta",
+      "city": "kalkara",
+      "country": "马耳他"
+    },
+    {
+      "name": "4A Games",
+      "city": "sliema",
+      "country": "马耳他"
+    },
+    {
+      "name": "G5 Entertainment",
+      "city": "sliema",
+      "country": "马耳他"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "sliema",
+      "country": "马耳他"
+    },
+    {
+      "name": "Electric Square",
+      "city": "st-julians",
+      "country": "马耳他"
+    },
+    {
+      "name": "Keywords Studios",
+      "city": "st-julians",
+      "country": "马耳他"
+    },
+    {
+      "name": "Anvil Game Studios",
+      "city": "valletta",
+      "country": "马耳他"
     }
   ]};
