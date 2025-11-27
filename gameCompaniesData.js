@@ -746,6 +746,86 @@ const gameCompaniesData = {
       "country": "以色列"
     },
     {
+      "name": "CrazyLabs",
+      "city": "sofia",
+      "country": "保加利亚"
+    },
+    {
+      "name": "Gameloft",
+      "city": "sofia",
+      "country": "保加利亚"
+    },
+    {
+      "name": "Haemimont Games",
+      "city": "sofia",
+      "country": "保加利亚"
+    },
+    {
+      "name": "Snapshot Games",
+      "city": "sofia",
+      "country": "保加利亚"
+    },
+    {
+      "name": "The Creative Assembly",
+      "city": "sofia",
+      "country": "保加利亚"
+    },
+    {
+      "name": "Ubisoft Sofia",
+      "city": "sofia",
+      "country": "保加利亚"
+    },
+    {
+      "name": "Pine Studio",
+      "city": "samobor",
+      "country": "克罗地亚"
+    },
+    {
+      "name": "Croteam",
+      "city": "zagreb",
+      "country": "克罗地亚"
+    },
+    {
+      "name": "Exordium Games",
+      "city": "zagreb",
+      "country": "克罗地亚"
+    },
+    {
+      "name": "LionGameLion",
+      "city": "zagreb",
+      "country": "克罗地亚"
+    },
+    {
+      "name": "Ocean Media",
+      "city": "zapresic",
+      "country": "克罗地亚"
+    },
+    {
+      "name": "Aldin Dynamics",
+      "city": "reykjavik",
+      "country": "冰岛"
+    },
+    {
+      "name": "CCP Games",
+      "city": "reykjavik",
+      "country": "冰岛"
+    },
+    {
+      "name": "Gebo Kano",
+      "city": "reykjavik",
+      "country": "冰岛"
+    },
+    {
+      "name": "Radiant Games",
+      "city": "reykjavik",
+      "country": "冰岛"
+    },
+    {
+      "name": "Solid Clouds",
+      "city": "seltjarnarnes",
+      "country": "冰岛"
+    },
+    {
       "name": "Alpha Dog Games",
       "city": "Bedford",
       "country": "加拿大"
@@ -2211,6 +2291,11 @@ const gameCompaniesData = {
       "country": "匈牙利"
     },
     {
+      "name": "CrazyLabs",
+      "city": "skopje",
+      "country": "北马其顿"
+    },
+    {
       "name": "Skobbejak Games",
       "city": "Alberton",
       "country": "南非"
@@ -2914,6 +2999,11 @@ const gameCompaniesData = {
       "name": "Wildlife Studios",
       "city": "sao-paulo",
       "country": "巴西"
+    },
+    {
+      "name": "OnSkull",
+      "city": "polichni",
+      "country": "希腊"
     },
     {
       "name": "Asylum Square",
@@ -3621,6 +3711,11 @@ const gameCompaniesData = {
       "country": "意大利"
     },
     {
+      "name": "Latvian Game Developers Association",
+      "city": "riga",
+      "country": "拉脱维亚"
+    },
+    {
       "name": "Amanita Design",
       "city": "brno",
       "country": "捷克"
@@ -3711,6 +3806,11 @@ const gameCompaniesData = {
       "country": "捷克"
     },
     {
+      "name": "Midnight Works",
+      "city": "chisinau",
+      "country": "摩尔多瓦"
+    },
+    {
       "name": "Inlogic Software",
       "city": "banskobystricky-kraj",
       "country": "斯洛伐克"
@@ -3764,6 +3864,26 @@ const gameCompaniesData = {
       "name": "Webnetic s. r. o.",
       "city": "turany",
       "country": "斯洛伐克"
+    },
+    {
+      "name": "Dawn of Play",
+      "city": "ljubljana-dobrunje",
+      "country": "斯洛文尼亚"
+    },
+    {
+      "name": "Outfit7",
+      "city": "ljubljana",
+      "country": "斯洛文尼亚"
+    },
+    {
+      "name": "Hyper Fox Studios",
+      "city": "zagorje-ob-savi",
+      "country": "斯洛文尼亚"
+    },
+    {
+      "name": "Tricky Tribe",
+      "city": "zagorje-ob-savi",
+      "country": "斯洛文尼亚"
     },
     {
       "name": "BoomZap Entertainment",
@@ -15222,1878 +15342,1778 @@ const gameCompaniesData = {
     },
     {
       "name": "Atomhawk Design",
-      "city": "Abbotts Hill",
-      "country": "英国"
+      "city": "abbotts-hill",
+      "country": "英格兰"
     },
     {
       "name": "Sumo Digital",
-      "city": "Abbotts Hill",
-      "country": "英国"
+      "city": "abbotts-hill",
+      "country": "英格兰"
     },
     {
       "name": "Strangely Named",
-      "city": "Aldershot",
-      "country": "英国"
+      "city": "aldershot",
+      "country": "英格兰"
     },
     {
       "name": "Unity Technologies",
-      "city": "Atherstone On Stour",
-      "country": "英国"
+      "city": "atherstone-on-stour",
+      "country": "英格兰"
     },
     {
       "name": "Rumpus Animation",
-      "city": "Avon",
-      "country": "英国"
+      "city": "avon",
+      "country": "英格兰"
     },
     {
       "name": "Excalibur Games",
-      "city": "Banbury",
-      "country": "英国"
+      "city": "banbury",
+      "country": "英格兰"
     },
     {
       "name": "Monster and Monster",
-      "city": "Barford",
-      "country": "英国"
+      "city": "barford",
+      "country": "英格兰"
     },
     {
       "name": "Chequered Ink",
-      "city": "Bath",
-      "country": "英国"
+      "city": "bath",
+      "country": "英格兰"
     },
     {
       "name": "Steel Media",
-      "city": "Bath",
-      "country": "英国"
+      "city": "bath",
+      "country": "英格兰"
     },
     {
       "name": "Anarchy Enterprises",
-      "city": "Birmingham",
-      "country": "英国"
+      "city": "birmingham",
+      "country": "英格兰"
     },
     {
       "name": "Codemasters",
-      "city": "Birmingham",
-      "country": "英国"
+      "city": "birmingham",
+      "country": "英格兰"
     },
     {
       "name": "FredBear Games",
-      "city": "Birmingham",
-      "country": "英国"
+      "city": "birmingham",
+      "country": "英格兰"
     },
     {
       "name": "VooFoo Studios",
-      "city": "Birmingham",
-      "country": "英国"
+      "city": "birmingham",
+      "country": "英格兰"
     },
     {
       "name": "Amuzo",
-      "city": "Bournemouth",
-      "country": "英国"
-    },
-    {
-      "name": "Kalypso Media",
-      "city": "Bracknell",
-      "country": "英国"
+      "city": "bournemouth",
+      "country": "英格兰"
     },
     {
       "name": "Nyu Media",
-      "city": "Bradford",
-      "country": "英国"
+      "city": "bradford",
+      "country": "英格兰"
     },
     {
       "name": "Laughing Jackal",
-      "city": "Braintree",
-      "country": "英国"
+      "city": "braintree",
+      "country": "英格兰"
     },
     {
       "name": "Sega",
-      "city": "Brentford",
-      "country": "英国"
+      "city": "brentford",
+      "country": "英格兰"
     },
     {
       "name": "Sega Europe",
-      "city": "Brentford",
-      "country": "英国"
+      "city": "brentford",
+      "country": "英格兰"
     },
     {
       "name": "Grey Alien Games",
-      "city": "Bridport",
-      "country": "英国"
+      "city": "bridport",
+      "country": "英格兰"
     },
     {
       "name": "Dream Harvest",
-      "city": "Brighton And Hove",
-      "country": "英国"
+      "city": "brighton-and-hove",
+      "country": "英格兰"
     },
     {
       "name": "Electric Square",
-      "city": "Brighton And Hove",
-      "country": "英国"
+      "city": "brighton-and-hove",
+      "country": "英格兰"
     },
     {
       "name": "ICO Partners",
-      "city": "Brighton And Hove",
-      "country": "英国"
+      "city": "brighton-and-hove",
+      "country": "英格兰"
     },
     {
       "name": "Altered Gene",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "BISBOG",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Brightrock Games",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Damp Gnat",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Hangar 13",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Hi-Rez Studios",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "MAG Interactive",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Mediatonic",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Mode 7",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "NCSoft",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "NaturalMotion",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Player Research",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Plug-In Media",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Red Beard Games",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Skatanic Studios",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Sprung Studios",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Sumo Digital",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "The Chinese Room",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Toxic Games",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Unity Technologies",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "ZEROLife Games",
-      "city": "Brighton",
-      "country": "英国"
+      "city": "brighton",
+      "country": "英格兰"
     },
     {
       "name": "Arcfire Games",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Auroch Digital",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Bristol Games Hub",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "CATASTROPHIC_OVERLOAD",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Codebyfire",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Force of Habit",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Friday Sundae",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "GroundShatter",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Infinite State Games",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Large Visible Machine",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Mobile Pie",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Ndemic Creations",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Opposable Games",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Out of Bounds Games",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Twice Circled",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Unity Technologies",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "aPriori Digital",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "pQube",
-      "city": "Bristol",
-      "country": "英国"
+      "city": "bristol",
+      "country": "英格兰"
     },
     {
       "name": "Splash Damage",
-      "city": "Bromley",
-      "country": "英国"
-    },
-    {
-      "name": "Flix Interactive",
-      "city": "Bromsgrove",
-      "country": "英国"
+      "city": "bromley",
+      "country": "英格兰"
     },
     {
       "name": "Triangular Pixels",
-      "city": "Bude",
-      "country": "英国"
+      "city": "bude",
+      "country": "英格兰"
     },
     {
       "name": "Flox Studios",
-      "city": "Cambridge",
-      "country": "英国"
+      "city": "cambridge",
+      "country": "英格兰"
     },
     {
       "name": "Frontier Developments",
-      "city": "Cambridge",
-      "country": "英国"
+      "city": "cambridge",
+      "country": "英格兰"
     },
     {
       "name": "Ninja Theory",
-      "city": "Cambridge",
-      "country": "英国"
+      "city": "cambridge",
+      "country": "英格兰"
     },
     {
       "name": "Studio Pepwuper",
-      "city": "Cambridge",
-      "country": "英国"
-    },
-    {
-      "name": "Omni Systems",
-      "city": "Canterbury",
-      "country": "英国"
+      "city": "cambridge",
+      "country": "英格兰"
     },
     {
       "name": "Alternative Software",
-      "city": "Castleford",
-      "country": "英国"
+      "city": "castleford",
+      "country": "英格兰"
     },
     {
       "name": "The Mathematical Games Company",
-      "city": "Caterham",
-      "country": "英国"
+      "city": "caterham",
+      "country": "英格兰"
     },
     {
       "name": "SpecialEffect",
-      "city": "Charlbury",
-      "country": "英国"
-    },
-    {
-      "name": "Dovetail Games",
-      "city": "Chatham",
-      "country": "英国"
+      "city": "charlbury",
+      "country": "英格兰"
     },
     {
       "name": "Big Boss Battle",
-      "city": "Chelmsford",
-      "country": "英国"
+      "city": "chelmsford",
+      "country": "英格兰"
     },
     {
       "name": "Semaeopus",
-      "city": "Chelmsford",
-      "country": "英国"
-    },
-    {
-      "name": "Baggy Cat Entertainment",
-      "city": "Chorley",
-      "country": "英国"
-    },
-    {
-      "name": "Neon Play",
-      "city": "Cirencester",
-      "country": "英国"
-    },
-    {
-      "name": "Round Squares Studios",
-      "city": "Connahs Quay",
-      "country": "英国"
+      "city": "chelmsford",
+      "country": "英格兰"
     },
     {
       "name": "Complete Control",
-      "city": "Corston",
-      "country": "英国"
+      "city": "corston",
+      "country": "英格兰"
     },
     {
       "name": "Kuju Entertainment",
-      "city": "Croydon",
-      "country": "英国"
+      "city": "croydon",
+      "country": "英格兰"
     },
     {
       "name": "No Yetis Allowed",
-      "city": "Croydon",
-      "country": "英国"
+      "city": "croydon",
+      "country": "英格兰"
     },
     {
       "name": "Reef Entertainment",
-      "city": "Croydon",
-      "country": "英国"
+      "city": "croydon",
+      "country": "英格兰"
     },
     {
       "name": "Bulkhead Interactive",
-      "city": "Derby",
-      "country": "英国"
+      "city": "derby",
+      "country": "英格兰"
     },
     {
       "name": "Deco Digital",
-      "city": "Derby",
-      "country": "英国"
+      "city": "derby",
+      "country": "英格兰"
     },
     {
       "name": "LightForge Academy",
-      "city": "Doncaster",
-      "country": "英国"
-    },
-    {
-      "name": "Funbox Media",
-      "city": "Duckmanton",
-      "country": "英国"
+      "city": "doncaster",
+      "country": "英格兰"
     },
     {
       "name": "Wreck Tangle Games",
-      "city": "Eastbourne",
-      "country": "英国"
+      "city": "eastbourne",
+      "country": "英格兰"
     },
     {
       "name": "Inertia Game Studios",
-      "city": "Ely",
-      "country": "英国"
+      "city": "ely",
+      "country": "英格兰"
     },
     {
       "name": "Slitherine Software",
-      "city": "Epsom",
-      "country": "英国"
+      "city": "epsom",
+      "country": "英格兰"
     },
     {
       "name": "Fat Fish Games",
-      "city": "Falmer",
-      "country": "英国"
+      "city": "falmer",
+      "country": "英格兰"
     },
     {
       "name": "Waving Bear Studio",
-      "city": "Falmouth",
-      "country": "英国"
+      "city": "falmouth",
+      "country": "英格兰"
     },
     {
       "name": "Wirehead Games",
-      "city": "Falmouth",
-      "country": "英国"
+      "city": "falmouth",
+      "country": "英格兰"
     },
     {
       "name": "nDreams",
-      "city": "Farnborough",
-      "country": "英国"
+      "city": "farnborough",
+      "country": "英格兰"
     },
     {
       "name": "Two Point Studios",
-      "city": "Farnham",
-      "country": "英国"
+      "city": "farnham",
+      "country": "英格兰"
     },
     {
       "name": "Coconut Lizard",
-      "city": "Gateshead",
-      "country": "英国"
+      "city": "gateshead",
+      "country": "英格兰"
     },
     {
       "name": "Eutechnyx",
-      "city": "Gateshead",
-      "country": "英国"
+      "city": "gateshead",
+      "country": "英格兰"
     },
     {
       "name": "High Tea frog",
-      "city": "Gateshead",
-      "country": "英国"
+      "city": "gateshead",
+      "country": "英格兰"
     },
     {
       "name": "Pocket Money Games",
-      "city": "Gateshead",
-      "country": "英国"
+      "city": "gateshead",
+      "country": "英格兰"
     },
     {
       "name": "Chilled Mouse",
-      "city": "Godalming",
-      "country": "英国"
+      "city": "godalming",
+      "country": "英格兰"
     },
     {
       "name": "Upstream Arcade",
-      "city": "Godalming",
-      "country": "英国"
+      "city": "godalming",
+      "country": "英格兰"
     },
     {
       "name": "Ghostlight",
-      "city": "Great Notley",
-      "country": "英国"
+      "city": "great-notley",
+      "country": "英格兰"
     },
     {
       "name": "Midas Interactive Entertainment",
-      "city": "Great Notley",
-      "country": "英国"
+      "city": "great-notley",
+      "country": "英格兰"
     },
     {
       "name": "22Cans",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Absolutely Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Cavalier Game Studios",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Criterion Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "DPS Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Electronic Arts",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Epic Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Fireblade Software",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Fireproof Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Flaming Fowl Studios",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Fortitude Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Glowmade",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Hello Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Magic Notion",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Media Molecule",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Mediatonic",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Mojiworks",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Perchang",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "PixelCount Studios",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Playsport Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Rodeo Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Stellar Entertainment",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Supergonk",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Supermassive Games",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Turbulenz",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Ubisoft Northern Europe",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Wonderstruck",
-      "city": "Guildford",
-      "country": "英国"
+      "city": "guildford",
+      "country": "英格兰"
     },
     {
       "name": "Delve Interactive",
-      "city": "Hailsham",
-      "country": "英国"
-    },
-    {
-      "name": "Cascade Games",
-      "city": "Harrogate",
-      "country": "英国"
+      "city": "hailsham",
+      "country": "英格兰"
     },
     {
       "name": "Superscape",
-      "city": "Hook",
-      "country": "英国"
+      "city": "hook",
+      "country": "英格兰"
     },
     {
       "name": "The Creative Assembly",
-      "city": "Horsham",
-      "country": "英国"
+      "city": "horsham",
+      "country": "英格兰"
     },
     {
       "name": "FuturLab",
-      "city": "Hove",
-      "country": "英国"
+      "city": "hove",
+      "country": "英格兰"
     },
     {
       "name": "PaperSeven",
-      "city": "Hove",
-      "country": "英国"
+      "city": "hove",
+      "country": "英格兰"
     },
     {
       "name": "ShortRound Games",
-      "city": "Hove",
-      "country": "英国"
+      "city": "hove",
+      "country": "英格兰"
     },
     {
       "name": "Snap Finger Click",
-      "city": "Hove",
-      "country": "英国"
+      "city": "hove",
+      "country": "英格兰"
     },
     {
       "name": "Studio Gobo",
-      "city": "Hove",
-      "country": "英国"
+      "city": "hove",
+      "country": "英格兰"
     },
     {
       "name": "TT Games",
-      "city": "Hove",
-      "country": "英国"
+      "city": "hove",
+      "country": "英格兰"
     },
     {
       "name": "Just Trains",
-      "city": "Huntingdon",
-      "country": "英国"
-    },
-    {
-      "name": "Palringo",
-      "city": "Ipswich",
-      "country": "英国"
+      "city": "huntingdon",
+      "country": "英格兰"
     },
     {
       "name": "Spacefarer Games",
-      "city": "Kirby Cross",
-      "country": "英国"
+      "city": "kirby-cross",
+      "country": "英格兰"
     },
     {
       "name": "Merge Games",
-      "city": "Knutsford",
-      "country": "英国"
+      "city": "knutsford",
+      "country": "英格兰"
     },
     {
       "name": "TT Games",
-      "city": "Knutsford",
-      "country": "英国"
+      "city": "knutsford",
+      "country": "英格兰"
     },
     {
       "name": "Traveller's Tales",
-      "city": "Knutsford",
-      "country": "英国"
+      "city": "knutsford",
+      "country": "英格兰"
     },
     {
       "name": "GameDigits",
-      "city": "Leeds",
-      "country": "英国"
+      "city": "leeds",
+      "country": "英格兰"
     },
     {
       "name": "Rockstar Leeds",
-      "city": "Leeds",
-      "country": "英国"
+      "city": "leeds",
+      "country": "英格兰"
     },
     {
       "name": "Sumo Digital",
-      "city": "Leeds",
-      "country": "英国"
+      "city": "leeds",
+      "country": "英格兰"
     },
     {
       "name": "XR Games",
-      "city": "Leeds",
-      "country": "英国"
+      "city": "leeds",
+      "country": "英格兰"
     },
     {
       "name": "Ingenious Concepts",
-      "city": "Leicester",
-      "country": "英国"
+      "city": "leicester",
+      "country": "英格兰"
     },
     {
       "name": "Kalypso Media",
-      "city": "Leicester",
-      "country": "英国"
+      "city": "leicester",
+      "country": "英格兰"
     },
     {
       "name": "Kasedo Games",
-      "city": "Leicester",
-      "country": "英国"
+      "city": "leicester",
+      "country": "英格兰"
     },
     {
       "name": "Starcaster Games",
-      "city": "Leicester",
-      "country": "英国"
+      "city": "leicester",
+      "country": "英格兰"
     },
     {
       "name": "Koei Tecmo",
-      "city": "Letchworth Garden City",
-      "country": "英国"
+      "city": "letchworth-garden-city",
+      "country": "英格兰"
     },
     {
       "name": "pQube",
-      "city": "Letchworth Garden City",
-      "country": "英国"
+      "city": "letchworth-garden-city",
+      "country": "英格兰"
     },
     {
       "name": "Sinister Fish Games",
-      "city": "Lincoln",
-      "country": "英国"
+      "city": "lincoln",
+      "country": "英格兰"
     },
     {
       "name": "Avalanche Studios Group",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Firesprite",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Lucid Games",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Milky Tea Studios",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Onteca",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Playrise Digital",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Ripstone",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Spiral House",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "Wushu Studios",
-      "city": "Liverpool",
-      "country": "英国"
+      "city": "liverpool",
+      "country": "英格兰"
     },
     {
       "name": "8FLOOR",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Amuzo",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "BBC Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Big Farmer",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "BoomBit",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Bossa Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "CCP Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Canterbury Games Studio",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Capcom",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Chucklefish",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Chucklefish Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Claymatic Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "CloudTheWolf Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Cohort Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Curve Digital",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Daedalus Partners",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Digiment",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Dreadlocks",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Eutechnyx",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Experience12",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Feral Interactive",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "FireFly Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Fireshine Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Future Games of London",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "GameAnalytics",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Gameloft",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Games Foundry",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "GamesIndustry.biz",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Genba Digital",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Ghost Town Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Goldborough Studio",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Goodbye Kansas",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Green Man Gaming",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Heavy Spectrum Entertainment Labs",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Hutch",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "ICHI Worldwide",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Improbable",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Infinite State Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Keywords Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Liquid Violet",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Little Orbit",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "London Studio",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Madowl Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Marvelous Europe",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Maverick Media",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Mediatonic",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "NaturalMotion",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "NerdRage Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Niantic",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Nitrome Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Outfit7",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Outright Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "PagadoWest Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Palringo",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Pearl Lemon Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Pesky Digital",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Pixel United",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Playerthree",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Playtika",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Pole To Win",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Preloaded",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Product Madness",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "RealityJam",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Rockstar Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Rockstar London",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Rocksteady Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Roll7",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Room 8 Studio",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Sabec",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Scopely",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Sega",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Slightly Mad Studios",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Sony Interactive Entertainment",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Space Ape Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Sports Interactive",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Square Enix",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Square Enix Collective",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Square Enix Europe",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "State of Play",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "System 3",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "TIGA",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Take-Two Interactive",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "The Mathematical Games Company",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Tonic Games Group",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Twitch",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Ukie",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Unity Technologies",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Variable State",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Waste Creative",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Women in Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Zut Games",
-      "city": "London",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "ustwo",
-      "city": "London",
-      "country": "英国"
-    },
-    {
-      "name": "Rising Star Games",
-      "city": "Luton",
-      "country": "英国"
+      "city": "london",
+      "country": "英格兰"
     },
     {
       "name": "Chillingo",
-      "city": "Macclesfield",
-      "country": "英国"
-    },
-    {
-      "name": "TT Games",
-      "city": "Maidenhead",
-      "country": "英国"
+      "city": "macclesfield",
+      "country": "英格兰"
     },
     {
       "name": "Cherry Pop Games",
-      "city": "Manchester",
-      "country": "英国"
+      "city": "manchester",
+      "country": "英格兰"
     },
     {
       "name": "Four Circle Interactive",
-      "city": "Marlow",
-      "country": "英国"
+      "city": "marlow",
+      "country": "英格兰"
     },
     {
       "name": "Little Stone Software",
-      "city": "Methley",
-      "country": "英国"
+      "city": "methley",
+      "country": "英格兰"
     },
     {
       "name": "Cardboard Sword",
-      "city": "Middlesbrough",
-      "country": "英国"
+      "city": "middlesbrough",
+      "country": "英格兰"
     },
     {
       "name": "Double Eleven",
-      "city": "Middlesbrough",
-      "country": "英国"
+      "city": "middlesbrough",
+      "country": "英格兰"
     },
     {
       "name": "Fox Byte Games",
-      "city": "Middlesbrough",
-      "country": "英国"
+      "city": "middlesbrough",
+      "country": "英格兰"
     },
     {
       "name": "Radical Forge",
-      "city": "Middlesbrough",
-      "country": "英国"
-    },
-    {
-      "name": "Jagex",
-      "city": "Milton",
-      "country": "英国"
+      "city": "middlesbrough",
+      "country": "英格兰"
     },
     {
       "name": "505 Games",
-      "city": "Milton Keynes",
-      "country": "英国"
+      "city": "milton-keynes",
+      "country": "英格兰"
     },
     {
       "name": "DR Studios",
-      "city": "Milton Keynes",
-      "country": "英国"
+      "city": "milton-keynes",
+      "country": "英格兰"
     },
     {
       "name": "Virtual Programming",
-      "city": "Milton Keynes",
-      "country": "英国"
+      "city": "milton-keynes",
+      "country": "英格兰"
     },
     {
-      "name": "Raredrop Games",
-      "city": "Nailsea",
-      "country": "英国"
+      "name": "Jagex",
+      "city": "milton",
+      "country": "英格兰"
     },
     {
       "name": "Epic Games",
-      "city": "Newcastle Upon Tyne",
-      "country": "英国"
+      "city": "newcastle-upon-tyne",
+      "country": "英格兰"
     },
     {
       "name": "Nosebleed Interactive",
-      "city": "Newcastle Upon Tyne",
-      "country": "英国"
+      "city": "newcastle-upon-tyne",
+      "country": "英格兰"
     },
     {
       "name": "Palringo",
-      "city": "Newcastle Upon Tyne",
-      "country": "英国"
+      "city": "newcastle-upon-tyne",
+      "country": "英格兰"
     },
     {
       "name": "Silent Games",
-      "city": "Newcastle Upon Tyne",
-      "country": "英国"
+      "city": "newcastle-upon-tyne",
+      "country": "英格兰"
     },
     {
       "name": "Ubisoft Reflections",
-      "city": "Newcastle Upon Tyne",
-      "country": "英国"
-    },
-    {
-      "name": "Stainless Games",
-      "city": "Newport",
-      "country": "英国"
+      "city": "newcastle-upon-tyne",
+      "country": "英格兰"
     },
     {
       "name": "Rockstar Lincoln",
-      "city": "North Hykeham",
-      "country": "英国"
+      "city": "north-hykeham",
+      "country": "英格兰"
     },
     {
       "name": "Dambuster Studios",
-      "city": "Nottingham",
-      "country": "英国"
+      "city": "nottingham",
+      "country": "英格兰"
     },
     {
       "name": "Free Radical Design",
-      "city": "Nottingham",
-      "country": "英国"
+      "city": "nottingham",
+      "country": "英格兰"
     },
     {
       "name": "Games Workshop",
-      "city": "Nottingham",
-      "country": "英国"
+      "city": "nottingham",
+      "country": "英格兰"
     },
     {
       "name": "Sumo Digital",
-      "city": "Nottingham",
-      "country": "英国"
+      "city": "nottingham",
+      "country": "英格兰"
     },
     {
       "name": "Team17",
-      "city": "Nottingham",
-      "country": "英国"
+      "city": "nottingham",
+      "country": "英格兰"
     },
     {
       "name": "Rebellion",
-      "city": "Ossett",
-      "country": "英国"
+      "city": "ossett",
+      "country": "英格兰"
     },
     {
       "name": "First Touch Games",
-      "city": "Oxford",
-      "country": "英国"
+      "city": "oxford",
+      "country": "英格兰"
     },
     {
       "name": "Rebellion",
-      "city": "Oxford",
-      "country": "英国"
+      "city": "oxford",
+      "country": "英格兰"
     },
     {
       "name": "New Star Games",
-      "city": "Padbury",
-      "country": "英国"
+      "city": "padbury",
+      "country": "英格兰"
     },
     {
       "name": "Antimatter Games",
-      "city": "Penryn",
-      "country": "英国"
+      "city": "penryn",
+      "country": "英格兰"
     },
     {
       "name": "Burnthouse Games",
-      "city": "Penryn",
-      "country": "英国"
+      "city": "penryn",
+      "country": "英格兰"
     },
     {
       "name": "Handsome Devil Studios",
-      "city": "Penryn",
-      "country": "英国"
+      "city": "penryn",
+      "country": "英格兰"
     },
     {
       "name": "Moonshine Studios",
-      "city": "Penryn",
-      "country": "英国"
+      "city": "penryn",
+      "country": "英格兰"
     },
     {
       "name": "Polargryph",
-      "city": "Penryn",
-      "country": "英国"
+      "city": "penryn",
+      "country": "英格兰"
     },
     {
       "name": "Toadman Interactive",
-      "city": "Penryn",
-      "country": "英国"
+      "city": "penryn",
+      "country": "英格兰"
     },
     {
       "name": "Kittens In Timespace",
-      "city": "Penzance",
-      "country": "英国"
+      "city": "penzance",
+      "country": "英格兰"
     },
     {
       "name": "Lightwood Games",
-      "city": "Perton",
-      "country": "英国"
+      "city": "perton",
+      "country": "英格兰"
     },
     {
       "name": "Three Fields Entertainment",
-      "city": "Petersfield",
-      "country": "英国"
-    },
-    {
-      "name": "Mutant Labs",
-      "city": "Plymouth",
-      "country": "英国"
+      "city": "petersfield",
+      "country": "英格兰"
     },
     {
       "name": "Climax Studios",
-      "city": "Portsmouth",
-      "country": "英国"
+      "city": "portsmouth",
+      "country": "英格兰"
     },
     {
       "name": "Freejam",
-      "city": "Portsmouth",
-      "country": "英国"
+      "city": "portsmouth",
+      "country": "英格兰"
     },
     {
       "name": "Massive Monster",
-      "city": "Road",
-      "country": "英国"
+      "city": "road",
+      "country": "英格兰"
     },
     {
       "name": "Genba Digital",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "KISS Publishing",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Kiz Studios",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Kwalee",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Lab42 Games",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Lively Studio",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Mad Fellows",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Midoki",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Modern Dream",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Pixel Toys",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Playground Games",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Sumo Digital",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Supersonic Software",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Third Kind Games",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Ubisoft Leamington",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Unit 2 Games",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Very Good Friend",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Viewpoint Games",
-      "city": "Royal Leamington Spa",
-      "country": "英国"
+      "city": "royal-leamington-spa",
+      "country": "英格兰"
     },
     {
       "name": "Focus Multimedia",
-      "city": "Rugeley",
-      "country": "英国"
+      "city": "rugeley",
+      "country": "英格兰"
     },
     {
       "name": "Codemasters",
-      "city": "Runcorn",
-      "country": "英国"
+      "city": "runcorn",
+      "country": "英格兰"
     },
     {
       "name": "Rebellion",
-      "city": "Runcorn",
-      "country": "英国"
+      "city": "runcorn",
+      "country": "英格兰"
     },
     {
       "name": "d3t",
-      "city": "Runcorn",
-      "country": "英国"
+      "city": "runcorn",
+      "country": "英格兰"
     },
     {
       "name": "Team17",
-      "city": "Salford",
-      "country": "英国"
+      "city": "salford",
+      "country": "英格兰"
     },
     {
       "name": "Yippee Entertainment",
-      "city": "Salford",
-      "country": "英国"
+      "city": "salford",
+      "country": "英格兰"
     },
     {
       "name": "Ionized Studios",
-      "city": "Salisbury",
-      "country": "英国"
+      "city": "salisbury",
+      "country": "英格兰"
     },
     {
       "name": "BGI",
-      "city": "Sheffield",
-      "country": "英国"
+      "city": "sheffield",
+      "country": "英格兰"
     },
     {
       "name": "Secret Mode",
-      "city": "Sheffield",
-      "country": "英国"
+      "city": "sheffield",
+      "country": "英格兰"
     },
     {
       "name": "Sumo Digital",
-      "city": "Sheffield",
-      "country": "英国"
+      "city": "sheffield",
+      "country": "英格兰"
     },
     {
       "name": "Size Five Games",
-      "city": "Sherborne",
-      "country": "英国"
+      "city": "sherborne",
+      "country": "英格兰"
     },
     {
       "name": "Spiderling Studios",
-      "city": "Shoreham By Sea",
-      "country": "英国"
-    },
-    {
-      "name": "Unicube",
-      "city": "Shrewsbury",
-      "country": "英国"
+      "city": "shoreham-by-sea",
+      "country": "英格兰"
     },
     {
       "name": "Unity Technologies",
-      "city": "Slough",
-      "country": "英国"
+      "city": "slough",
+      "country": "英格兰"
     },
     {
       "name": "Aniode",
-      "city": "Southampton",
-      "country": "英国"
+      "city": "southampton",
+      "country": "英格兰"
     },
     {
       "name": "Bitmap Bureau",
-      "city": "Southampton",
-      "country": "英国"
+      "city": "southampton",
+      "country": "英格兰"
     },
     {
       "name": "Codemasters",
-      "city": "Southam",
-      "country": "英国"
-    },
-    {
-      "name": "Puppygames",
-      "city": "South Petherton",
-      "country": "英国"
+      "city": "southam",
+      "country": "英格兰"
     },
     {
       "name": "Super Icon",
-      "city": "St Ives",
-      "country": "英国"
+      "city": "st-ives",
+      "country": "英格兰"
     },
     {
       "name": "Ace Viral",
-      "city": "Sunderland",
-      "country": "英国"
+      "city": "sunderland",
+      "country": "英格兰"
     },
     {
       "name": "Coatsink",
-      "city": "Sunderland",
-      "country": "英国"
+      "city": "sunderland",
+      "country": "英格兰"
     },
     {
       "name": "Rogue Sun",
-      "city": "Surrey Research Park",
-      "country": "英国"
+      "city": "surrey-research-park",
+      "country": "英格兰"
     },
     {
       "name": "Twistplay",
-      "city": "Surrey Research Park",
-      "country": "英国"
+      "city": "surrey-research-park",
+      "country": "英格兰"
     },
     {
       "name": "Llamasoft",
-      "city": "Tadley",
-      "country": "英国"
+      "city": "tadley",
+      "country": "英格兰"
     },
     {
       "name": "Nyamyam",
-      "city": "Tamworth",
-      "country": "英国"
-    },
-    {
-      "name": "Plaion",
-      "city": "Theale",
-      "country": "英国"
+      "city": "tamworth",
+      "country": "英格兰"
     },
     {
       "name": "Adventure Soft",
-      "city": "The Royal Town Of Sutton Coldfield",
-      "country": "英国"
-    },
-    {
-      "name": "Rare",
-      "city": "Twycross",
-      "country": "英国"
+      "city": "the-royal-town-of-sutton-coldfield",
+      "country": "英格兰"
     },
     {
       "name": "CI Games",
-      "city": "Uxbridge",
-      "country": "英国"
+      "city": "uxbridge",
+      "country": "英格兰"
     },
     {
       "name": "Team17",
-      "city": "Wakefield",
-      "country": "英国"
+      "city": "wakefield",
+      "country": "英格兰"
     },
     {
       "name": "Facepunch Studios",
-      "city": "Walsall",
-      "country": "英国"
+      "city": "walsall",
+      "country": "英格兰"
     },
     {
       "name": "Introversion Software",
-      "city": "Walton On Thames",
-      "country": "英国"
+      "city": "walton-on-thames",
+      "country": "英格兰"
     },
     {
       "name": "Cold Beam Games",
-      "city": "Warrington",
-      "country": "英国"
+      "city": "warrington",
+      "country": "英格兰"
     },
     {
       "name": "Second Impact Games",
-      "city": "Warrington",
-      "country": "英国"
+      "city": "warrington",
+      "country": "英格兰"
     },
     {
       "name": "Sumo Digital",
-      "city": "Warrington",
-      "country": "英国"
+      "city": "warrington",
+      "country": "英格兰"
     },
     {
       "name": "Exient",
-      "city": "Warwick",
-      "country": "英国"
+      "city": "warwick",
+      "country": "英格兰"
     },
     {
       "name": "Full Fat Games",
-      "city": "Warwick",
-      "country": "英国"
+      "city": "warwick",
+      "country": "英格兰"
     },
     {
       "name": "Hardlight",
-      "city": "Warwick",
-      "country": "英国"
+      "city": "warwick",
+      "country": "英格兰"
     },
     {
       "name": "ProjectorGames",
-      "city": "Warwick",
-      "country": "英国"
+      "city": "warwick",
+      "country": "英格兰"
     },
     {
       "name": "Rebellion",
-      "city": "Warwick",
-      "country": "英国"
+      "city": "warwick",
+      "country": "英格兰"
     },
     {
       "name": "Sponge Hammer",
-      "city": "Warwick",
-      "country": "英国"
+      "city": "warwick",
+      "country": "英格兰"
     },
     {
       "name": "Numskull Games",
-      "city": "Welwyn Garden City",
-      "country": "英国"
+      "city": "welwyn-garden-city",
+      "country": "英格兰"
     },
     {
       "name": "Cloud Imperium Games",
-      "city": "Wilmslow",
-      "country": "英国"
+      "city": "wilmslow",
+      "country": "英格兰"
     },
     {
       "name": "Playdemic",
-      "city": "Wilmslow",
-      "country": "英国"
+      "city": "wilmslow",
+      "country": "英格兰"
     },
     {
       "name": "TT Fusion",
-      "city": "Wilmslow",
-      "country": "英国"
+      "city": "wilmslow",
+      "country": "英格兰"
     },
     {
       "name": "TT Games",
-      "city": "Wilmslow",
-      "country": "英国"
+      "city": "wilmslow",
+      "country": "英格兰"
     },
     {
-      "name": "2K",
-      "city": "Windsor",
-      "country": "英国"
+      "name": "Konami Digital Entertainment Europe",
+      "city": "windsor",
+      "country": "英格兰"
     },
     {
       "name": "BitBull",
-      "city": "Winsley",
-      "country": "英国"
+      "city": "winsley",
+      "country": "英格兰"
     },
     {
       "name": "Glitch Games",
-      "city": "Witney",
-      "country": "英国"
+      "city": "witney",
+      "country": "英格兰"
     },
     {
       "name": "Two Tails",
-      "city": "Witney",
-      "country": "英国"
+      "city": "witney",
+      "country": "英格兰"
     },
     {
       "name": "Atom Republic",
-      "city": "Woking",
-      "country": "英国"
+      "city": "woking",
+      "country": "英格兰"
     },
     {
       "name": "XMPT Games",
-      "city": "Woking",
-      "country": "英国"
+      "city": "woking",
+      "country": "英格兰"
     },
     {
       "name": "Forward For",
-      "city": "Wolverhampton",
-      "country": "英国"
+      "city": "wolverhampton",
+      "country": "英格兰"
     },
     {
       "name": "Rebourne Studios",
-      "city": "Wolverhampton",
-      "country": "英国"
-    },
-    {
-      "name": "Revolution Software",
-      "city": "York",
-      "country": "英国"
+      "city": "wolverhampton",
+      "country": "英格兰"
     },
     {
       "name": "Blackmill Games",
@@ -17414,6 +17434,26 @@ const gameCompaniesData = {
       "name": "Ubisoft Philippines",
       "city": "Taguig",
       "country": "菲律宾"
+    },
+    {
+      "name": "Associação de Produtores de Videojogos",
+      "city": "lisbon",
+      "country": "葡萄牙"
+    },
+    {
+      "name": "Seed Studios",
+      "city": "porto",
+      "country": "葡萄牙"
+    },
+    {
+      "name": "Bigmoon Entertainment",
+      "city": "vila-nova-de-gaia",
+      "country": "葡萄牙"
+    },
+    {
+      "name": "Saber Interactive",
+      "city": "vila-nova-de-gaia",
+      "country": "葡萄牙"
     },
     {
       "name": "Saber Interactive",
