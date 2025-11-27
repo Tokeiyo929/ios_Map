@@ -255,11 +255,11 @@ const cityCoordinates = {
     "lat": 43.322422,
     "lng": -1.983889
   },
-  "Bath": {
+  "bath": {
     "lat": 51.381386,
     "lng": -2.359696
   },
-  "Corston": {
+  "corston": {
     "lat": 51.374858,
     "lng": -2.438715
   },
@@ -319,13 +319,13 @@ const cityCoordinates = {
     "lat": 54.596391,
     "lng": -5.930183
   },
-  "Slough": {
-    "lat": 44.009872,
-    "lng": -123.011528
+  "slough": {
+    "lat": 51.521649,
+    "lng": -0.618329
   },
-  "Windsor": {
-    "lat": 51.480029,
-    "lng": -0.612572
+  "windsor": {
+    "lat": 51.530396,
+    "lng": -0.801166
   },
   "berlin": {
     "lat": 52.517389,
@@ -351,7 +351,7 @@ const cityCoordinates = {
     "lat": 4.653382,
     "lng": -74.083633
   },
-  "Runcorn": {
+  "runcorn": {
     "lat": 51.466484,
     "lng": -0.423695
   },
@@ -362,10 +362,6 @@ const cityCoordinates = {
   "besancon": {
     "lat": 47.238022,
     "lng": 6.024362
-  },
-  "Bracknell": {
-    "lat": 51.414351,
-    "lng": -0.744992
   },
   "spreenhagen": {
     "lat": 52.341236,
@@ -391,23 +387,23 @@ const cityCoordinates = {
     "lat": 51.525612,
     "lng": -3.506453
   },
-  "Brighton": {
-    "lat": -37.908196,
-    "lng": 144.995799
+  "brighton": {
+    "lat": 50.821463,
+    "lng": -0.140056
   },
-  "Hove": {
+  "hove": {
     "lat": 50.845317,
     "lng": -0.149747
   },
-  "Brighton and Hove": {
+  "brighton-and-hove": {
     "lat": 50.845317,
     "lng": -0.149747
   },
-  "Bristol": {
+  "bristol": {
     "lat": 51.453802,
     "lng": -2.597298
   },
-  "Avon": {
+  "avon": {
     "lat": 51.498926,
     "lng": -2.695544
   },
@@ -463,11 +459,11 @@ const cityCoordinates = {
     "lat": 44.436141,
     "lng": 26.10272
   },
-  "Marlow": {
+  "marlow": {
     "lat": 51.571871,
     "lng": -0.776965
   },
-  "Padbury": {
+  "padbury": {
     "lat": 51.969886,
     "lng": -0.950058
   },
@@ -895,19 +891,19 @@ const cityCoordinates = {
     "lat": 39.803764,
     "lng": -123.8453
   },
-  "Cambridge": {
-    "lat": 43.360054,
-    "lng": -80.312302
+  "cambridge": {
+    "lat": 52.333333,
+    "lng": 0.083333
   },
-  "Ely": {
+  "ely": {
     "lat": 52.39902,
     "lng": 0.262039
   },
-  "Huntingdon": {
+  "huntingdon": {
     "lat": 52.330509,
     "lng": -0.184351
   },
-  "Milton": {
+  "milton": {
     "lat": 52.242296,
     "lng": 0.160473
   },
@@ -930,6 +926,14 @@ const cityCoordinates = {
   "frederiksberg": {
     "lat": 55.678016,
     "lng": 12.532619
+  },
+  "reykjavik": {
+    "lat": 64.145981,
+    "lng": -21.942237
+  },
+  "seltjarnarnes": {
+    "lat": 64.152655,
+    "lng": -21.987956
   },
   "cardiff": {
     "lat": 51.481655,
@@ -1011,15 +1015,15 @@ const cityCoordinates = {
     "lat": 13.903552,
     "lng": 100.528202
   },
-  "Wilmslow": {
+  "wilmslow": {
     "lat": 53.326129,
     "lng": -2.232751
   },
-  "Knutsford": {
+  "knutsford": {
     "lat": 53.303349,
     "lng": -2.370575
   },
-  "Macclesfield": {
+  "macclesfield": {
     "lat": 53.260663,
     "lng": -2.125516
   },
@@ -1038,6 +1042,10 @@ const cityCoordinates = {
   "Chihuahua": {
     "lat": 28.5,
     "lng": -106.0
+  },
+  "chisinau": {
+    "lat": 47.024512,
+    "lng": 28.832292
   },
   "Chongqing": {
     "lat": 30.05518,
@@ -1123,23 +1131,23 @@ const cityCoordinates = {
     "lat": 41.281484,
     "lng": -73.498179
   },
-  "Penryn": {
+  "penryn": {
     "lat": 50.168546,
     "lng": -5.103406
   },
-  "Falmouth": {
+  "falmouth": {
     "lat": 50.15522,
     "lng": -5.068826
   },
-  "Bude": {
+  "bude": {
     "lat": 50.828525,
     "lng": -4.546936
   },
-  "Penzance": {
+  "penzance": {
     "lat": 50.119479,
     "lng": -5.535246
   },
-  "St Ives": {
+  "st-ives": {
     "lat": 50.214906,
     "lng": -5.479508
   },
@@ -1183,6 +1191,14 @@ const cityCoordinates = {
     "lat": 60.346972,
     "lng": 15.748689
   },
+  "marousi": {
+    "lat": 38.054665,
+    "lng": 23.808153
+  },
+  "polichni": {
+    "lat": 40.663301,
+    "lng": 22.971483
+  },
   "Delaware": {
     "lat": 40.158483,
     "lng": -83.015393
@@ -1199,11 +1215,7 @@ const cityCoordinates = {
     "lat": 28.613895,
     "lng": 77.209006
   },
-  "Duckmanton": {
-    "lat": 53.223921,
-    "lng": -1.34116
-  },
-  "Derby": {
+  "derby": {
     "lat": 52.914223,
     "lng": -1.471989
   },
@@ -1227,15 +1239,15 @@ const cityCoordinates = {
     "lat": 44.319016,
     "lng": 23.796561
   },
-  "Bournemouth": {
+  "bournemouth": {
     "lat": 50.829061,
     "lng": -2.13316
   },
-  "Bridport": {
+  "bridport": {
     "lat": 50.733785,
     "lng": -2.758901
   },
-  "Sherborne": {
+  "sherborne": {
     "lat": 50.950265,
     "lng": -2.517924
   },
@@ -1246,6 +1258,10 @@ const cityCoordinates = {
   "Dubai": {
     "lat": 25.229634,
     "lng": 55.289585
+  },
+  "mlini": {
+    "lat": 42.623687,
+    "lng": 18.208272
   },
   "wanlockhead": {
     "lat": 55.397467,
@@ -1263,15 +1279,15 @@ const cityCoordinates = {
     "lat": 55.943202,
     "lng": -3.051104
   },
-  "Eastbourne": {
+  "eastbourne": {
     "lat": 50.766437,
     "lng": 0.278155
   },
-  "Falmer": {
+  "falmer": {
     "lat": 50.867438,
     "lng": -0.087726
   },
-  "Hailsham": {
+  "hailsham": {
     "lat": 50.862823,
     "lng": 0.273061
   },
@@ -1287,19 +1303,19 @@ const cityCoordinates = {
     "lat": 44.525696,
     "lng": 11.039437
   },
-  "Chelmsford": {
+  "chelmsford": {
     "lat": 51.734533,
     "lng": 0.473053
   },
-  "Great Notley": {
+  "great-notley": {
     "lat": 51.859901,
     "lng": 0.523015
   },
-  "Braintree": {
+  "braintree": {
     "lat": 51.878064,
     "lng": 0.553716
   },
-  "Kirby Cross": {
+  "kirby-cross": {
     "lat": 51.841507,
     "lng": 1.213797
   },
@@ -1487,10 +1503,6 @@ const cityCoordinates = {
     "lat": 55.861155,
     "lng": -4.250169
   },
-  "Cirencester": {
-    "lat": 51.717103,
-    "lng": -1.966162
-  },
   "visby": {
     "lat": 57.637936,
     "lng": 18.297982
@@ -1498,6 +1510,10 @@ const cityCoordinates = {
   "belgrade": {
     "lat": 44.828885,
     "lng": 20.458146
+  },
+  "zagreb": {
+    "lat": 45.810658,
+    "lng": 15.96991
   },
   "strasbourg": {
     "lat": 48.584614,
@@ -1507,53 +1523,57 @@ const cityCoordinates = {
     "lat": 49.357927,
     "lng": 6.167587
   },
-  "London": {
-    "lat": 42.983675,
-    "lng": -81.249607
+  "london": {
+    "lat": 51.489334,
+    "lng": -0.144055
   },
-  "Croydon": {
-    "lat": 51.371305,
-    "lng": -0.101957
+  "croydon": {
+    "lat": 51.385295,
+    "lng": -0.109948
   },
-  "Brentford": {
+  "brentford": {
     "lat": 51.486396,
     "lng": -0.321662
   },
-  "Bromley": {
-    "lat": 51.366857,
-    "lng": 0.061709
+  "bromley": {
+    "lat": 51.489334,
+    "lng": -0.144055
   },
-  "Road": {
-    "lat": 51.503929,
-    "lng": -0.103622
+  "road": {
+    "lat": 52.624183,
+    "lng": -1.114644
   },
-  "Twickenham": {
+  "twickenham": {
     "lat": 51.446744,
     "lng": -0.328189
   },
-  "Uxbridge": {
-    "lat": 44.10885,
-    "lng": -79.122677
+  "uxbridge": {
+    "lat": 51.544951,
+    "lng": -0.481667
   },
-  "Wembley": {
+  "wembley": {
     "lat": 51.556069,
     "lng": -0.279603
   },
-  "Salford": {
+  "salford": {
     "lat": 53.487746,
     "lng": -2.289192
   },
-  "Stretford": {
+  "stretford": {
     "lat": 53.447706,
     "lng": -2.32344
   },
-  "Manchester": {
-    "lat": 42.953555,
-    "lng": -71.440406
+  "manchester": {
+    "lat": 53.479489,
+    "lng": -2.245115
   },
   "poznan": {
     "lat": 52.408266,
     "lng": 16.93352
+  },
+  "skopje": {
+    "lat": 52.176671,
+    "lng": 18.701848
   },
   "haren": {
     "lat": 53.170984,
@@ -1591,23 +1611,23 @@ const cityCoordinates = {
     "lat": 53.550341,
     "lng": 10.000654
   },
-  "Aldershot": {
+  "aldershot": {
     "lat": 51.249417,
     "lng": -0.763015
   },
-  "Farnborough": {
+  "farnborough": {
     "lat": 51.291869,
     "lng": -0.753984
   },
-  "Hook": {
-    "lat": 43.093959,
-    "lng": -71.462516
+  "hook": {
+    "lat": 51.286321,
+    "lng": -0.951746
   },
-  "Petersfield": {
+  "petersfield": {
     "lat": 51.002494,
     "lng": -0.939203
   },
-  "Tadley": {
+  "tadley": {
     "lat": 51.341447,
     "lng": -1.144678
   },
@@ -1647,15 +1667,15 @@ const cityCoordinates = {
     "lat": 34.619654,
     "lng": 112.447705
   },
-  "Letchworth Garden City": {
+  "letchworth-garden-city": {
     "lat": 51.980354,
     "lng": -0.228906
   },
-  "Watford": {
+  "watford": {
     "lat": 51.655388,
     "lng": -0.395742
   },
-  "Welwyn Garden City": {
+  "welwyn-garden-city": {
     "lat": 51.803108,
     "lng": -0.206887
   },
@@ -1931,10 +1951,6 @@ const cityCoordinates = {
     "lat": 36.519721,
     "lng": 136.609811
   },
-  "Newport": {
-    "lat": 50.700371,
-    "lng": -1.295204
-  },
   "istanbul": {
     "lat": 41.006381,
     "lng": 28.975872
@@ -2023,10 +2039,6 @@ const cityCoordinates = {
     "lat": 37.747857,
     "lng": -84.294654
   },
-  "Canterbury": {
-    "lat": 51.280028,
-    "lng": 1.080253
-  },
   "Kakkanad": {
     "lat": 10.01657,
     "lng": 76.34275
@@ -2079,10 +2091,6 @@ const cityCoordinates = {
     "lat": -37.178962,
     "lng": -65.704912
   },
-  "Chorley": {
-    "lat": 53.653191,
-    "lng": -2.629431
-  },
   "rome": {
     "lat": 41.89332,
     "lng": 12.482932
@@ -2091,11 +2099,7 @@ const cityCoordinates = {
     "lat": 41.980804,
     "lng": 12.766231
   },
-  "Twycross": {
-    "lat": 52.648865,
-    "lng": -1.514813
-  },
-  "Leicester": {
+  "leicester": {
     "lat": 52.6362,
     "lng": -1.133197
   },
@@ -2119,13 +2123,29 @@ const cityCoordinates = {
     "lat": 34.668905,
     "lng": 32.701048
   },
-  "Lincoln": {
+  "lincoln": {
     "lat": 53.182303,
     "lng": -0.203121
   },
-  "North Hykeham": {
+  "north-hykeham": {
     "lat": 53.187011,
     "lng": -0.58775
+  },
+  "cascais": {
+    "lat": 38.696892,
+    "lng": -9.42045
+  },
+  "lisbon": {
+    "lat": 38.707751,
+    "lng": -9.136592
+  },
+  "ljubljana": {
+    "lat": 46.050027,
+    "lng": 14.506929
+  },
+  "ljubljana-dobrunje": {
+    "lat": 46.037897,
+    "lng": 14.584292
   },
   "lodz": {
     "lat": 51.472168,
@@ -2178,10 +2198,6 @@ const cityCoordinates = {
   "lucerne": {
     "lat": 47.050545,
     "lng": 8.305468
-  },
-  "Luton": {
-    "lat": 51.878439,
-    "lng": -0.415284
   },
   "lviv": {
     "lat": 49.841952,
@@ -2275,6 +2291,10 @@ const cityCoordinates = {
     "lat": 42.355433,
     "lng": -71.060511
   },
+  "Cambridge": {
+    "lat": 43.360054,
+    "lng": -80.312302
+  },
   "Needham": {
     "lat": 42.280265,
     "lng": -71.236062
@@ -2339,13 +2359,9 @@ const cityCoordinates = {
     "lat": 52.231958,
     "lng": 21.006725
   },
-  "Chatham": {
-    "lat": 51.381917,
-    "lng": 0.526559
-  },
-  "Liverpool": {
-    "lat": 43.15021,
-    "lng": -76.228884
+  "liverpool": {
+    "lat": 53.49536,
+    "lng": -2.973938
   },
   "Makati": {
     "lat": 14.556795,
@@ -2420,8 +2436,8 @@ const cityCoordinates = {
     "lng": -83.506379
   },
   "Plymouth": {
-    "lat": 50.371412,
-    "lng": -4.142445
+    "lat": 42.389375,
+    "lng": -83.506379
   },
   "Royal Oak": {
     "lat": 42.48948,
@@ -2431,11 +2447,11 @@ const cityCoordinates = {
     "lat": 42.124515,
     "lng": -83.838574
   },
-  "Middlesbrough": {
+  "middlesbrough": {
     "lat": 54.576042,
     "lng": -1.234405
   },
-  "Milton Keynes": {
+  "milton-keynes": {
     "lat": 52.04065,
     "lng": -0.759409
   },
@@ -2543,9 +2559,13 @@ const cityCoordinates = {
     "lat": 39.968604,
     "lng": -74.684299
   },
+  "Manchester": {
+    "lat": 42.953555,
+    "lng": -71.440406
+  },
   "Portsmouth": {
-    "lat": 50.800031,
-    "lng": -1.090602
+    "lat": 42.995921,
+    "lng": -70.923012
   },
   "Rindge": {
     "lat": 42.751196,
@@ -2711,6 +2731,10 @@ const cityCoordinates = {
     "lat": 43.021169,
     "lng": -74.890271
   },
+  "Liverpool": {
+    "lat": 43.15021,
+    "lng": -76.228884
+  },
   "Nesconset": {
     "lat": 40.845094,
     "lng": -73.152312
@@ -2724,8 +2748,8 @@ const cityCoordinates = {
     "lng": -73.864569
   },
   "Warwick": {
-    "lat": 52.321306,
-    "lng": -1.553691
+    "lat": 41.256483,
+    "lng": -74.359876
   },
   "St. John's": {
     "lat": 47.564679,
@@ -2742,10 +2766,6 @@ const cityCoordinates = {
   "nis": {
     "lat": 43.381955,
     "lng": 22.225664
-  },
-  "Norwich": {
-    "lat": 52.628558,
-    "lng": 1.292395
   },
   "caen": {
     "lat": 49.18134,
@@ -2911,14 +2931,6 @@ const cityCoordinates = {
     "lat": 50.817868,
     "lng": 6.134111
   },
-  "Nailsea": {
-    "lat": 51.433418,
-    "lng": -2.75851
-  },
-  "Harrogate": {
-    "lat": 53.992149,
-    "lng": -1.539104
-  },
   "suonenjoki": {
     "lat": 62.624193,
     "lng": 27.124561
@@ -2927,7 +2939,7 @@ const cityCoordinates = {
     "lat": -19.85161,
     "lng": 133.230337
   },
-  "Nottingham": {
+  "nottingham": {
     "lat": 52.953419,
     "lng": -1.149646
   },
@@ -3039,6 +3051,10 @@ const cityCoordinates = {
     "lat": 45.420878,
     "lng": -75.690111
   },
+  "London": {
+    "lat": 42.983675,
+    "lng": -81.249607
+  },
   "St. Catharines": {
     "lat": 43.157981,
     "lng": -79.2441
@@ -3062,6 +3078,10 @@ const cityCoordinates = {
   "Richmond Hill": {
     "lat": 43.880117,
     "lng": -79.439292
+  },
+  "Uxbridge": {
+    "lat": 44.10885,
+    "lng": -79.122677
   },
   "strzelce-opolskie": {
     "lat": 50.510903,
@@ -3135,19 +3155,19 @@ const cityCoordinates = {
     "lat": 52.508976,
     "lng": 6.094377
   },
-  "Oxford": {
+  "oxford": {
     "lat": 51.833333,
     "lng": -1.25
   },
-  "Witney": {
+  "witney": {
     "lat": 51.783885,
     "lng": -1.485286
   },
-  "Banbury": {
+  "banbury": {
     "lat": 52.060181,
     "lng": -1.34028
   },
-  "Charlbury": {
+  "charlbury": {
     "lat": 51.874697,
     "lng": -1.480661
   },
@@ -3254,6 +3274,18 @@ const cityCoordinates = {
   "gdynia": {
     "lat": 54.516498,
     "lng": 18.540274
+  },
+  "vila-nova-de-gaia": {
+    "lat": 41.129226,
+    "lng": -8.60574
+  },
+  "porto": {
+    "lat": -30.030678,
+    "lng": -51.223573
+  },
+  "portsmouth": {
+    "lat": 50.800031,
+    "lng": -1.090602
   },
   "prague": {
     "lat": 50.059629,
@@ -3379,6 +3411,10 @@ const cityCoordinates = {
     "lat": 51.647593,
     "lng": -3.317828
   },
+  "riga": {
+    "lat": 56.949398,
+    "lng": 24.105185
+  },
   "Pereira": {
     "lat": 4.814316,
     "lng": -75.694678
@@ -3463,10 +3499,6 @@ const cityCoordinates = {
     "lat": 34.976455,
     "lng": 138.946708
   },
-  "Shrewsbury": {
-    "lat": 52.707755,
-    "lng": -2.754066
-  },
   "Chengdu": {
     "lat": 30.659867,
     "lng": 104.063315
@@ -3511,9 +3543,9 @@ const cityCoordinates = {
     "lat": 58.754541,
     "lng": 17.012066
   },
-  "South Petherton": {
-    "lat": 50.94879,
-    "lng": -2.809147
+  "sofia": {
+    "lat": 42.697703,
+    "lng": 23.321736
   },
   "Adelaide": {
     "lat": -34.928181,
@@ -3575,15 +3607,15 @@ const cityCoordinates = {
     "lat": 49.146887,
     "lng": 16.576892
   },
-  "Sheffield": {
+  "sheffield": {
     "lat": 53.380663,
     "lng": -1.470228
   },
-  "Doncaster": {
+  "doncaster": {
     "lat": 53.522768,
     "lng": -1.133531
   },
-  "Southampton": {
+  "southampton": {
     "lat": 50.902535,
     "lng": -1.404189
   },
@@ -3599,15 +3631,15 @@ const cityCoordinates = {
     "lat": 47.425618,
     "lng": 9.37624
   },
-  "Perton": {
+  "perton": {
     "lat": 52.59572,
     "lng": -2.20338
   },
-  "Rugeley": {
+  "rugeley": {
     "lat": 52.75894,
     "lng": -1.936204
   },
-  "Tamworth": {
+  "tamworth": {
     "lat": 52.634582,
     "lng": -1.694844
   },
@@ -3691,39 +3723,35 @@ const cityCoordinates = {
     "lat": 47.567685,
     "lng": 14.242051
   },
-  "Ipswich": {
-    "lat": 52.057932,
-    "lng": 1.15281
-  },
-  "Guildford": {
+  "guildford": {
     "lat": 51.235607,
     "lng": -0.573206
   },
-  "Godalming": {
+  "godalming": {
     "lat": 51.185789,
     "lng": -0.614907
   },
-  "Surrey Research Park": {
+  "surrey-research-park": {
     "lat": 51.240855,
     "lng": -0.61485
   },
-  "Woking": {
+  "woking": {
     "lat": 51.320189,
     "lng": -0.556473
   },
-  "Caterham": {
+  "caterham": {
     "lat": 51.2822,
     "lng": -0.077248
   },
-  "Epsom": {
+  "epsom": {
     "lat": 51.33261,
     "lng": -0.267821
   },
-  "Farnham": {
+  "farnham": {
     "lat": 51.215175,
     "lng": -0.798485
   },
-  "Walton-on-Thames": {
+  "walton-on-thames": {
     "lat": 51.385684,
     "lng": -0.419814
   },
@@ -3991,19 +4019,19 @@ const cityCoordinates = {
     "lat": 35.713906,
     "lng": 139.40777
   },
-  "Gateshead": {
+  "gateshead": {
     "lat": 54.962579,
     "lng": -1.601929
   },
-  "Newcastle upon Tyne": {
+  "newcastle-upon-tyne": {
     "lat": 54.973847,
     "lng": -1.613157
   },
-  "Abbott's Hill": {
+  "abbotts-hill": {
     "lat": 54.998741,
     "lng": -1.432185
   },
-  "Sunderland": {
+  "sunderland": {
     "lat": 54.939466,
     "lng": -1.409016
   },
@@ -4187,6 +4215,10 @@ const cityCoordinates = {
     "lat": -37.841739,
     "lng": 145.268121
   },
+  "Brighton": {
+    "lat": -37.908196,
+    "lng": 144.995799
+  },
   "Collingwood": {
     "lat": -37.802104,
     "lng": 144.988139
@@ -4287,23 +4319,27 @@ const cityCoordinates = {
     "lat": 53.58342,
     "lng": 20.28162
   },
-  "Warrington": {
+  "warrington": {
     "lat": 53.38995,
     "lng": -2.594318
   },
-  "Royal Leamington Spa": {
+  "royal-leamington-spa": {
     "lat": 52.291339,
     "lng": -1.536404
   },
-  "Atherstone on Stour": {
+  "warwick": {
+    "lat": 52.321306,
+    "lng": -1.553691
+  },
+  "atherstone-on-stour": {
     "lat": 52.15698,
     "lng": -1.70066
   },
-  "Barford": {
+  "barford": {
     "lat": 52.245425,
     "lng": -1.606049
   },
-  "Southam": {
+  "southam": {
     "lat": 52.253094,
     "lng": -1.388412
   },
@@ -4415,31 +4451,27 @@ const cityCoordinates = {
     "lat": 22.572646,
     "lng": 88.363895
   },
-  "Theale": {
-    "lat": 51.438064,
-    "lng": -1.076722
-  },
   "Jawa Barat": {
     "lat": -6.88919,
     "lng": 107.640472
   },
-  "Birmingham": {
+  "birmingham": {
     "lat": 52.479699,
     "lng": -1.902691
   },
-  "Marston Green": {
+  "marston-green": {
     "lat": 52.466881,
     "lng": -1.755095
   },
-  "Wolverhampton": {
+  "wolverhampton": {
     "lat": 52.584765,
     "lng": -2.127567
   },
-  "The Royal Town of Sutton Coldfield": {
-    "lat": 52.559559,
-    "lng": -1.795207
+  "the-royal-town-of-sutton-coldfield": {
+    "lat": 52.566324,
+    "lng": -1.825186
   },
-  "Walsall": {
+  "walsall": {
     "lat": 52.584795,
     "lng": -1.982269
   },
@@ -4447,11 +4479,11 @@ const cityCoordinates = {
     "lat": 53.430182,
     "lng": 14.550962
   },
-  "Horsham": {
+  "horsham": {
     "lat": 51.063027,
     "lng": -0.329503
   },
-  "Shoreham-by-Sea": {
+  "shoreham-by-sea": {
     "lat": 50.832231,
     "lng": -0.274672
   },
@@ -4459,27 +4491,27 @@ const cityCoordinates = {
     "lat": 38.420743,
     "lng": -82.44874
   },
-  "Leeds": {
+  "leeds": {
     "lat": 53.797418,
     "lng": -1.543794
   },
-  "Bradford": {
+  "bradford": {
     "lat": 53.794423,
     "lng": -1.751919
   },
-  "Castleford": {
+  "castleford": {
     "lat": 53.72623,
     "lng": -1.351722
   },
-  "Methley": {
+  "methley": {
     "lat": 53.735581,
     "lng": -1.409851
   },
-  "Ossett": {
+  "ossett": {
     "lat": 53.678054,
     "lng": -1.576595
   },
-  "Wakefield": {
+  "wakefield": {
     "lat": 53.682954,
     "lng": -1.496729
   },
@@ -4495,21 +4527,17 @@ const cityCoordinates = {
     "lat": 10.876075,
     "lng": 122.306715
   },
-  "Salisbury": {
+  "salisbury": {
     "lat": 51.069061,
     "lng": -1.795413
   },
-  "Trowbridge": {
+  "trowbridge": {
     "lat": 51.316157,
     "lng": -2.202432
   },
-  "Winsley": {
+  "winsley": {
     "lat": 51.354316,
     "lng": -2.289933
-  },
-  "Maidenhead": {
-    "lat": 51.522743,
-    "lng": -0.719737
   },
   "Madison": {
     "lat": 43.080274,
@@ -4531,10 +4559,6 @@ const cityCoordinates = {
     "lat": 44.307136,
     "lng": -88.309362
   },
-  "Bromsgrove": {
-    "lat": 52.339052,
-    "lng": -2.053202
-  },
   "wrexham": {
     "lat": 53.044898,
     "lng": -2.992159
@@ -4547,9 +4571,17 @@ const cityCoordinates = {
     "lat": 40.177711,
     "lng": 44.512623
   },
-  "York": {
-    "lat": 40.712728,
-    "lng": -74.006015
+  "zagorje-ob-savi": {
+    "lat": 46.134217,
+    "lng": 14.995271
+  },
+  "samobor": {
+    "lat": 45.803279,
+    "lng": 15.717923
+  },
+  "zapresic": {
+    "lat": 45.860119,
+    "lng": 15.807008
   },
   "Hangzhou": {
     "lat": 30.248963,
