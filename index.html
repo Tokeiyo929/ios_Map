@@ -9,6 +9,7 @@
         :root {
             --safe-area-inset-top: env(safe-area-inset-top, 0px);
             --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+            --header-height: 120px;
         }
         
         * {
@@ -50,13 +51,14 @@
         }
         
         #map-container {
-            height: calc(100vh - 120px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
+            height: calc(100vh - var(--header-height) - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
             position: relative;
         }
         
         #map {
             height: 100%;
             width: 100%;
+            background-color: #1a1a2e;
         }
         
         .company-popup {
@@ -69,12 +71,27 @@
             max-height: 40vh;
             overflow-y: auto;
             -webkit-overflow-scrolling: touch;
+            scrollbar-width: thin;
+        }
+        
+        .company-list::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .company-list::-webkit-scrollbar-thumb {
+            background-color: #4361ee;
+            border-radius: 3px;
         }
         
         .company-item {
             padding: 12px;
             border-bottom: 1px solid #2d3746;
             margin-bottom: 5px;
+            transition: background-color 0.2s;
+        }
+        
+        .company-item:hover {
+            background-color: rgba(67, 97, 238, 0.1);
         }
         
         .company-item:last-child {
@@ -126,6 +143,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
             color: #e6e6e6;
             max-width: 180px;
+            backdrop-filter: blur(5px);
         }
         
         .legend-title {
@@ -162,6 +180,7 @@
             z-index: 1001;
             color: #e6e6e6;
             text-align: center;
+            backdrop-filter: blur(5px);
         }
         
         .error {
@@ -176,13 +195,110 @@
             color: white;
             text-align: center;
             max-width: 80%;
+            backdrop-filter: blur(5px);
+        }
+        
+        .error button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #4361ee;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        
+        /* 控制面板样式 */
+        .control-panel {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: rgba(22, 33, 62, 0.95);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            color: #e6e6e6;
+            max-width: 220px;
+            backdrop-filter: blur(5px);
+        }
+        
+        .control-title {
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: #4cc9f0;
+            font-size: 1rem;
+        }
+        
+        .toggle-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .toggle-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .toggle-label {
+            font-size: 0.9rem;
+            color: #a9b7c6;
+        }
+        
+        /* 切换开关样式 */
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+        
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #2d3746;
+            transition: .4s;
+            border-radius: 24px;
+        }
+        
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        
+        input:checked + .toggle-slider {
+            background-color: #4361ee;
+        }
+        
+        input:checked + .toggle-slider:before {
+            transform: translateX(20px);
         }
         
         /* 移动端特定样式 */
         .mobile-controls {
             position: absolute;
             top: 15px;
-            left: 15px;
+            right: 15px;
             z-index: 1000;
             display: flex;
             flex-direction: column;
@@ -201,6 +317,8 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            transition: background-color 0.2s;
+            backdrop-filter: blur(5px);
         }
         
         .mobile-btn:active {
@@ -209,6 +327,10 @@
         
         /* 适配小屏幕的调整 */
         @media (max-width: 414px) {
+            :root {
+                --header-height: 100px;
+            }
+            
             h1 {
                 font-size: 1.6rem;
             }
@@ -221,20 +343,25 @@
                 padding: 12px 15px;
             }
             
-            #map-container {
-                height: calc(100vh - 100px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
-            }
-            
             .legend {
                 bottom: 10px;
                 right: 10px;
                 max-width: 160px;
                 padding: 10px;
             }
+            
+            .control-panel {
+                max-width: 180px;
+                padding: 12px;
+            }
         }
         
         /* 适配横屏模式 */
         @media (max-height: 500px) and (orientation: landscape) {
+            :root {
+                --header-height: 70px;
+            }
+            
             #header {
                 padding: 10px 15px;
             }
@@ -247,9 +374,59 @@
                 display: none;
             }
             
-            #map-container {
-                height: calc(100vh - 70px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
+            .control-panel {
+                top: 5px;
+                left: 5px;
+                max-width: 160px;
+                padding: 8px;
             }
+        }
+        
+        /* 地图弹窗样式优化 */
+        .leaflet-popup-content-wrapper {
+            background-color: #16213e;
+            color: #e6e6e6;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .leaflet-popup-tip {
+            background-color: #16213e;
+        }
+        
+        .leaflet-popup-close-button {
+            color: #a9b7c6;
+            font-size: 1.2rem;
+            padding: 4px 8px;
+        }
+        
+        .leaflet-popup-close-button:hover {
+            color: #4cc9f0;
+        }
+        
+        /* 公司级别标签 */
+        .company-level {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin-left: 6px;
+        }
+        
+        .level-1 {
+            background-color: #4ade80;
+            color: #1a1a2e;
+        }
+        
+        .level-2 {
+            background-color: #f59e0b;
+            color: #1a1a2e;
+        }
+        
+        .level-3 {
+            background-color: #ef4444;
+            color: white;
         }
     </style>
 </head>
@@ -261,19 +438,47 @@
     <div id="map-container">
         <div id="map"></div>
         
+        <!-- 控制面板 -->
+        <div class="control-panel">
+            <h3 class="control-title">显示控制</h3>
+            <div class="toggle-group">
+                <div class="toggle-item">
+                    <span class="toggle-label">显示第一级别公司</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="toggle-level-1" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div class="toggle-item">
+                    <span class="toggle-label">显示第二级别公司</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="toggle-level-2" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div class="toggle-item">
+                    <span class="toggle-label">显示第三级别公司</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="toggle-level-3" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        
         <div class="legend">
             <h3 class="legend-title">城市游戏公司数量</h3>
             <div class="legend-item">
                 <div class="legend-circle" style="width: 10px; height: 10px; background-color: #4ade80;"></div>
-                <div class="legend-text">1-5 家公司</div>
+                <div class="legend-text">1-16 家公司</div>
             </div>
             <div class="legend-item">
                 <div class="legend-circle" style="width: 16px; height: 16px; background-color: #f59e0b;"></div>
-                <div class="legend-text">6-15 家公司</div>
+                <div class="legend-text">17-25 家公司</div>
             </div>
             <div class="legend-item">
                 <div class="legend-circle" style="width: 22px; height: 22px; background-color: #ef4444;"></div>
-                <div class="legend-text">16+ 家公司</div>
+                <div class="legend-text">26+ 家公司</div>
             </div>
         </div>
         <div id="loading" class="loading">
@@ -285,6 +490,12 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     
     <script>
+        // 全局变量
+        let map;
+        let fitBoundsTimeout;
+        let markers = [];
+        let cities = {};
+        
         // 异步加载数据文件
         async function loadData() {
             try {
@@ -335,20 +546,44 @@
 
         function showError(message) {
             const loadingEl = document.getElementById('loading');
-            loadingEl.innerHTML = `<h3>错误</h3><p>${message}</p>`;
+            loadingEl.innerHTML = `
+                <h3>错误</h3>
+                <p>${message}</p>
+                <button onclick="location.reload()">重新加载</button>
+            `;
             loadingEl.className = 'error';
         }
 
+        function validateCompanyData(company) {
+            return company && 
+                   typeof company.name === 'string' && 
+                   typeof company.city === 'string' && 
+                   typeof company.country === 'string';
+        }
+
         function getMarkerSize(companyCount) {
-            if (companyCount <= 5) return 10;
-            if (companyCount <= 15) return 16;
+            if (companyCount <= 16) return 10;
+            if (companyCount <= 25) return 16;
             return 22;
         }
 
         function getMarkerColor(companyCount) {
-            if (companyCount <= 5) return '#4ade80';
-            if (companyCount <= 15) return '#f59e0b';
+            if (companyCount <= 16) return '#4ade80';
+            if (companyCount <= 25) return '#f59e0b';
             return '#ef4444';
+        }
+
+        function debouncedFitBounds(map, bounds) {
+            clearTimeout(fitBoundsTimeout);
+            fitBoundsTimeout = setTimeout(() => {
+                if (bounds.isValid()) {
+                    map.fitBounds(bounds, { 
+                        padding: [20, 20], 
+                        maxZoom: 10,
+                        animate: true
+                    });
+                }
+            }, 100);
         }
 
         function initApp() {
@@ -362,7 +597,7 @@
             console.log('公司数据示例:', gameCompaniesData.companies.slice(0, 3));
             
             // 初始化地图 - 设置为中国区域
-            const map = L.map('map').setView([35, 105], 4);
+            map = L.map('map').setView([35, 105], 4);
             
             // 添加地图图层
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -373,14 +608,28 @@
             
             // 添加触摸交互优化
             map.touchZoom.enable();
-            map.doubleClickZoom.disable();
+            map.scrollWheelZoom.enable();
+            map.dragging.enable();
+            
+            // 防止地图拖动时页面滚动
+            map.on('dragstart', function() {
+                document.body.style.overflow = 'hidden';
+            });
+
+            map.on('dragend', function() {
+                document.body.style.overflow = '';
+            });
             
             // 处理城市数据，按城市分组
-            const cities = {};
             let validCompanies = 0;
             let citiesWithCoords = 0;
             
             gameCompaniesData.companies.forEach(company => {
+                if (!validateCompanyData(company)) {
+                    console.warn('无效的公司数据:', company);
+                    return;
+                }
+                
                 const cityKey = company.city;
                 if (!cities[cityKey]) {
                     const coords = cityCoordinates[cityKey];
@@ -412,71 +661,11 @@
                 return;
             }
             
-            // 计算所有城市的边界，确保地图显示所有标记
-            const bounds = L.latLngBounds();
-            let markersAdded = 0;
-            
-            // 为每个城市添加标记
-            Object.values(cities).forEach(city => {
-                const companyCount = city.companies.length;
-                const markerSize = getMarkerSize(companyCount);
-                const markerColor = getMarkerColor(companyCount);
-                
-                // 扩展边界
-                bounds.extend([city.lat, city.lng]);
-                
-                // 创建自定义标记
-                const marker = L.circleMarker([city.lat, city.lng], {
-                    radius: markerSize,
-                    fillColor: markerColor,
-                    color: '#fff',
-                    weight: 2,
-                    opacity: 1,
-                    fillOpacity: 0.8
-                }).addTo(map);
-
-                // 为标记添加点击事件
-                marker.bindPopup(`
-                    <div class="company-popup">
-                        <div class="city-title">
-                            ${city.name}, ${city.country}
-                            <span class="company-count">${companyCount}</span>
-                        </div>
-                        <div class="company-list">
-                            ${city.companies.map(company => `
-                                <div class="company-item">
-                                    <div class="company-name">${company.name}</div>
-                                    <div class="company-details">${company.city}, ${company.country}</div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                `, {
-                    closeButton: true,
-                    autoClose: false,
-                    closeOnEscapeKey: true,
-                    className: 'mobile-popup',
-                    maxWidth: 300
-                });
-                
-                markersAdded++;
-                console.log(`添加标记: ${city.name} (${city.lat}, ${city.lng}) - ${companyCount}家公司`);
-            });
-            
-            console.log(`成功添加 ${markersAdded} 个标记`);
-            
-            // 调整地图视图以显示所有标记
-            if (bounds.isValid()) {
-                map.fitBounds(bounds, { padding: [20, 20], maxZoom: 10 });
-                console.log('地图已调整到适合所有标记的视图');
-            } else {
-                // 如果边界无效，使用默认视图但放大一点
-                map.setView([35, 105], 5);
-                console.log('使用默认地图视图');
-            }
+            // 添加所有标记
+            addMarkers();
             
             // 添加定位按钮
-            const locateControl = L.control({position: 'topleft'});
+            const locateControl = L.control({position: 'topright'});
             locateControl.onAdd = function(map) {
                 const div = L.DomUtil.create('div', 'mobile-btn');
                 div.innerHTML = '📍';
@@ -504,7 +693,153 @@
                 console.log('定位失败:', e.message);
             });
             
+            // 添加切换事件监听
+            document.getElementById('toggle-level-1').addEventListener('change', updateMarkersVisibility);
+            document.getElementById('toggle-level-2').addEventListener('change', updateMarkersVisibility);
+            document.getElementById('toggle-level-3').addEventListener('change', updateMarkersVisibility);
+            
             console.log('地图初始化完成');
+        }
+
+        // 添加所有标记到地图
+        function addMarkers() {
+            // 计算所有城市的边界，确保地图显示所有标记
+            const bounds = L.latLngBounds();
+            let markersAdded = 0;
+            
+            // 为每个城市添加标记
+            Object.values(cities).forEach(city => {
+                const companyCount = city.companies.length;
+                const markerSize = getMarkerSize(companyCount);
+                const markerColor = getMarkerColor(companyCount);
+                
+                // 扩展边界
+                bounds.extend([city.lat, city.lng]);
+                
+                // 创建自定义标记
+                const marker = L.circleMarker([city.lat, city.lng], {
+                    radius: markerSize,
+                    fillColor: markerColor,
+                    color: '#fff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+
+                // 为标记添加点击事件
+                marker.bindPopup(`
+                    <div class="company-popup">
+                        <div class="city-title">
+                            ${city.name}, ${city.country}
+                            <span class="company-count">${companyCount}</span>
+                        </div>
+                        <div class="company-list">
+                            ${city.companies.map(company => {
+                                // 根据公司规模或其他标准分配级别
+                                const level = assignCompanyLevel(company);
+                                return `
+                                <div class="company-item" data-level="${level}">
+                                    <div class="company-name">${company.name}
+                                        <span class="company-level level-${level}">${level}级</span>
+                                    </div>
+                                    <div class="company-details">${company.city}, ${company.country}</div>
+                                </div>
+                            `}).join('')}
+                        </div>
+                    </div>
+                `, {
+                    closeButton: true,
+                    autoClose: false,
+                    closeOnEscapeKey: true,
+                    className: 'mobile-popup',
+                    maxWidth: 300
+                });
+                
+                // 存储标记信息
+                markers.push({
+                    marker: marker,
+                    city: city.name,
+                    companyCount: companyCount,
+                    level: getCityLevel(companyCount)
+                });
+                
+                // 默认添加到地图
+                marker.addTo(map);
+                
+                markersAdded++;
+                console.log(`添加标记: ${city.name} (${city.lat}, ${city.lng}) - ${companyCount}家公司`);
+            });
+            
+            console.log(`成功添加 ${markersAdded} 个标记`);
+            
+            // 调整地图视图以显示所有标记
+            if (bounds.isValid()) {
+                debouncedFitBounds(map, bounds);
+                console.log('地图已调整到适合所有标记的视图');
+            } else {
+                // 如果边界无效，使用默认视图但放大一点
+                map.setView([35, 105], 5);
+                console.log('使用默认地图视图');
+            }
+        }
+
+        // 根据公司数量确定城市级别
+        function getCityLevel(companyCount) {
+            if (companyCount <= 16) return 1;
+            if (companyCount <= 25) return 2;
+            return 3;
+        }
+
+        // 根据公司属性分配级别（这里使用简化逻辑，实际应用中可以根据公司规模、知名度等确定）
+        function assignCompanyLevel(company) {
+            // 简化逻辑：根据公司名称长度分配级别（实际应用中应使用更合理的标准）
+            if (company.name.length <= 10) return 1;
+            if (company.name.length <= 20) return 2;
+            return 3;
+        }
+
+        // 更新标记可见性
+        function updateMarkersVisibility() {
+            const showLevel1 = document.getElementById('toggle-level-1').checked;
+            const showLevel2 = document.getElementById('toggle-level-2').checked;
+            const showLevel3 = document.getElementById('toggle-level-3').checked;
+            
+            markers.forEach(item => {
+                if (
+                    (item.level === 1 && showLevel1) ||
+                    (item.level === 2 && showLevel2) ||
+                    (item.level === 3 && showLevel3)
+                ) {
+                    if (!map.hasLayer(item.marker)) {
+                        item.marker.addTo(map);
+                    }
+                } else {
+                    if (map.hasLayer(item.marker)) {
+                        map.removeLayer(item.marker);
+                    }
+                }
+            });
+            
+            // 重新计算边界
+            const bounds = L.latLngBounds();
+            markers.forEach(item => {
+                if (map.hasLayer(item.marker)) {
+                    bounds.extend(item.marker.getLatLng());
+                }
+            });
+            
+            // 调整地图视图
+            if (bounds.isValid()) {
+                debouncedFitBounds(map, bounds);
+            }
+        }
+
+        // 清理函数
+        function cleanup() {
+            if (map) {
+                map.off();
+                map.remove();
+            }
         }
 
         // 在DOM加载完成后开始加载数据
@@ -512,6 +847,9 @@
             console.log('DOM加载完成，开始加载数据...');
             loadData();
         });
+
+        // 页面卸载时清理
+        window.addEventListener('beforeunload', cleanup);
 
         // 全局错误处理
         window.addEventListener('error', function(e) {
