@@ -8010,111 +8010,347 @@ const cityCoordinates = {
     "has_nearby_city": false,
     "nearby_cities": []
   },
-  "sliema": {
-    "lat": 35.912761,
-    "lng": 14.502071,
+  "downtown-core": {
+    "lat": 1.286242,
+    "lng": 103.853776,
     "has_nearby_city": true,
     "nearby_cities": [
       {
-        "name": "st-julians",
-        "distance": 1.52
+        "name": "queenstown",
+        "distance": 6.15
       },
       {
-        "name": "attard",
-        "distance": 6.93
+        "name": "kallang",
+        "distance": 3.06
       },
       {
-        "name": "gzira",
-        "distance": 0.77
+        "name": "bukit-merah",
+        "distance": 5.2
       },
       {
-        "name": "kalkara",
-        "distance": 4.53
+        "name": "geylang",
+        "distance": 4.41
       },
       {
-        "name": "valletta",
-        "distance": 5.85
-      }
-    ]
-  },
-  "st-julians": {
-    "lat": 35.919922,
-    "lng": 14.487712,
-    "has_nearby_city": true,
-    "nearby_cities": [
-      {
-        "name": "sliema",
-        "distance": 1.52
+        "name": "marina-south",
+        "distance": 1.68
       },
       {
-        "name": "attard",
-        "distance": 6.14
+        "name": "newton",
+        "distance": 3.02
       },
       {
-        "name": "gzira",
+        "name": "outram",
         "distance": 1.55
       },
       {
-        "name": "kalkara",
-        "distance": 4.03
+        "name": "ang-mo-kio",
+        "distance": 7.7
       },
       {
-        "name": "valletta",
-        "distance": 4.79
+        "name": "central-water-catchment",
+        "distance": 10.87
       }
     ]
   },
-  "attard": {
-    "lat": 35.890173,
-    "lng": 14.430339,
+  "queenstown": {
+    "lat": 1.299437,
+    "lng": 103.800088,
     "has_nearby_city": true,
     "nearby_cities": [
       {
-        "name": "sliema",
-        "distance": 6.93
+        "name": "downtown-core",
+        "distance": 6.15
       },
       {
-        "name": "st-julians",
-        "distance": 6.14
+        "name": "kallang",
+        "distance": 7.46
       },
       {
-        "name": "gzira",
-        "distance": 6.24
+        "name": "bukit-merah",
+        "distance": 1.69
       },
       {
-        "name": "kalkara",
-        "distance": 2.55
+        "name": "geylang",
+        "distance": 8.35
       },
       {
-        "name": "valletta",
-        "distance": 1.8
+        "name": "marina-south",
+        "distance": 7.72
+      },
+      {
+        "name": "newton",
+        "distance": 4.41
+      },
+      {
+        "name": "outram",
+        "distance": 4.92
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 8.87
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 7.86
       }
     ]
   },
-  "gzira": {
-    "lat": 35.90778,
-    "lng": 14.496125,
+  "kallang": {
+    "lat": 1.310759,
+    "lng": 103.866262,
     "has_nearby_city": true,
     "nearby_cities": [
       {
-        "name": "sliema",
-        "distance": 0.77
+        "name": "downtown-core",
+        "distance": 3.06
       },
       {
-        "name": "st-julians",
+        "name": "queenstown",
+        "distance": 7.46
+      },
+      {
+        "name": "bukit-merah",
+        "distance": 7.14
+      },
+      {
+        "name": "geylang",
+        "distance": 1.35
+      },
+      {
+        "name": "marina-south",
+        "distance": 3.72
+      },
+      {
+        "name": "newton",
+        "distance": 3.08
+      },
+      {
+        "name": "outram",
+        "distance": 4.31
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 5.08
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 9.6
+      }
+    ]
+  },
+  "bukit-merah": {
+    "lat": 1.285933,
+    "lng": 103.807016,
+    "has_nearby_city": true,
+    "nearby_cities": [
+      {
+        "name": "downtown-core",
+        "distance": 5.2
+      },
+      {
+        "name": "queenstown",
+        "distance": 1.69
+      },
+      {
+        "name": "kallang",
+        "distance": 7.14
+      },
+      {
+        "name": "geylang",
+        "distance": 8.23
+      },
+      {
+        "name": "marina-south",
+        "distance": 6.61
+      },
+      {
+        "name": "newton",
+        "distance": 4.34
+      },
+      {
+        "name": "outram",
+        "distance": 3.77
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 9.52
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 9.36
+      }
+    ]
+  },
+  "geylang": {
+    "lat": 1.321484,
+    "lng": 103.871902,
+    "has_nearby_city": true,
+    "nearby_cities": [
+      {
+        "name": "downtown-core",
+        "distance": 4.41
+      },
+      {
+        "name": "queenstown",
+        "distance": 8.35
+      },
+      {
+        "name": "kallang",
+        "distance": 1.35
+      },
+      {
+        "name": "bukit-merah",
+        "distance": 8.23
+      },
+      {
+        "name": "marina-south",
+        "distance": 4.96
+      },
+      {
+        "name": "newton",
+        "distance": 3.96
+      },
+      {
+        "name": "outram",
+        "distance": 5.63
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 4.13
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 9.33
+      }
+    ]
+  },
+  "marina-south": {
+    "lat": 1.277267,
+    "lng": 103.865879,
+    "has_nearby_city": true,
+    "nearby_cities": [
+      {
+        "name": "downtown-core",
+        "distance": 1.68
+      },
+      {
+        "name": "queenstown",
+        "distance": 7.72
+      },
+      {
+        "name": "kallang",
+        "distance": 3.72
+      },
+      {
+        "name": "bukit-merah",
+        "distance": 6.61
+      },
+      {
+        "name": "geylang",
+        "distance": 4.96
+      },
+      {
+        "name": "newton",
+        "distance": 4.64
+      },
+      {
+        "name": "outram",
+        "distance": 2.85
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 8.75
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 12.43
+      }
+    ]
+  },
+  "newton": {
+    "lat": 1.308804,
+    "lng": 103.838611,
+    "has_nearby_city": true,
+    "nearby_cities": [
+      {
+        "name": "downtown-core",
+        "distance": 3.02
+      },
+      {
+        "name": "queenstown",
+        "distance": 4.41
+      },
+      {
+        "name": "kallang",
+        "distance": 3.08
+      },
+      {
+        "name": "bukit-merah",
+        "distance": 4.34
+      },
+      {
+        "name": "geylang",
+        "distance": 3.96
+      },
+      {
+        "name": "marina-south",
+        "distance": 4.64
+      },
+      {
+        "name": "outram",
+        "distance": 3.03
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 5.57
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 7.85
+      }
+    ]
+  },
+  "outram": {
+    "lat": 1.281664,
+    "lng": 103.840653,
+    "has_nearby_city": true,
+    "nearby_cities": [
+      {
+        "name": "downtown-core",
         "distance": 1.55
       },
       {
-        "name": "attard",
-        "distance": 6.24
+        "name": "queenstown",
+        "distance": 4.92
       },
       {
-        "name": "kalkara",
-        "distance": 3.79
+        "name": "kallang",
+        "distance": 4.31
       },
       {
-        "name": "valletta",
-        "distance": 5.27
+        "name": "bukit-merah",
+        "distance": 3.77
+      },
+      {
+        "name": "geylang",
+        "distance": 5.63
+      },
+      {
+        "name": "marina-south",
+        "distance": 2.85
+      },
+      {
+        "name": "newton",
+        "distance": 3.03
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 8.4
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 10.66
       }
     ]
   },
@@ -17560,14 +17796,46 @@ const cityCoordinates = {
     "has_nearby_city": false,
     "nearby_cities": []
   },
-  "Ang Mo Kio": {
-    "lat": 1.376515,
-    "lng": 103.858422,
+  "ang-mo-kio": {
+    "lat": 1.355448,
+    "lng": 103.856962,
     "has_nearby_city": true,
     "nearby_cities": [
       {
-        "name": "Central Water Catchment",
-        "distance": 6.15
+        "name": "downtown-core",
+        "distance": 7.7
+      },
+      {
+        "name": "queenstown",
+        "distance": 8.87
+      },
+      {
+        "name": "kallang",
+        "distance": 5.08
+      },
+      {
+        "name": "bukit-merah",
+        "distance": 9.52
+      },
+      {
+        "name": "geylang",
+        "distance": 4.13
+      },
+      {
+        "name": "marina-south",
+        "distance": 8.75
+      },
+      {
+        "name": "newton",
+        "distance": 5.57
+      },
+      {
+        "name": "outram",
+        "distance": 8.4
+      },
+      {
+        "name": "central-water-catchment",
+        "distance": 6.17
       }
     ]
   },
@@ -17834,14 +18102,46 @@ const cityCoordinates = {
     "has_nearby_city": false,
     "nearby_cities": []
   },
-  "Central Water Catchment": {
+  "central-water-catchment": {
     "lat": 1.370059,
     "lng": 103.803448,
     "has_nearby_city": true,
     "nearby_cities": [
       {
-        "name": "Ang Mo Kio",
-        "distance": 6.15
+        "name": "downtown-core",
+        "distance": 10.87
+      },
+      {
+        "name": "queenstown",
+        "distance": 7.86
+      },
+      {
+        "name": "kallang",
+        "distance": 9.6
+      },
+      {
+        "name": "bukit-merah",
+        "distance": 9.36
+      },
+      {
+        "name": "geylang",
+        "distance": 9.33
+      },
+      {
+        "name": "marina-south",
+        "distance": 12.43
+      },
+      {
+        "name": "newton",
+        "distance": 7.85
+      },
+      {
+        "name": "outram",
+        "distance": 10.66
+      },
+      {
+        "name": "ang-mo-kio",
+        "distance": 6.17
       }
     ]
   },
@@ -20385,22 +20685,6 @@ const cityCoordinates = {
     "has_nearby_city": true,
     "nearby_cities": [
       {
-        "name": "sliema",
-        "distance": 4.53
-      },
-      {
-        "name": "st-julians",
-        "distance": 4.03
-      },
-      {
-        "name": "attard",
-        "distance": 2.55
-      },
-      {
-        "name": "gzira",
-        "distance": 3.79
-      },
-      {
         "name": "valletta",
         "distance": 2.34
       }
@@ -20411,22 +20695,6 @@ const cityCoordinates = {
     "lng": 14.437737,
     "has_nearby_city": true,
     "nearby_cities": [
-      {
-        "name": "sliema",
-        "distance": 5.85
-      },
-      {
-        "name": "st-julians",
-        "distance": 4.79
-      },
-      {
-        "name": "attard",
-        "distance": 1.8
-      },
-      {
-        "name": "gzira",
-        "distance": 5.27
-      },
       {
         "name": "kalkara",
         "distance": 2.34
